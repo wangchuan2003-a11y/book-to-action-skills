@@ -13,6 +13,7 @@ python scripts/build_catalog.py
 python scripts/validate.py
 python -m unittest discover -s tests -v
 python scripts/build_catalog.py --check
+python scripts/audit_evidence.py --require-complete
 python scripts/package.py
 ```
 
@@ -25,3 +26,5 @@ python scripts/package.py
 总下载包的附加文件由 `distribution.json` 逐项选择，不递归收集研究临时文件。新增公开说明或评估证据时明确加入这个清单。ZIP固定时间戳、平台标识和权限，使用不压缩存储以消除zlib版本差异；仓库统一LF换行，CI比较Windows/Linux的全部包哈希。
 
 优先修复已观察到的错误、补足来源和改善案例。没有行为证据时，不把更多文件、更多测试数量或更长回答作为质量升级。
+
+发布时将逐题实际答案和非作者评审纳入`evals/results/`，并更新其`index.json`。审计脚本校验记录完整性，不能替代内容判断或证明实际运行；请记录固定来源版本、执行方式和限制。历史失败与修复后的重测分别保留。

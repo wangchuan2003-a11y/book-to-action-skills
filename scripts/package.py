@@ -46,7 +46,9 @@ def package(root: Path) -> list[Path]:
         files = [(p, f"{folder.name}/{p.relative_to(folder).as_posix()}")
                  for p in folder.rglob("*") if p.is_file() and "__pycache__" not in p.parts
                  and p.suffix != ".pyc"]
-        files.append((root / "LICENSE", f"{folder.name}/LICENSE"))
+        # Complete release archives already carry each skill's license.
+        if not (folder / "LICENSE").is_file():
+            files.append((root / "LICENSE", f"{folder.name}/LICENSE"))
         target = output / f"{folder.name}.zip"
         archive(target, files)
         artifacts.append(target)

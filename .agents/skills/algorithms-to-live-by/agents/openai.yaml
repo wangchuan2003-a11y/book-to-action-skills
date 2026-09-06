@@ -1,0 +1,4 @@
+interface:
+  display_name: "算法之美：有条件的决策规则"
+  short_description: "核对目标、搜索成本和信息条件后选择决策规则，不把百分比当生活万能口诀"
+  default_prompt: "请用 $algorithms-to-live-by 审查我的搜索和停止规则，先核对目标、能否回头与继续搜索的成本。"

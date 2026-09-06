@@ -2,6 +2,56 @@
   "schema_version": 1,
   "books": [
     {
+      "id": "algorithms-to-live-by",
+      "title": "Algorithms to Live By: The Computer Science of Human Decisions",
+      "title_zh": "算法之美",
+      "authors": [
+        "Brian Christian",
+        "Tom Griffiths"
+      ],
+      "year": "2016",
+      "domains": [
+        "算法思维",
+        "决策模型",
+        "搜索与停止"
+      ],
+      "use_cases": [
+        "检验最佳选择或停止规则的前提",
+        "比较搜索收益与信息成本",
+        "区分模型最优和现实选择结果"
+      ],
+      "summary": "把有限时间、信息与成本下的选择写成明确问题，再检验算法的目标和前提能否用于现实。",
+      "selection_rationale": "以通俗方式连接计算问题和人类决策，公开导言便于核实主题；本Skill重点补足模型边界，使流行规则可被审查而非盲目套用。",
+      "limits": [
+        "本轮只核读作者官网与出版社Introduction摘录，未读全书各算法章节。",
+        "37%只在特定经典最佳选择模型及大样本极限下适用，有限N的最优阈值需要计算。",
+        "数学目标、搜索成本、回头机会和到达顺序改变时，规则可能改变。",
+        "算法不保证现实收益，也不能代替伦理选择、心理照护或合法授权。"
+      ],
+      "sources": [
+        {
+          "id": "ALGO-1",
+          "title": "Algorithms to Live By — official author website",
+          "url": "https://algorithmstoliveby.com/",
+          "kind": "author_material",
+          "accessed": "2026-09-07",
+          "coverage": "读取书名、两位作者、有限时间空间的问题定位和内容简介。",
+          "used_for": "书目身份与算法迁移主题。",
+          "limitations": "推荐语和畅销信息不作为有效性、最优性或世界排名证据。"
+        },
+        {
+          "id": "ALGO-2",
+          "title": "Algorithms to Live By — Macmillan, Introduction excerpt",
+          "url": "https://us.macmillan.com/books/9781627790376/algorithmstoliveby/",
+          "kind": "primary_text",
+          "accessed": "2026-09-07",
+          "coverage": "读取出版页作者、2016年日期及Read Excerpt中的Introduction，包含公寓选择、37%规则、计算成本和近似等讨论。",
+          "used_for": "问题化与停止规则主题、计算资源有限和应用边界。",
+          "limitations": "导言不是完整定理条件或证明；其中生活和疗法修辞不被作为科学结论，项目另行明确经典模型并独立核算有限例子。"
+        }
+      ]
+    },
+    {
       "id": "analects",
       "title": "The Analects",
       "title_zh": "论语",
@@ -780,6 +830,126 @@
           "coverage": "经 Jina Reader 取得并实际读到作品名称、1791年120回刊本、程伟元与高鹗、后40回不同归属解释的段落；页面其他剧情摘要不用于对未读者展开内容。",
           "used_for": "书目和版本争议的有限确认。",
           "limitations": "百科编辑概述不是底本校勘研究；列出的几种可能性不表示证据强度相同或问题已解决。"
+        }
+      ]
+    },
+    {
+      "id": "euclid-elements",
+      "title": "Euclid's Elements",
+      "title_zh": "几何原本",
+      "authors": [
+        "Euclid（欧几里得）"
+      ],
+      "year": "古希腊时期（所用为Clark University在线注释版）",
+      "domains": [
+        "几何",
+        "数学证明",
+        "公理与构造"
+      ],
+      "use_cases": [
+        "检查几何证明的前提和隐含假设",
+        "区分图示与一般论证",
+        "验证构造的存在性和所需性质"
+      ],
+      "summary": "从定义、公设、构造和证明的关系出发审查几何推理，不让图像直觉替代论证。",
+      "selection_rationale": "公理化与几何证明传统的重要经典，大学在线版本同时提供原文转述与具体批评，适合训练对前提和证据的严格区分。",
+      "limits": [
+        "本轮仅核读第一卷公设1、命题1及相关编辑指南和网站导言，没有覆盖十三卷。",
+        "在线编辑注释与原著正文分开，不把其建议自动视为完备现代公理。",
+        "图示、测量或有限测试不能证明所有几何情形。",
+        "数学体系内的有效性不能替代物理世界的经验验证。"
+      ],
+      "sources": [
+        {
+          "id": "EUC-1",
+          "title": "Euclid's Elements — Introduction",
+          "url": "https://mathcs.clarku.edu/~djoyce/elements/elements.html",
+          "kind": "academic",
+          "accessed": "2026-09-07",
+          "coverage": "读取在线版本导言，说明其逻辑教学目的和动态几何图示用途。",
+          "used_for": "版本定位以及图示作为教学辅助的背景。",
+          "limitations": "未采用其赞誉作为排名或证明质量证据，未执行旧Java小程序。"
+        },
+        {
+          "id": "EUC-2",
+          "title": "Book I, Postulate 1",
+          "url": "https://mathcs.clarku.edu/~djoyce/elements/bookI/post1.html",
+          "kind": "primary_text",
+          "accessed": "2026-09-07",
+          "coverage": "读取公设1及指南中直线唯一性、平面背景等隐含条件说明。",
+          "used_for": "区分明确公设与后续使用中的隐含前提。",
+          "limitations": "指南是现代编辑评论，不是Euclid原话，也不是完整形式公理系统。"
+        },
+        {
+          "id": "EUC-3",
+          "title": "Book I, Proposition 1",
+          "url": "https://mathcs.clarku.edu/~djoyce/elements/bookI/propI1.html",
+          "kind": "primary_text",
+          "accessed": "2026-09-07",
+          "coverage": "读取等边三角形构造、等长证明及指南关于交点存在、共面与直线性质的批评。",
+          "used_for": "构造和证明的区别、每步依据、图示隐藏的存在性条件。",
+          "limitations": "指南提到的半径和示例不足以成为任意两圆相交的完整条件；项目没有照抄该条件。"
+        }
+      ]
+    },
+    {
+      "id": "feynman-lectures",
+      "title": "The Feynman Lectures on Physics",
+      "title_zh": "费曼物理学讲义",
+      "authors": [
+        "Richard P. Feynman",
+        "Robert B. Leighton",
+        "Matthew Sands"
+      ],
+      "year": "20世纪60年代课程与初版；本次使用Caltech官方在线版",
+      "domains": [
+        "物理学",
+        "模型与近似",
+        "量纲和实验"
+      ],
+      "use_cases": [
+        "澄清经典动力学量与模型条件",
+        "审查单位、极限和公式推导",
+        "区分模拟、数学推导与实际观测证据"
+      ],
+      "summary": "从物理量与近似条件出发推导可观察结果，并以实验与误差分析限定模型的有效范围。",
+      "selection_rationale": "物理教育重要讲义，Caltech提供可核实官方选章；已读部分直接展示近似、实验判断与专门术语的关系，适合训练模型意识。",
+      "limits": [
+        "本轮只读第一卷第1、9章相关选段，未通读三卷。",
+        "历史性技术与术语表述不能不经检查地当作当前事实。",
+        "量纲正确或有限数值演算不能独自证明模型正确。",
+        "原创小车案例不是实际实验报告，也不证明任何真实设备性能。"
+      ],
+      "sources": [
+        {
+          "id": "FLP-1",
+          "title": "Vol. I, Chapter 1 — Atoms in Motion",
+          "url": "https://www.feynmanlectures.caltech.edu/I_01.html",
+          "kind": "primary_text",
+          "accessed": "2026-09-07",
+          "coverage": "读取1-1关于近似、实验与理论猜想，以及原子模型和证据相关选段。",
+          "used_for": "模型、证据与适用精度的关系，并识别需要历史化理解的技术说法。",
+          "limitations": "没有逐条更新章内科学史或仪器能力；不把旧的原子成像表述作为今日结论。"
+        },
+        {
+          "id": "FLP-2",
+          "title": "Vol. I, Chapter 9 — Newton's Laws of Dynamics",
+          "url": "https://www.feynmanlectures.caltech.edu/I_09.html",
+          "kind": "primary_text",
+          "accessed": "2026-09-07",
+          "coverage": "读取9-1动量与力、9-2速率与速度、9-3分量和恒定质量经典近似相关正文。",
+          "used_for": "定义物理量、力与加速度关系、向量分量及模型假设。",
+          "limitations": "未读取本章全部数值方法，也不把经典F=ma无限推广到所有情境。"
+        },
+        {
+          "id": "FLP-3",
+          "title": "Cornell researchers see atoms at record resolution",
+          "url": "https://news.cornell.edu/stories/2021/05/cornell-researchers-see-atoms-record-resolution",
+          "kind": "academic",
+          "accessed": "2026-09-07",
+          "coverage": "经Jina实际读取Cornell Chronicle 2021-05-20报道正文，包括EMPAD、电子叠层重建、PrScO3样品、定位原子、计算成本及潜在未来应用。",
+          "used_for": "为早期课程关于电子显微镜的历史说法提供有出处的现代技术反例，并区分重建图像与普通摄影。",
+          "limitations": "研究机构新闻不是独立复现实验；未读Science论文全文，未核实2026年最新纪录，不将未来应用视为已实现或推广到所有设备。"
         }
       ]
     },
@@ -1649,6 +1819,57 @@
           "coverage": "实际读取第1节选择层级、第2节亲缘选择与包容适合度、第3节相关成本与互惠讨论的相关段落。",
           "used_for": "亲缘选择、Hamilton规则的适用条件、遗传决定论边界，以及群体与亲缘选择关系的争论。",
           "limitations": "学术综述不是本项目复算或完整实证审查；数学等价等判断须保留模型条件，不能无条件概括。"
+        }
+      ]
+    },
+    {
+      "id": "sicp",
+      "title": "Structure and Interpretation of Computer Programs",
+      "title_zh": "计算机程序的构造和解释",
+      "authors": [
+        "Harold Abelson",
+        "Gerald Jay Sussman",
+        "Julie Sussman"
+      ],
+      "year": "1996（本次使用第二版）",
+      "domains": [
+        "程序设计",
+        "计算过程",
+        "数据抽象"
+      ],
+      "use_cases": [
+        "解释递归与迭代过程的差别",
+        "设计表示隔离的小型接口",
+        "根据契约和边界验证程序行为"
+      ],
+      "summary": "以基本操作、组合、抽象和计算过程分析程序，用表示边界与可检验契约组织实现。",
+      "selection_rationale": "程序设计教育的重要经典，MIT提供经许可的原版全文资源；实际选节直接给出过程分解、递归/迭代和数据抽象的可用机制。",
+      "limits": [
+        "只读取第二版1.1、1.2、2.1相关选段，未通读全书或后续解释器/编译器章节。",
+        "原版Scheme的求值和运行时性质不能自动适用于其他语言。",
+        "本项目的契约、错误处理和测试设计是应用补充，不冒充原书固定协议。",
+        "几个测试不证明所有程序输入、性能或用户价值。"
+      ],
+      "sources": [
+        {
+          "id": "SICP-1",
+          "title": "MIT OpenCourseWare 6.001 — Readings",
+          "url": "https://ocw.mit.edu/courses/6-001-structure-and-interpretation-of-computer-programs-spring-2005/pages/readings/",
+          "kind": "academic",
+          "accessed": "2026-09-07",
+          "coverage": "读取课程书目、第二版1996与三位作者信息，以及1.1/1.2/2.1主题和经MIT Press许可的ZIP资源说明。",
+          "used_for": "书目、原书资源归属和章节定位。",
+          "limitations": "课程阅读表不是各章正文，后续未读课程内容没有被当作已掌握。"
+        },
+        {
+          "id": "SICP-2",
+          "title": "SICP second edition — MIT OCW full-text archive",
+          "url": "https://ocw.mit.edu/courses/6-001-structure-and-interpretation-of-computer-programs-spring-2005/c975ee8b62d01f5edb5ed01cd99e08d1_SICP_fulltext.zip",
+          "kind": "primary_text",
+          "accessed": "2026-09-07",
+          "coverage": "从官方ZIP在内存读取book-Z-H-10.html的组合/抽象、代换模型、sqrt和黑箱选段，book-Z-H-11.html的递归/迭代选段，book-Z-H-14.html的有理数与抽象屏障选段。",
+          "used_for": "过程分解、实际计算过程与数据表示隔离。",
+          "limitations": "下载归档不等于阅读全书；只检查所列选段，没有将归档或长原文写入项目，也未执行其中代码。"
         }
       ]
     },

@@ -1,0 +1,16 @@
+{
+  "id": "sicp",
+  "title": "Structure and Interpretation of Computer Programs",
+  "title_zh": "计算机程序的构造和解释",
+  "authors": ["Harold Abelson", "Gerald Jay Sussman", "Julie Sussman"],
+  "year": "1996（本次使用第二版）",
+  "domains": ["程序设计", "计算过程", "数据抽象"],
+  "use_cases": ["解释递归与迭代过程的差别", "设计表示隔离的小型接口", "根据契约和边界验证程序行为"],
+  "summary": "以基本操作、组合、抽象和计算过程分析程序，用表示边界与可检验契约组织实现。",
+  "selection_rationale": "程序设计教育的重要经典，MIT提供经许可的原版全文资源；实际选节直接给出过程分解、递归/迭代和数据抽象的可用机制。",
+  "limits": ["只读取第二版1.1、1.2、2.1相关选段，未通读全书或后续解释器/编译器章节。", "原版Scheme的求值和运行时性质不能自动适用于其他语言。", "本项目的契约、错误处理和测试设计是应用补充，不冒充原书固定协议。", "几个测试不证明所有程序输入、性能或用户价值。"],
+  "sources": [
+    {"id": "SICP-1", "title": "MIT OpenCourseWare 6.001 — Readings", "url": "https://ocw.mit.edu/courses/6-001-structure-and-interpretation-of-computer-programs-spring-2005/pages/readings/", "kind": "academic", "accessed": "2026-09-07", "coverage": "读取课程书目、第二版1996与三位作者信息，以及1.1/1.2/2.1主题和经MIT Press许可的ZIP资源说明。", "used_for": "书目、原书资源归属和章节定位。", "limitations": "课程阅读表不是各章正文，后续未读课程内容没有被当作已掌握。"},
+    {"id": "SICP-2", "title": "SICP second edition — MIT OCW full-text archive", "url": "https://ocw.mit.edu/courses/6-001-structure-and-interpretation-of-computer-programs-spring-2005/c975ee8b62d01f5edb5ed01cd99e08d1_SICP_fulltext.zip", "kind": "primary_text", "accessed": "2026-09-07", "coverage": "从官方ZIP在内存读取book-Z-H-10.html的组合/抽象、代换模型、sqrt和黑箱选段，book-Z-H-11.html的递归/迭代选段，book-Z-H-14.html的有理数与抽象屏障选段。", "used_for": "过程分解、实际计算过程与数据表示隔离。", "limitations": "下载归档不等于阅读全书；只检查所列选段，没有将归档或长原文写入项目，也未执行其中代码。"}
+  ]
+}

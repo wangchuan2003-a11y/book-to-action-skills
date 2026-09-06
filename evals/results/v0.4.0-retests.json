@@ -1,0 +1,85 @@
+{
+  "kind": "retest",
+  "date": "2026-09-07",
+  "scope": "Four targeted repeats after narrow changes, with original criteria retained. Paths in one answer were anonymized. Not a full re-run of every case under the final instructions.",
+  "cases": [
+    {
+      "skill": "seeing-like-a-state",
+      "case_id": "business-application",
+      "prompt": "这本书只批评国家，所以私人平台用单一评分强制改造商家流程就不存在同样问题吗？",
+      "answer": "**不是。私人平台也可能出现同样的问题；“这本书只批评国家”把批评范围说窄了。**\n\n根据该 Skill 随附的来源说明，原书的出版社概述聚焦某些强制性宏大规划的失败；Scott 在 **2010 年后续文章**中明确指出，大型资本主义组织也会推动这种简化。这里依据的是项目来源说明的转述，本次没有核读全书或联网核验原文。\n\n将这个批评用于你说的平台，可以沿着一条因果链检查：\n\n- **管理收益：** 单一评分让商家更容易被平台比较、排序和监督，也可能降低消费者的选择成本。简化本身有用。\n- **遗漏现实：** 一个分数可能装不下商品复杂度、定制服务、地区差异和合理例外。分数只是商家表现的部分表示。\n- **强制与反馈：** 如果评分决定流量、收入或清退，商家就可能围绕分数改造流程。例如，过度奖励处理速度，可能促使商家压缩必要服务、拒接复杂订单。这是待验证的机制推断，不能当成现场事实。\n- **纠错能力：** 商家能否说明例外、申诉并推动规则修订？当退出代价很高、申诉无效时，平台的私人身份并不能消除这些问题。\n\n因此，关键在于：**平台是否把有限的指标当成全部现实，并凭资源控制强制执行，同时堵住纠错途径。** 这也不意味着平台评分可以直接等同于书中的历史灾难。\n\n可行的最小修补是保留统一评价，同时加入情境信息、例外复核和可回退的试行。这些属于项目的应用建议。实际判断需要平台的评分与处罚规则、商家的流程变化及消费者服务结果；如果试行显示真实服务改善、复杂订单没有受到排斥、申诉能够纠错，就会削弱上述批评，并支持进一步推广。\n\n实际读过的 Skill 文件：\n\n- [seeing-like-a-state/SKILL.md](../../.agents/skills/seeing-like-a-state/SKILL.md)\n\n另按其要求读取了配套的[来源说明 source-notes.md](../../.agents/skills/seeing-like-a-state/references/source-notes.md)。",
+      "review": {
+        "verdict": "pass",
+        "reason": "补上原0007缺失项：明确指出Scott在2010年后续文章中讨论大型资本主义组织的简化，并如实说明依据配套来源说明、没有本次联网核验。回答同时分析评分的管理收益、遗漏现实、奖惩反馈和纠错条件，要求平台规则、商家变化与消费者结果，未按公私身份预判成败。此结论仅针对已写内容判据，不由文末自报读文件推定实际工具轨迹或原始来源已独立验证。"
+      },
+      "initial_run": "v0.2.0-economy-initial.json",
+      "source_skill_sha256": {
+        "agents/openai.yaml": "b2e26c0108784328be1fe09ff455b0ee9846d911cab3b54cca768e73693c70e0",
+        "book.json": "ac5a4bbd0074dfefbd7b2b762a27428e57b7f57bff4b00cf53c1805770969005",
+        "evals/cases.json": "29b11973e485eaceecdf16862deb1a248682272c616d40632e0ef60546cf29f9",
+        "references/source-notes.md": "e632a926bb3d2e648bbbece99e790b3f352466f31892fbfd994372a57c83d67c",
+        "references/worked-example.md": "fe6e22ab25dbe81080997ed1a5bca55a71a740e55330fe256abda2d06f1a3572",
+        "SKILL.md": "5363c184fac61aa7cffaa20eb6fd70df728e52b29adce422bd9be9e6eff930d8"
+      }
+    },
+    {
+      "skill": "thinking-in-systems",
+      "case_id": "parameter-absolutism",
+      "prompt": "既然Meadows把参数放最后，是不是任何调参数都没用，只改文化就行？",
+      "answer": "不是。**Meadows 的排序是寻找干预点的启发，不是“参数无效、文化万能”的定律。**按你提供的作者说明，排序是暂定的，也存在例外。\n\n- **参数可以改变趋势。**在无返工、流率恒定的队列里，每天新增 50 件、完成 45 件，积压每天增加 5 件；完成能力提高到 55 件，积压就每天减少 5 件，直到清空。跨过关键阈值，调参数就很重要。\n- **参数也可能只缓解表面问题。**如果加班提高完成量，却因疲劳带来更多返工，效果可能被抵消。但这条因果关系需要验证，不能直接认定。\n- **“改文化”必须落到具体机制。**喊“重视质量”未必有效；改变只奖励闭单数量的考核、让重开原因反馈给处理者，才有可以观察的行为变化。“文化”也不直接等于她所说的心智模式。\n\n实际选择时，先问：**哪个变化能打断问题持续的机制？**比较增配产能与修改反馈、规则的成本和效果，再小范围验证，同时看积压和返工、响应时间等副作用。层级靠前，不等于当前就该优先做。",
+      "review": {
+        "prompt_id": "0003",
+        "skill": "thinking-in-systems",
+        "verdict": "pass",
+        "reason": "复测保留清单暂定与例外，用假设队列中完成能力从45增至55、跨过50件/天流入率，具体说明参数阈值可改变积压趋势；同时把疲劳返工保持为待验证关系，比较容量与反馈规则并跟踪副作用，已补足原失败的机制解释，未将文化视为自动最优。"
+      },
+      "initial_run": "v0.3.0-core-initial.json",
+      "source_skill_sha256": {
+        "agents/openai.yaml": "d039d423be75893d830be585fbc593a36d3d219320c74a3216e472411cd4669a",
+        "book.json": "810c576380e845f1b663890afdde6a288b8978763a03262bf039881fc5348325",
+        "evals/cases.json": "c27e1f1d0282c494dd19a9f2ffc4cc49bb82f9ec4c2a101475b2c2a43164785e",
+        "references/source-notes.md": "930552d5b6449ef3ffed7ad75c853b9b4cb10137ab103e944dec1dc0c748cdd6",
+        "references/worked-example.md": "6cb8efe4d92c682314dbdeba5c6fd075b1b1013958626e330c8a53a5157f9e70",
+        "SKILL.md": "337959c0b4b14b5cf7fbeef6e1a533485c92fb6e0f7b550be5ae7129330f6c3c"
+      }
+    },
+    {
+      "skill": "second-sex",
+      "case_id": "sex-body",
+      "prompt": "女人是后天形成的，说明一切生物差异都是假的，而且1949年的书已证明所有现代群体差异。",
+      "answer": "1. **A：这两个推论都不成立。**“女人是后天形成的”讨论女性角色与社会位置如何形成，并不等于否认身体和生物差异。你提供的 SEP 来源摘要还指出：这句话与后来生理性别／社会性别区分的关系存在解释争论，作者也受到从特定白人、资产阶级经验泛化的批评。因此，1949年的哲学论证不能一并裁定所有现代群体差异；差异是否存在、成因是什么、制度是否公平，需要分别论证。\n\n以上依据均来自你提供的材料；本次没有独立检索、核读链接或验证实验数据。",
+      "review": {
+        "verdict": "pass",
+        "reason": "A回答已补齐world0014原先遗漏的边界：明确指出成为女人与后来的生理性别/社会性别区分存在解释争论，并指出从特定白人、资产阶级经验泛化所受的批评；同时保留身体事实、社会意义、具体差异成因与制度评价的区分，拒绝以1949年哲学作品裁定所有现代经验问题。该判断只基于所给回答与材料，回答没有冒称独立检索或外部核验。"
+      },
+      "initial_run": "v0.3.0-world-initial.json",
+      "source_skill_sha256": {
+        "agents/openai.yaml": "0e228b88f6a9167b736487bc5551e3f2be289ebc688e025e0578c8728a1b4674",
+        "book.json": "c480f79499d5c1ce6c4d71bc390486bd64d6a1d0d873fa7e75337a3d91080b9b",
+        "evals/cases.json": "56fa05755b864c95b7158f21058a56d558a4032e61335ca7c7f0b5966763945f",
+        "references/source-notes.md": "52bd21aaa06884512a3da895e8bd5fece8d3a9cd7d2fa19febc28a425b8ce221",
+        "references/worked-example.md": "f256d8aab6eb518724d5fdf041dd084b26651d9dcdbc0e25fbc6c801d41a0253",
+        "SKILL.md": "8f244ed81677154f94406ee97a8638eb6784481d3cc2230aa73093577eacc0ea"
+      }
+    },
+    {
+      "skill": "feynman-lectures",
+      "case_id": "historical-statement",
+      "prompt": "官方第一章说电子显微镜看不到原子，所以今天任何电子显微镜也不行，对吧？",
+      "answer": "2. **B：不对，官方托管不代表历史文字反映今天的技术。**按你提供的康奈尔大学2021年报道摘要，研究者已利用电子散射数据、电子叠层成像及算法，对 PrScO₃ 晶体实现原子分辨率重建。这足以反驳“现代电子显微技术一律不能分辨原子”。它属于计算重建，并非普通光学照片；也不代表所有仪器、所有样品都能达到相同性能，更不能当作2026年的最新纪录。\n\n以上依据均来自你提供的材料；本次没有独立检索、核读链接或验证实验数据。",
+      "review": {
+        "verdict": "pass",
+        "reason": "B在所提供的固定材料范围内补齐了math0012原先的现代来源缺口：明确依据康奈尔大学2021年报道摘要，给出电子散射、电子叠层成像、算法及PrScO3晶体的具体范围，用来反驳从早期讲义推出的今日绝对否定。回答区分计算重建与普通照片，保留仪器和样品条件，并未把2021纪录称为2026最新纪录；末尾明确未独立检索或验证实验数据。对应FLP-3是项目已读取的研究机构报道，不是本次评审或执行者完成的独立复现实验，也未被当作Science论文全文或全部现有仪器的性能证明。"
+      },
+      "initial_run": "v0.4.0-math-initial.json",
+      "source_skill_sha256": {
+        "agents/openai.yaml": "462876929ad363c57d3bf16911d9549eb9074de78178cbfd6b0ae6df0f2d1717",
+        "book.json": "14b5b7c4d5f3afd1b644f9e0f2f34b78e119c56bc32f79633a7d094ccac174ff",
+        "evals/cases.json": "b94d8de4e12332a8466772a51a5baecb4f0a891a6caae6ab02571cc465514e01",
+        "references/source-notes.md": "cedac28ea77b7220157adffecfe42d1737eafd3f3731da5ecbe41cd91b47f5c3",
+        "references/worked-example.md": "9f2984ee9fc5c9a4ae651caad9193f36b86bd36f58b8734d8a8b6be3d80dd6b0",
+        "SKILL.md": "9ba0ad6c5104ca628bc5d3ad0675ef52a75f4c16e94721f472d235e396f79d00"
+      }
+    }
+  ]
+}

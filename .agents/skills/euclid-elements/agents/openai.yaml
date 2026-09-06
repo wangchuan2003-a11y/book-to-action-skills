@@ -1,0 +1,4 @@
+interface:
+  display_name: "几何原本：条件与证明"
+  short_description: "区分定义、构造、假设和证明，找到几何图像掩盖的存在性与推理缺口"
+  default_prompt: "请用 $euclid-elements 审查这道几何题，列清条件、构造依据和每个关键结论的理由。"

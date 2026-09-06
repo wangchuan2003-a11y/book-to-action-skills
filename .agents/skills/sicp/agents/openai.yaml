@@ -1,0 +1,4 @@
+interface:
+  display_name: "SICP：过程与抽象"
+  short_description: "从求值过程和行为契约设计小而清楚的抽象，用边界与不变量验证实现"
+  default_prompt: "请用 $sicp 审查这段程序的过程、接口和表示依赖，在现有语言中给出最小有效改进。"

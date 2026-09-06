@@ -1,0 +1,17 @@
+{
+  "id": "euclid-elements",
+  "title": "Euclid's Elements",
+  "title_zh": "几何原本",
+  "authors": ["Euclid（欧几里得）"],
+  "year": "古希腊时期（所用为Clark University在线注释版）",
+  "domains": ["几何", "数学证明", "公理与构造"],
+  "use_cases": ["检查几何证明的前提和隐含假设", "区分图示与一般论证", "验证构造的存在性和所需性质"],
+  "summary": "从定义、公设、构造和证明的关系出发审查几何推理，不让图像直觉替代论证。",
+  "selection_rationale": "公理化与几何证明传统的重要经典，大学在线版本同时提供原文转述与具体批评，适合训练对前提和证据的严格区分。",
+  "limits": ["本轮仅核读第一卷公设1、命题1及相关编辑指南和网站导言，没有覆盖十三卷。", "在线编辑注释与原著正文分开，不把其建议自动视为完备现代公理。", "图示、测量或有限测试不能证明所有几何情形。", "数学体系内的有效性不能替代物理世界的经验验证。"],
+  "sources": [
+    {"id": "EUC-1", "title": "Euclid's Elements — Introduction", "url": "https://mathcs.clarku.edu/~djoyce/elements/elements.html", "kind": "academic", "accessed": "2026-09-07", "coverage": "读取在线版本导言，说明其逻辑教学目的和动态几何图示用途。", "used_for": "版本定位以及图示作为教学辅助的背景。", "limitations": "未采用其赞誉作为排名或证明质量证据，未执行旧Java小程序。"},
+    {"id": "EUC-2", "title": "Book I, Postulate 1", "url": "https://mathcs.clarku.edu/~djoyce/elements/bookI/post1.html", "kind": "primary_text", "accessed": "2026-09-07", "coverage": "读取公设1及指南中直线唯一性、平面背景等隐含条件说明。", "used_for": "区分明确公设与后续使用中的隐含前提。", "limitations": "指南是现代编辑评论，不是Euclid原话，也不是完整形式公理系统。"},
+    {"id": "EUC-3", "title": "Book I, Proposition 1", "url": "https://mathcs.clarku.edu/~djoyce/elements/bookI/propI1.html", "kind": "primary_text", "accessed": "2026-09-07", "coverage": "读取等边三角形构造、等长证明及指南关于交点存在、共面与直线性质的批评。", "used_for": "构造和证明的区别、每步依据、图示隐藏的存在性条件。", "limitations": "指南提到的半径和示例不足以成为任意两圆相交的完整条件；项目没有照抄该条件。"}
+  ]
+}

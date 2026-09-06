@@ -1,0 +1,252 @@
+{
+  "date": "2026-09-07",
+  "source": {
+    "skill_sha256": {
+      "euclid-elements": {
+        "agents/openai.yaml": "ff824f8197ba836d9b796e7fdd45540539eea492338789a2931fbba550766b10",
+        "book.json": "a86fd90f93c7b476b8f5bee35cfeec69b01e6ff3dd5f9272a904a0c7b66712e6",
+        "evals/cases.json": "94436028bff213bfd7a9da2bbe1c4cbbc9cb3746d518cb7c1d50090a7b93b4cc",
+        "references/source-notes.md": "acf27d0d59975029be4770833d19c59ae209d22dfbf7bce45a978c3efb7f328a",
+        "references/worked-example.md": "983a5e9ed6c7de5bbb89dedf66473b3dbacc486c90a3434c896a46c173de3ba1",
+        "SKILL.md": "dc47fa30b81ef60614b7c7b2d08b68f8efabc0b68de7d0aa437e07206a4a3951"
+      },
+      "sicp": {
+        "agents/openai.yaml": "d1f022cf2d0a154cc28a681613be6829ce673d83996ccab410dcfcc3f0586677",
+        "book.json": "64033e1ee4d82c4448f9b202f5092f83b5e53126934c6e2398f45b17fd3d9086",
+        "evals/cases.json": "d69dfbe528684717a398c88e2765c3e1f9e60e235bde310021080512e8987b3e",
+        "references/source-notes.md": "862dc754788ff0c545a424441b3ee98975cc33042014ef00569373cea0707a2c",
+        "references/worked-example.md": "193b0477926219b80934d374ebd07e6e8db3316662f679cd6a3e32b42c466285",
+        "SKILL.md": "ad8def6a0a95b20fdd19b99ab6089aa4be30fd2269fa916f4446cd9ebf2c4044"
+      },
+      "feynman-lectures": {
+        "agents/openai.yaml": "462876929ad363c57d3bf16911d9549eb9074de78178cbfd6b0ae6df0f2d1717",
+        "book.json": "74203525f6b9e56f1b72bce5718ccabbdcaaf577b4c57dd75dcc6de3f937f73b",
+        "evals/cases.json": "b94d8de4e12332a8466772a51a5baecb4f0a891a6caae6ab02571cc465514e01",
+        "references/source-notes.md": "a9ad16db5caf2c2f6a56993d53b528bb39db3ad27e7ff5281d06de8746efac4d",
+        "references/worked-example.md": "9f2984ee9fc5c9a4ae651caad9193f36b86bd36f58b8734d8a8b6be3d80dd6b0",
+        "SKILL.md": "f0fffabf78f92135573cea3cbfaa58c867196b244f461838db5fecadbb3fa544"
+      },
+      "algorithms-to-live-by": {
+        "agents/openai.yaml": "d8774d57d2fb02e190f2e64dde5c450b824515948822d33f2d3aeefd555adeda",
+        "book.json": "34589f15c14a48c0d2856068fe50f3afda1c46d256d2b11ebcd8c630e8ff6593",
+        "evals/cases.json": "ad7558bcec415649e7ebdaa3d43821ac3d21b610dab2740ff9cf778ad2c9cad3",
+        "references/source-notes.md": "85dfe21a1961db877afe79a25602abc9fb243c65e999040dcf28c14806dc3695",
+        "references/worked-example.md": "91dadb4a826b55000dc247df1803d21f98374f2b5cc1e9035243d6dd065596bf",
+        "SKILL.md": "2296b5d8c584a08519d438a8b3bca0d7fc5e3cc551da867d48947d049cbcda01"
+      }
+    }
+  },
+  "executor": "Codex CLI 0.153.4; candidate material supplied; zero tool calls",
+  "criteria_visible_to_executor": false,
+  "scope": "recorded answers and non-author reviewer judgments; not external-source verification or general effectiveness",
+  "cases": [
+    {
+      "prompt_id": "0001",
+      "skill": "euclid-elements",
+      "case_id": "equilateral-construction",
+      "prompt": "现代欧氏平面中A、B不同，请用两圆构造等边三角形，并说明为什么不只是在图上看起来对。",
+      "answer": "令a=AB>0，以A、B为圆心各作半径a的圆。在现代欧氏平面及相应连续性背景下，因|a−a|=0<a<2a，两圆有两个交点，任选一个为C，连接AC、BC。由圆的定义，AC=a、BC=a，而AB=a，故三边相等。上述严格相交条件也保证C不在直线AB上，因此得到非退化等边三角形。证明依靠交点存在的依据与半径相等关系，画图只帮助理解；若A=B，a=0，这套构造便不成立。",
+      "review": {
+        "prompt_id": "0001",
+        "skill": "euclid-elements",
+        "verdict": "pass",
+        "reason": "明确A≠B与正边长，在现代连续性背景下核对两圆相交条件，再由半径证明三边相等和非退化；区分图形辅助与论证，没有声称原著已完整公理化。"
+      }
+    },
+    {
+      "prompt_id": "0002",
+      "skill": "euclid-elements",
+      "case_id": "circle-containment",
+      "prompt": "半径5和1、圆心距1，因为半径和大于圆心距，所以两圆必相交，对吗？",
+      "answer": "不对，这两圆没有交点。虽然5+1>1，但圆心距d=1小于半径差|5−1|=4，小圆完全处于大圆内部。更直接地，小圆上任一点到大圆圆心的距离至多为1+1=2，不可能等于大圆半径5。在现代欧氏平面中，对正半径、不同圆心的两圆，有两个交点须满足|r₁−r₂|<d<r₁+r₂；边界等号对应相切。只检查半径和会漏掉内含情形，因此该条件单独不足以保证相交。",
+      "review": {
+        "prompt_id": "0002",
+        "skill": "euclid-elements",
+        "verdict": "pass",
+        "reason": "正确比较圆心距1与半径差4，并用到大圆圆心距离至多2说明小圆内含无交点；没有把半径和单边条件当充分条件。"
+      }
+    },
+    {
+      "prompt_id": "0003",
+      "skill": "euclid-elements",
+      "case_id": "degenerate-input",
+      "prompt": "A和B是同一点，也按命题1给我一个边长0的等边三角形吧。",
+      "answer": "按通常定义，不能构造边长为0的等边三角形。三角形需要三个不同且不共线的顶点；A=B已经违反条件。在现代欧氏平面的距离性质下，若AC=BC=AB=0，就必有A=B=C。若允许把半径0的“圆”解释为单点，两圆也只是同一个点，无法得到第三个顶点。可以把它另称为退化配置，但不能宣布命题1的三角形构造成功。要使用该构造，必须改为A≠B；正边长趋近0的极限也不改变零点处的退化。",
+      "review": {
+        "prompt_id": "0003",
+        "skill": "euclid-elements",
+        "verdict": "pass",
+        "reason": "说明零距离迫使三点重合、半径零最多是单点，不能构成通常非退化三角形；未伪造交点或将趋近零与零点混同。"
+      }
+    },
+    {
+      "prompt_id": "0004",
+      "skill": "euclid-elements",
+      "case_id": "diagram-not-proof",
+      "prompt": "我画了100个图都对，因此一般定理已证明，可以不写理由了吧？",
+      "answer": "还不能省略证明。100幅图至多支持这100种画法，而且测量精度可能掩盖误差；一般定理要求覆盖每个满足条件的对象。反例是：前100个正整数都小于101，却不能推出所有正整数都小于101。几何上也可能漏掉接近退化或特殊位置的情形。下一步应写清已知和待证，以任意合法对象展开推理，为辅助点存在、等式和角度关系逐条给出依据。只有证明情形已穷尽，有限检查才可能承担完整证明的一部分。",
+      "review": {
+        "prompt_id": "0004",
+        "skill": "euclid-elements",
+        "verdict": "pass",
+        "reason": "区分100幅图和任意合法对象的一般证明，提出遗漏特殊与近退化情形的检查；承认有限图示可支持局部观察，未否定辅助价值或宣布已证明。"
+      }
+    },
+    {
+      "prompt_id": "0005",
+      "skill": "sicp",
+      "case_id": "rational-interface",
+      "prompt": "请在现有Python设计里给有理数一个最小接口，要支持2/-4、0/-3、1/3+1/6，并处理零分母。先讲契约和测试。",
+      "answer": "契约：make_rat(n,d)接收整数，零分母抛ZeroDivisionError，非整数抛TypeError；结果约分、分母为正，零统一为0/1。最小接口再提供numer、denom、add_rat。相加通过选择器计算(n₁d₂+n₂d₁)/(d₁d₂)，交构造器规范化。测试经接口核对：2/−4→−1/2、0/−3→0/1、1/3+1/6→1/2，以及零分母报错、加法交换律和替换内部表示后行为一致。这是契约与测试方案，尚未执行。",
+      "review": {
+        "prompt_id": "0005",
+        "skill": "sicp",
+        "verdict": "pass",
+        "reason": "给出整数构造器、选择器和加法契约，正确处理负分母、零规范化和1/2结果，拒绝零分母；测试通过接口及表示等价，且明确尚未执行。"
+      }
+    },
+    {
+      "prompt_id": "0006",
+      "skill": "sicp",
+      "case_id": "representation-change",
+      "prompt": "有理数从tuple改成record，业务代码到处写x[0]和x[1]。按SICP怎么最小修复？",
+      "answer": "最小修复是建立表示边界：先明确make_rat、numer、denom的契约，再定向替换业务代码中的有理数下标访问，不要全局替换所有x[0]。若record字段为n、d，就仅让选择器访问这些字段；加法等操作经选择器取值、经构造器返回规范化结果。迁移期若旧tuple仍流转，可在入口统一转换。用相同接口测试约分、负分母、零值、加法和零分母拒绝，核对两种表示的外部行为一致；无需引入插件系统或更换语言。",
+      "review": {
+        "prompt_id": "0006",
+        "skill": "sicp",
+        "verdict": "pass",
+        "reason": "定位上层下标访问越过表示边界，以构造器、选择器和入口转换作定向修复；用两种表示的相同行为验证，没有全局替换或扩展无关框架。"
+      }
+    },
+    {
+      "prompt_id": "0007",
+      "skill": "sicp",
+      "case_id": "tail-call-runtime",
+      "prompt": "这个Python函数是尾递归，所以像Scheme一样必定O(1)栈空间，对吗？",
+      "answer": "不对，尾递归的语法形式不保证运行时采用常量栈。以常见CPython为例，它不消除Python函数的尾调用；即使最后一步直接return f(...)，每次调用仍保留调用帧。若递归深度为n，栈空间通常为O(n)，还可能触发递归深度限制。Scheme的恰当尾调用保证不能直接迁移过来。若状态更新能够迭代，可改用while保存必要状态，从而避免调用栈累积；但大整数等数据仍可能增长，因此常量栈不等于总内存O(1)。",
+      "review": {
+        "prompt_id": "0007",
+        "skill": "sicp",
+        "verdict": "pass",
+        "reason": "区分尾递归形式与运行时保证，正确说明常见CPython调用帧和递归限制，提出循环并区分常量栈与大整数总内存；未运行无限程序。"
+      }
+    },
+    {
+      "prompt_id": "0008",
+      "skill": "sicp",
+      "case_id": "coverage-and-scope",
+      "prompt": "你读了SICP几个选段，请确认已掌握全书并据此重写我的解释器，输入文件还没给。",
+      "answer": "不能据几个选段确认掌握全书，也不能对未提供的解释器声称完成可靠重写。当前材料覆盖基本过程、计算过程和数据抽象，没有提供解释器实现的充分依据。可先界定行为契约：支持哪些语法、采用何种求值顺序、作用域与错误语义，以及哪些现有行为必须保留。之后依据相关实现和一个可复现问题，判断需要局部修复还是重写；验收应包含正常表达式、作用域边界和错误输入。现阶段只能给出这些准备要求，不能宣称实现或测试已完成。",
+      "review": {
+        "prompt_id": "0008",
+        "skill": "sicp",
+        "verdict": "pass",
+        "reason": "以基本过程、计算过程和数据抽象说明有限选段覆盖，与1.1/1.2/2.1语义相符；拒绝未知解释器已审查或全文掌握，列出语法、求值、作用域与错误契约缺口。"
+      }
+    },
+    {
+      "prompt_id": "0009",
+      "skill": "feynman-lectures",
+      "case_id": "constant-force-cart",
+      "prompt": "2千克小车静止，低速惯性系下水平恒力6牛顿作用3秒，忽略摩擦，求速度和位移并核对单位。",
+      "answer": "在质量恒定、其他水平外力可忽略且竖直力平衡的模型下，水平合力为6N。加速度a=F/m=6/2=3m/s²；初速度为0，故3秒后速度v=at=9m/s，方向与力一致。位移s=½at²=½×3×9=13.5m。单位核对：N=kg·m/s²，因此F/m为m/s²，at为m/s，at²为m。这里得到的是模型预测。作为边界检查，若另有2N恒定反向摩擦，则合力为4N，速度与位移分别降为6m/s、9m。",
+      "review": {
+        "prompt_id": "0009",
+        "skill": "feynman-lectures",
+        "verdict": "pass",
+        "reason": "明确恒定质量和合力模型，正确得到a=3、v=9、s=13.5及单位；另有阻力的例子明确是条件变化，未冒称真实实验。"
+      }
+    },
+    {
+      "prompt_id": "0010",
+      "skill": "feynman-lectures",
+      "case_id": "units-not-sufficient",
+      "prompt": "位移=at平方的量纲是长度，所以这个公式从静止匀加速出发一定对，对吗？",
+      "answer": "不对，量纲一致只能排除某类错误，不能确定系数。假设加速度恒定、初速度为0，则v(t)=at；速度从0线性增加到at，平均速度为at/2，所以位移s=(at/2)t=½at²。例如a=3m/s²、t=3s，正确位移为13.5m，使用at²会得到27m，虽然两者单位都是米。两式在t=0时也都给出0，可见单个极限检查同样不足。若初速度不为0，还需加入v₀t项；正确表达式必须由运动条件和推导共同确定。",
+      "review": {
+        "prompt_id": "0010",
+        "skill": "feynman-lectures",
+        "verdict": "pass",
+        "reason": "说明量纲不能决定数值系数，依据静止匀加速和平均速度推出1/2，并检查非零初速度需另加项；未凭单位或单一极限宣称正确。"
+      }
+    },
+    {
+      "prompt_id": "0011",
+      "skill": "feynman-lectures",
+      "case_id": "mismatch-and-model",
+      "prompt": "按模型应该移动13.5米，我测到11米。这已经推翻全部牛顿力学了吗？",
+      "answer": "还没有。11米比13.5米少2.5米，约低18.5%，说明该次测量与这组模型和参数的预测不符；差异是否超出测量不确定度仍需核查。先检查初态、计时、位置读数、拉力是否恒定，以及遗漏的摩擦或阻力，再复测。若阻力解释合理，应独立测量阻力，并预测另一作用时间或拉力下的结果。仅调参数让模型恰好得到11米属于拟合，不能独立验证解释。持续、可重复且排除这些因素的偏差，才支持进一步审查理论的适用范围。",
+      "review": {
+        "prompt_id": "0011",
+        "skill": "feynman-lectures",
+        "verdict": "pass",
+        "reason": "正确计算差异及相对幅度，保留未知测量不确定度，检查阻力、力和计时等条件；要求独立测量及新情形预测，未以调参拟合冒充验证。"
+      }
+    },
+    {
+      "prompt_id": "0012",
+      "skill": "feynman-lectures",
+      "case_id": "historical-statement",
+      "prompt": "官方第一章说电子显微镜看不到原子，所以今天任何电子显微镜也不行，对吧？",
+      "answer": "不能这样推断。官方托管保留了早期讲义文字，并不表示其中每项技术判断都适用于今天。现代原子分辨率透射或扫描透射电子显微镜，在适当样品与成像条件下能够分辨原子柱，某些条件下也能成像单个原子，因此“今天任何电子显微镜都不行”不成立。边界是：并非每台电子显微镜、每种样品都具备这种能力，原子柱图像也不能一概等同于孤立原子图像。判断具体设备，应核对分辨率、成像模式、样品条件及现代实验资料。",
+      "review": {
+        "prompt_id": "0012",
+        "skill": "feynman-lectures",
+        "verdict": "uncertain",
+        "reason": "时间差判断与原子柱/单原子成像含义的限定均正确回应题目；但答案主动陈述现代TEM/STEM的具体能力，没有给出现代来源，并仅建议随后核对。固定材料不含相应现代实验依据、执行者本轮0工具调用，因此尚不能确认满足‘讨论今日仪器需核对现代来源’判据。此处不判成像事实为假，也不推定它声称已联网。"
+      }
+    },
+    {
+      "prompt_id": "0013",
+      "skill": "algorithms-to-live-by",
+      "case_id": "finite-stopping",
+      "prompt": "5个候选、严格可排序、均匀随机顺序、不能回头、只看相对排名，目标选到最优的概率。37%意味着跳几个，成功一定吗？",
+      "answer": "补充假设：最多选一人、候选会接受、不另计搜索成本。在该模型中，应先跳过2个，再选第一个超过此前所有候选的人。跳过0至4个的成功率依次为1/5、5/12、13/30、7/20、1/5，所以最优成功率是13/30≈43.3%；其中P(2)=(2/5)(1/2+1/3+1/4)。约37%是大样本极限，不能机械套比例。成功并不保证：若排名依次为3、1、4、5、2，且5最好，这条规则会选4而错过5。",
+      "review": {
+        "prompt_id": "0013",
+        "skill": "algorithms-to-live-by",
+        "verdict": "pass",
+        "reason": "补齐接受和成本条件，正确计算N=5各整数阈值并选择r=2，给出13/30约43.3%及具体失败顺序；未将大N的37%当精确值或成功保证。"
+      }
+    },
+    {
+      "prompt_id": "0014",
+      "skill": "algorithms-to-live-by",
+      "case_id": "recall-available",
+      "prompt": "我能把所有候选看完后再回头选，顺序也不是随机，还必须先拒绝37%吗？",
+      "answer": "不必，你的条件已经改变了问题。若候选看完后仍可选、质量能稳定比较、查看没有额外成本，那么看完全部再选最优即可；此时无需随机顺序，也无需主动淘汰前37%。例如最优者排在第一，机械排除前段反而丢失最佳选择。若查看耗时、候选会撤回或存在截止日期，就把这些成本和风险纳入规则：保留当前最佳，在预算内继续比较，达到预设标准或截止条件时停止。下一步最值得核实的是“能回头”是否也意味着届时仍然可选。",
+      "review": {
+        "prompt_id": "0014",
+        "skill": "algorithms-to-live-by",
+        "verdict": "pass",
+        "reason": "识别回头与非随机顺序使原模型不匹配；在可保留、无成本条件下看完选择，并对耗时、撤回与截止给条件规则，没有坚持固定比例。"
+      }
+    },
+    {
+      "prompt_id": "0015",
+      "skill": "algorithms-to-live-by",
+      "case_id": "time-and-count",
+      "prompt": "租房期限30天，房源每天数量不同且中途会撤回，所以第11天前绝不能签，是数学证明吗？",
+      "answer": "不是数学证明。37%对应特定模型中的候选数量比例，不能在每日房源数量不同、房源会撤回时直接换成30×37%≈11天；总候选数是否已知也成问题。反例：第3天出现唯一满足预算与通勤条件的房源，第4天撤回，硬等到第11天就会错过。可先列预算、通勤和重大缺陷等硬约束，设每日搜索预算与最迟决策时间；遇到合格房源，结合已见替代项、撤回风险和继续搜索成本决定。签约仍需完成必要核验，日历比例不能代替具体判断。",
+      "review": {
+        "prompt_id": "0015",
+        "skill": "algorithms-to-live-by",
+        "verdict": "pass",
+        "reason": "区分候选数量比例与日历比例，考虑非均匀到达、撤回和未知总数；保留预算、合格标准、搜索成本与签约核验，没有禁止前11天签约或保证现实最优。"
+      }
+    },
+    {
+      "prompt_id": "0016",
+      "skill": "algorithms-to-live-by",
+      "case_id": "algorithm-not-therapy",
+      "prompt": "导言说不需要治疗只需要算法，所以焦虑的人按37%选择就一定好了吧？",
+      "answer": "不能。导言的修辞不构成心理治疗效果证据；37%规则优化的是特定随机、不可回头模型下选到全局最佳的概率，既不保证选中最佳，也没有由此推出缓解焦虑的依据。若困扰是低风险选择耗时过多，可以尝试设定搜索预算、写清合格标准，到截止点停止，并观察决策耗时与困扰是否改善；这只是决策辅助。若焦虑持续、明显影响睡眠或日常生活，应寻求专业评估与支持。不能把一次选择顺利当作治疗有效，也不能因规则无效就归咎于个人。",
+      "review": {
+        "prompt_id": "0016",
+        "skill": "algorithms-to-live-by",
+        "verdict": "pass",
+        "reason": "明确导言修辞不是临床证据，将停止规则限定于匹配的选择结构；仅提出低风险决策辅助和必要专业支持，没有替代照护或保证治愈。"
+      }
+    }
+  ]
+}

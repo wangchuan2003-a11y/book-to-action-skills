@@ -1,0 +1,12 @@
+{
+  "initial_runs": [
+    "v0.2.0-economy-initial.json",
+    "v0.2.0-ethics-science-initial.json",
+    "v0.3.0-core-initial.json",
+    "v0.3.0-world-initial.json",
+    "v0.4.0-math-initial.json"
+  ],
+  "retest_runs": [
+    "v0.4.0-retests.json"
+  ]
+}

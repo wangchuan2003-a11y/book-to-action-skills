@@ -1,0 +1,4 @@
+interface:
+  display_name: "费曼讲义：物理模型与验证"
+  short_description: "把物理问题转成条件清楚的模型，核对单位、极限与观测，保留近似范围"
+  default_prompt: "请用 $feynman-lectures 分析这个物理问题，先定义量与假设，再检查单位并给出可验证预测。"

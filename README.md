@@ -12,15 +12,18 @@
 
 [v0.3.0评估记录](evals/release-v0.3.0.md)包含文学与非西方思想扩展，以及47个实际执行案例中发现的一处出处遗漏及定向修复。
 
+[v0.4.0评估记录](evals/release-v0.4.0.md)覆盖40本、全部155个正式案例、四处定向修复及完整下载包的往返验证。通过记录不是通用正确性或用户掌握的证明。
+
 这里的“精选”是编辑选择，不是客观的世界排名。我们看重方法的解释力、来源的可核实性、跨情境的用途，以及能否说清什么时候不该用。
 
 ## 从一个问题开始
 
 <!-- catalog:start -->
-当前收录 **36 本书**、**98 条来源记录**、**139 个已编写行为案例**。来源记录不等于独立来源数量；案例已编写不代表全部执行。
+当前收录 **40 本书**、**108 条来源记录**、**155 个已编写行为案例**。来源记录不等于独立来源数量；案例已编写不代表全部执行。
 
 | 你遇到的问题 | 书籍 / Skill |
 | --- | --- |
+| 检验最佳选择或停止规则的前提 | [算法之美](.agents/skills/algorithms-to-live-by/SKILL.md) · `algorithms-to-live-by` |
 | 区分知道与不知道 | [论语](.agents/skills/analects/SKILL.md) · `analects` |
 | 检查波动究竟增加损失还是带来机会 | [反脆弱](.agents/skills/antifragile/SKILL.md) · `antifragile` |
 | 筛选具有价值且可推进的技术问题 | [科学与工程的艺术（工作译名）](.agents/skills/art-of-doing-science/SKILL.md) · `art-of-doing-science` |
@@ -35,6 +38,8 @@
 | 解释敌意、真实言语和自制的选偈 | [法句经（巴利本）](.agents/skills/dhammapada/SKILL.md) · `dhammapada` |
 | 辨认虚构作者与现实作者 | [堂吉诃德](.agents/skills/don-quixote/SKILL.md) · `don-quixote` |
 | 在已读范围内分析人物判断和叙述层次 | [红楼梦](.agents/skills/dream-of-red-chamber/SKILL.md) · `dream-of-red-chamber` |
+| 检查几何证明的前提和隐含假设 | [几何原本](.agents/skills/euclid-elements/SKILL.md) · `euclid-elements` |
+| 澄清经典动力学量与模型条件 | [费曼物理学讲义](.agents/skills/feynman-lectures/SKILL.md) · `feynman-lectures` |
 | 诊断计划只有目标没有行动的问题 | [好战略，坏战略](.agents/skills/good-strategy-bad-strategy/SKILL.md) · `good-strategy-bad-strategy` |
 | 诊断共享资源的过度使用与维护不足 | [公共事务的治理之道](.agents/skills/governing-the-commons/SKILL.md) · `governing-the-commons` |
 | 把含糊题目转换成未知量和条件 | [怎样解题](.agents/skills/how-to-solve-it/SKILL.md) · `how-to-solve-it` |
@@ -51,6 +56,7 @@
 | 检查把性别角色说成天性的论证 | [第二性](.agents/skills/second-sex/SKILL.md) · `second-sex` |
 | 审查统一指标遗漏的工作情境 | [国家的视角](.agents/skills/seeing-like-a-state/SKILL.md) · `seeing-like-a-state` |
 | 区分基因视角与个人自私的道德判断 | [自私的基因](.agents/skills/selfish-gene/SKILL.md) · `selfish-gene` |
+| 解释递归与迭代过程的差别 | [计算机程序的构造和解释](.agents/skills/sicp/SKILL.md) · `sicp` |
 | 把模糊趋势判断改为可结算预测 | [超预测](.agents/skills/superforecasting/SKILL.md) · `superforecasting` |
 | 区分有用行动与过度干预 | [道德经](.agents/skills/tao-te-ching/SKILL.md) · `tao-te-ching` |
 | 把引导性访谈问题改成事实问题 | [妈妈测试](.agents/skills/the-mom-test/SKILL.md) · `the-mom-test` |
@@ -111,6 +117,7 @@ Codex 的本地加载位置和调用方式依据 [OpenAI 官方 Skills 文档](h
 python scripts/validate.py
 python -m unittest discover -s tests -v
 python scripts/build_catalog.py --check
+python scripts/audit_evidence.py --require-complete
 ```
 
 改动书目后运行 `python scripts/build_catalog.py`。验证详情见 [评估说明](evals/README.md)，选书与来源标准见 [方法说明](docs/selection-method.md)。

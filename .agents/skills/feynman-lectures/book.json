@@ -1,0 +1,61 @@
+{
+  "id": "feynman-lectures",
+  "title": "The Feynman Lectures on Physics",
+  "title_zh": "费曼物理学讲义",
+  "authors": [
+    "Richard P. Feynman",
+    "Robert B. Leighton",
+    "Matthew Sands"
+  ],
+  "year": "20世纪60年代课程与初版；本次使用Caltech官方在线版",
+  "domains": [
+    "物理学",
+    "模型与近似",
+    "量纲和实验"
+  ],
+  "use_cases": [
+    "澄清经典动力学量与模型条件",
+    "审查单位、极限和公式推导",
+    "区分模拟、数学推导与实际观测证据"
+  ],
+  "summary": "从物理量与近似条件出发推导可观察结果，并以实验与误差分析限定模型的有效范围。",
+  "selection_rationale": "物理教育重要讲义，Caltech提供可核实官方选章；已读部分直接展示近似、实验判断与专门术语的关系，适合训练模型意识。",
+  "limits": [
+    "本轮只读第一卷第1、9章相关选段，未通读三卷。",
+    "历史性技术与术语表述不能不经检查地当作当前事实。",
+    "量纲正确或有限数值演算不能独自证明模型正确。",
+    "原创小车案例不是实际实验报告，也不证明任何真实设备性能。"
+  ],
+  "sources": [
+    {
+      "id": "FLP-1",
+      "title": "Vol. I, Chapter 1 — Atoms in Motion",
+      "url": "https://www.feynmanlectures.caltech.edu/I_01.html",
+      "kind": "primary_text",
+      "accessed": "2026-09-07",
+      "coverage": "读取1-1关于近似、实验与理论猜想，以及原子模型和证据相关选段。",
+      "used_for": "模型、证据与适用精度的关系，并识别需要历史化理解的技术说法。",
+      "limitations": "没有逐条更新章内科学史或仪器能力；不把旧的原子成像表述作为今日结论。"
+    },
+    {
+      "id": "FLP-2",
+      "title": "Vol. I, Chapter 9 — Newton's Laws of Dynamics",
+      "url": "https://www.feynmanlectures.caltech.edu/I_09.html",
+      "kind": "primary_text",
+      "accessed": "2026-09-07",
+      "coverage": "读取9-1动量与力、9-2速率与速度、9-3分量和恒定质量经典近似相关正文。",
+      "used_for": "定义物理量、力与加速度关系、向量分量及模型假设。",
+      "limitations": "未读取本章全部数值方法，也不把经典F=ma无限推广到所有情境。"
+    },
+    {
+      "id": "FLP-3",
+      "title": "Cornell researchers see atoms at record resolution",
+      "url": "https://news.cornell.edu/stories/2021/05/cornell-researchers-see-atoms-record-resolution",
+      "kind": "academic",
+      "accessed": "2026-09-07",
+      "coverage": "经Jina实际读取Cornell Chronicle 2021-05-20报道正文，包括EMPAD、电子叠层重建、PrScO3样品、定位原子、计算成本及潜在未来应用。",
+      "used_for": "为早期课程关于电子显微镜的历史说法提供有出处的现代技术反例，并区分重建图像与普通摄影。",
+      "limitations": "研究机构新闻不是独立复现实验；未读Science论文全文，未核实2026年最新纪录，不将未来应用视为已实现或推广到所有设备。"
+    }
+  ]
+}

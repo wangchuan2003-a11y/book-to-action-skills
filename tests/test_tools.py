@@ -13,6 +13,7 @@ import zipfile
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "scripts"))
 from build_catalog import render
+from audit_evidence import audit
 from install import copy_plan, plan_install
 from package import package
 from prepare_eval import prepare
@@ -71,6 +72,52 @@ class ToolTests(unittest.TestCase):
 
     def test_valid_package(self):
         self.assertEqual(([], 1), validate_collection(self.collection))
+
+    def evidence_fixture(self):
+        cases = json.loads((self.skill / "evals/cases.json").read_text(encoding="utf-8"))
+        records = [{"skill": "sample-book", "case_id": c["id"], "prompt": c["prompt"],
+                    "answer": "Observed answer", "review": {"verdict": "pass", "reason": "Reviewed"}}
+                   for c in cases]
+        base = self.collection / "evals/results"
+        write(base / "index.json", json.dumps({"initial_runs": ["initial.json"], "retest_runs": []}))
+        write(base / "initial.json", json.dumps({"cases": records}))
+        return base, records
+
+    def test_evidence_requires_matching_prompts(self):
+        base, records = self.evidence_fixture()
+        self.assertEqual([], audit(self.collection)["errors"])
+        records[0]["prompt"] = "Different test"
+        write(base / "initial.json", json.dumps({"cases": records}))
+        self.assertTrue(audit(self.collection)["errors"])
+
+    def test_evidence_retest_preserves_initial_failure(self):
+        base, records = self.evidence_fixture()
+        records[0]["review"]["verdict"] = "fail"
+        write(base / "initial.json", json.dumps({"cases": records}))
+        self.assertEqual(["sample-book:0"], audit(self.collection)["latest_not_pass"])
+        corrected = {**records[0], "review": {"verdict": "pass", "reason": "Retested"}}
+        write(base / "retest.json", json.dumps({"cases": [corrected]}))
+        write(base / "index.json", json.dumps({"initial_runs": ["initial.json"],
+                                               "retest_runs": ["retest.json"]}))
+        result = audit(self.collection)
+        self.assertEqual(1, result["initial_verdicts"]["fail"])
+        self.assertEqual([], result["latest_not_pass"])
+        self.assertEqual([], result["errors"])
+
+    def test_evidence_reports_missing_cases(self):
+        base, records = self.evidence_fixture()
+        write(base / "initial.json", json.dumps({"cases": records[:1]}))
+        self.assertEqual(["sample-book:1", "sample-book:2"], audit(self.collection)["missing_cases"])
+
+    def test_evidence_rejects_duplicate_authored_ids(self):
+        base, records = self.evidence_fixture()
+        path = self.skill / "evals/cases.json"
+        cases = json.loads(path.read_text(encoding="utf-8"))
+        cases.append({**cases[0], "prompt": "Shadowed first question"})
+        write(path, json.dumps(cases))
+        records[0]["prompt"] = "Shadowed first question"
+        write(base / "initial.json", json.dumps({"cases": records}))
+        self.assertTrue(audit(self.collection)["errors"])
 
     def test_access_dates_allow_the_researchers_local_date(self):
         instant = datetime(2026, 9, 6, 16, 10, tzinfo=timezone.utc)
@@ -203,6 +250,23 @@ class ToolTests(unittest.TestCase):
     def test_ebook_is_not_a_distributable_skill_asset(self):
         write(self.skill / "full-book.epub", "Do not distribute")
         self.assertTrue(validate_skill(self.skill))
+
+    def test_complete_archive_can_be_repacked(self):
+        write(self.collection / "README.md", "<!-- catalog:start -->\n<!-- catalog:end -->\n")
+        write(self.collection / "LICENSE", "Fixture license")
+        write(self.collection / "distribution.json", json.dumps({
+            "files": ["README.md", "LICENSE", "catalog.json"]}))
+        catalog, readme = render(self.collection)
+        write(self.collection / "catalog.json", catalog)
+        write(self.collection / "README.md", readme)
+        original = {p.name: p.read_bytes() for p in package(self.collection)}
+        extracted = self.root / "extracted"
+        with zipfile.ZipFile(self.collection / "dist/book-to-action-skills.zip") as bundle:
+            self.assertTrue(all((extracted / n).resolve().is_relative_to(extracted.resolve())
+                                for n in bundle.namelist()))
+            bundle.extractall(extracted)
+        rebuilt = {p.name: p.read_bytes() for p in package(extracted)}
+        self.assertEqual(original, rebuilt)
 
     def test_archive_reproducibility_and_private_file_exclusion(self):
         write(self.collection / "README.md", "<!-- catalog:start -->\n<!-- catalog:end -->\n")

@@ -9,6 +9,7 @@
     "scripts/validate.py",
     "scripts/build_catalog.py",
     "scripts/package.py",
+    "scripts/audit_evidence.py",
     "scripts/prepare_eval.py",
     "tests/test_tools.py",
     "docs/selection-method.md",
@@ -23,6 +24,12 @@
     "evals/results/v0.2.0-economy-initial.json",
     "evals/results/v0.2.0-ethics-science-initial.json",
     "evals/outputs/scott-0007-retest-v0.3.0.md",
-    "evals/release-v0.3.0.md"
+    "evals/release-v0.3.0.md",
+    "evals/results/v0.3.0-core-initial.json",
+    "evals/results/v0.3.0-world-initial.json",
+    "evals/results/v0.4.0-math-initial.json",
+    "evals/results/v0.4.0-retests.json",
+    "evals/results/index.json",
+    "evals/release-v0.4.0.md"
   ]
 }

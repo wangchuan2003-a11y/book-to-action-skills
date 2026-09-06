@@ -1,0 +1,16 @@
+{
+  "id": "algorithms-to-live-by",
+  "title": "Algorithms to Live By: The Computer Science of Human Decisions",
+  "title_zh": "算法之美",
+  "authors": ["Brian Christian", "Tom Griffiths"],
+  "year": "2016",
+  "domains": ["算法思维", "决策模型", "搜索与停止"],
+  "use_cases": ["检验最佳选择或停止规则的前提", "比较搜索收益与信息成本", "区分模型最优和现实选择结果"],
+  "summary": "把有限时间、信息与成本下的选择写成明确问题，再检验算法的目标和前提能否用于现实。",
+  "selection_rationale": "以通俗方式连接计算问题和人类决策，公开导言便于核实主题；本Skill重点补足模型边界，使流行规则可被审查而非盲目套用。",
+  "limits": ["本轮只核读作者官网与出版社Introduction摘录，未读全书各算法章节。", "37%只在特定经典最佳选择模型及大样本极限下适用，有限N的最优阈值需要计算。", "数学目标、搜索成本、回头机会和到达顺序改变时，规则可能改变。", "算法不保证现实收益，也不能代替伦理选择、心理照护或合法授权。"],
+  "sources": [
+    {"id": "ALGO-1", "title": "Algorithms to Live By — official author website", "url": "https://algorithmstoliveby.com/", "kind": "author_material", "accessed": "2026-09-07", "coverage": "读取书名、两位作者、有限时间空间的问题定位和内容简介。", "used_for": "书目身份与算法迁移主题。", "limitations": "推荐语和畅销信息不作为有效性、最优性或世界排名证据。"},
+    {"id": "ALGO-2", "title": "Algorithms to Live By — Macmillan, Introduction excerpt", "url": "https://us.macmillan.com/books/9781627790376/algorithmstoliveby/", "kind": "primary_text", "accessed": "2026-09-07", "coverage": "读取出版页作者、2016年日期及Read Excerpt中的Introduction，包含公寓选择、37%规则、计算成本和近似等讨论。", "used_for": "问题化与停止规则主题、计算资源有限和应用边界。", "limitations": "导言不是完整定理条件或证明；其中生活和疗法修辞不被作为科学结论，项目另行明确经典模型并独立核算有限例子。"}
+  ]
+}
