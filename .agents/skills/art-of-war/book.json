@@ -1,0 +1,49 @@
+{
+  "id": "art-of-war",
+  "title": "The Art of War",
+  "title_zh": "孙子兵法",
+  "authors": [
+    "孙子（传统归于孙武；作者与成书过程存在争论）"
+  ],
+  "year": "先秦军事经典；确切作者与成书年代不在本次研究中定论",
+  "domains": [
+    "strategy",
+    "decision-making",
+    "project-planning"
+  ],
+  "use_cases": [
+    "在资源约束下选择行动方案",
+    "审视长期消耗和退出条件",
+    "识别竞争情境的信息缺口与替代路径"
+  ],
+  "summary": "提取计、作战、谋攻、虚实与用间的有限原则，用于检查条件、成本、信息与低冲突替代方案。",
+  "selection_rationale": "提供中国军事经典的竞争与资源消耗视角，补充个人学习和伦理方法；现代迁移限定具体问题，不把所有关系军事化。",
+  "limits": [
+    "原始语境是战争；现代商业、合作和人际关系不天然是零和对抗。",
+    "古典格言、历史战例与 Giles 1910 评论不构成现代效果保证。",
+    "未获得足够现代学术正文来裁定作者与成书年代，保留传统归属和争议。",
+    "不从诡道、用间推导欺诈、隐私侵入或未经授权获取资料的许可。"
+  ],
+  "sources": [
+    {
+      "id": "sunzi-primary",
+      "title": "Sun Tzŭ on The Art of War, Lionel Giles translation and critical notes (1910) — Project Gutenberg #132",
+      "url": "https://www.gutenberg.org/files/132/132-h/132-h.htm",
+      "kind": "primary_text",
+      "accessed": "2026-09-07",
+      "coverage": "已读目录与 Giles 导论 Sun Wu and his Book 中作者争议段落；正文 I.3—4、II.2—5、III.2、III.18、VI.29—33、XIII.4—6 及相关译注。",
+      "used_for": "条件、消耗、避免战斗、知彼知己、因势调整与情报来源的原文位置。",
+      "limitations": "翻译与大量译注须分开；导论发表于 1910，不能代表当前学界共识。"
+    },
+    {
+      "id": "sunzi-catalogue",
+      "title": "The Art of War — Project Gutenberg bibliographic record",
+      "url": "https://www.gutenberg.org/ebooks/132",
+      "kind": "publisher",
+      "accessed": "2026-09-07",
+      "coverage": "已读传统作者、译者 Lionel Giles、译本年份 1910 与语言等书目字段；未采用自动生成摘要作证据。",
+      "used_for": "确认所读译本身份与日期。",
+      "limitations": "传统古代作者标注不裁定现代文本史争论；Public domain in the USA 不是所有译本的全球许可。"
+    }
+  ]
+}

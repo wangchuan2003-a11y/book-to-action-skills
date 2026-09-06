@@ -1,0 +1,40 @@
+name: Validate collection
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    strategy:
+      matrix:
+        os: [ubuntu-latest, windows-latest]
+    runs-on: ${{ matrix.os }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python scripts/validate.py
+      - run: python -m unittest discover -s tests -v
+      - run: python scripts/build_catalog.py --check
+      - run: python scripts/package.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: checksums-${{ runner.os }}
+          path: dist/SHA256SUMS.txt
+
+  compare-packages:
+    needs: validate
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/download-artifact@v4
+        with:
+          pattern: checksums-*
+          path: checksums
+      - name: Compare Windows and Linux archive bytes
+        run: python -c "from pathlib import Path; p = sorted(Path('checksums').glob('*/SHA256SUMS.txt')); assert len(p) == 2, p; assert p[0].read_bytes() == p[1].read_bytes(), 'Archive checksums differ'; print('All Windows and Linux archive checksums match.')"

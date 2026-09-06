@@ -1,0 +1,48 @@
+{
+  "id": "superforecasting",
+  "title": "Superforecasting",
+  "title_zh": "超预测",
+  "authors": [
+    "Philip E. Tetlock",
+    "Dan Gardner"
+  ],
+  "year": "2015",
+  "domains": [
+    "判断与决策",
+    "概率预测"
+  ],
+  "use_cases": [
+    "把模糊趋势判断改为可结算预测",
+    "记录并更新项目风险概率",
+    "复盘预测过程而非只看输赢"
+  ],
+  "summary": "把未来问题定义为可检验事件，用参照类、分解、竞争解释和记录式更新改善概率判断。",
+  "selection_rationale": "方法可以产生可结算的预测记录；Good Judgment 的公开原则与研究团队的开放论文使方法归属及部分实证可核实，与战略行动设计互补。",
+  "limits": [
+    "研究主要涉及有期限、可结算的地缘政治预测，不保证其他领域迁移。",
+    "单次命中、漂亮推理和精细小数都不能证明校准良好。",
+    "2014 年论文来自原研究团队，不能视为独立复制。"
+  ],
+  "sources": [
+    {
+      "id": "SF1",
+      "title": "Ten Commandments for Aspiring Superforecasters",
+      "url": "https://goodjudgment.com/philip-tetlocks-10-commandments-of-superforecasting/",
+      "kind": "author_material",
+      "accessed": "2026-09-07",
+      "coverage": "实际读取十条原则及第十一条提醒的网页正文。",
+      "used_for": "问题分流、分解、内外视角、证据更新、对立因果力量、概率、复盘与练习的方法归属。",
+      "limitations": "作者共同创办机构的书中方法摘述，包含培训营销；不是独立效果检验。"
+    },
+    {
+      "id": "SF2",
+      "title": "Psychological Strategies for Winning a Geopolitical Forecasting Tournament",
+      "url": "https://faculty.wharton.upenn.edu/wp-content/uploads/2015/07/2014---psychological-strategies-for-winning-a-tournament.pdf",
+      "kind": "academic",
+      "accessed": "2026-09-07",
+      "coverage": "通过网页阅读器实际读取论文摘要、Training/Teaming/Tracking、设计、结果与讨论段落；未复算原始数据。",
+      "used_for": "说明概率训练、团队交流、按表现组队在研究比赛中的证据，以及校准、分辨力、不可消除的不确定性。",
+      "limitations": "Mellers 等，2014，原研究团队论文；不同干预的设计不可混同为完全相同的随机实验；不能推导该 Skill 已提高准确率。"
+    }
+  ]
+}

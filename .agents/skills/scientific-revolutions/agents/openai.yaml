@@ -1,0 +1,4 @@
+interface:
+  display_name: "科学革命的结构"
+  short_description: "辨认异常、框架更替与评价标准，检验范式革命说法的证据边界"
+  default_prompt: "用 $scientific-revolutions 检查我所说的范式转移究竟改变了什么，并比较新旧框架的收益与损失。"

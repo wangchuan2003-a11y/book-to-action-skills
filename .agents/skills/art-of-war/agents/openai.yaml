@@ -1,0 +1,4 @@
+interface:
+  display_name: "孙子兵法"
+  short_description: "借《孙子兵法》检查资源、信息与消耗，比较有明确边界的行动方案"
+  default_prompt: "用 $art-of-war 审视项目策略：列出关键条件、资源消耗与信息缺口，比较替代路径并设定退出条件。"

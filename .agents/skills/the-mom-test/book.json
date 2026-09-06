@@ -1,0 +1,57 @@
+{
+  "id": "the-mom-test",
+  "title": "The Mom Test",
+  "title_zh": "妈妈测试",
+  "authors": [
+    "Rob Fitzpatrick"
+  ],
+  "year": "2013",
+  "domains": [
+    "客户访谈",
+    "需求发现"
+  ],
+  "use_cases": [
+    "把引导性访谈问题改成事实问题",
+    "区分礼貌称赞与需求证据",
+    "设计与阶段相称的承诺和下一步"
+  ],
+  "summary": "通过具体经历、现有行为和有成本的承诺检验需求假设，降低访谈中的礼貌性假阳性。",
+  "selection_rationale": "直接覆盖产品从想法到需求证据之间的常见断点；作者访谈和教学资源可以核查主要方法，与可用性和战略技能形成不同职责。",
+  "limits": [
+    "访谈反映受访者报告及选择偏差，不能替代市场规模估计或真实购买使用。",
+    "没有付费或近期经历不自动证明需求不存在，可能涉及权限、预算、罕见高后果事件或缺少可行方案。",
+    "一项承诺只支持对应程度的兴趣，不保证成交或留存。"
+  ],
+  "sources": [
+    {
+      "id": "MT1",
+      "title": "The Right Way to Talk to People About Your Business with Rob Fitzpatrick",
+      "url": "https://www.indiehackers.com/podcast/154-rob-fitzpatrick-of-the-mom-test",
+      "kind": "author_material",
+      "accessed": "2026-09-07",
+      "coverage": "实际读取作者访谈转录中三条提问规则、具体过去行为、承诺、切换访谈模式和三项学习目标等相关段落；未核对音频。",
+      "used_for": "三规则、需求证据、承诺、发现与推销的区别。",
+      "limitations": "作者口述的编辑转录；个案和修辞数字不作独立有效性证明。"
+    },
+    {
+      "id": "MT2",
+      "title": "Teacher Resources | The Mom Test",
+      "url": "https://www.momtestbook.com/teachers",
+      "kind": "author_material",
+      "accessed": "2026-09-07",
+      "coverage": "实际读取作者推荐的教学主题与练习：识别坏问题、偏差数据、重要问题、承诺与推进。",
+      "used_for": "核查练习设计与章节主题归属。",
+      "limitations": "作者自述的教学使用不能证明大学背书或学习效果；未读取所列章节全文。"
+    },
+    {
+      "id": "MT3",
+      "title": "The Mom Test — Robfitz Ltd publication record on Google Books",
+      "url": "https://books.google.com/books/about/The_Mom_Test.html?id=Z5nYDwAAQBAJ",
+      "kind": "publisher",
+      "accessed": "2026-09-07",
+      "coverage": "实际读取 Google Books 托管的书目、目录与出版介绍。",
+      "used_for": "核对 Rob Fitzpatrick、Robfitz Ltd、2013 年及 ISBN 9781492180746。",
+      "limitations": "这里的 publisher 表示出版书目信息；托管方为 Google Books，并非出版社官网。未读取全书，简介不支持效果承诺。"
+    }
+  ]
+}

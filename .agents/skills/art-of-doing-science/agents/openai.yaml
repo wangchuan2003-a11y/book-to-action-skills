@@ -1,0 +1,4 @@
+interface:
+  display_name: "Hamming：值得做的问题"
+  short_description: "用重要性、可攻击性和反证选择研究方向，让工程成果可以复用与评审"
+  default_prompt: "请用 $art-of-doing-science 帮我从三个AI项目想法中选出一个有真实价值、两周内能验证的方向。"

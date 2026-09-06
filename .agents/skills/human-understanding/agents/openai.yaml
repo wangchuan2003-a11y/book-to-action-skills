@@ -1,0 +1,4 @@
+interface:
+  display_name: "人类理解研究"
+  short_description: "借休谟检查经验、因果与证言，让判断强度与实际证据保持相称"
+  default_prompt: "用 $human-understanding 审查这个因果主张：区分观察、推断与未知，说明什么证据会改变判断。"

@@ -1,0 +1,4 @@
+interface:
+  display_name: "认知天性：记住并会用"
+  short_description: "用提取、间隔、交错和反馈设计学习，把熟悉感与独立迁移能力分开验证"
+  default_prompt: "请用 $make-it-stick 把我正在学的规则变成一次闭卷练习、纠错和延迟迁移检查。"

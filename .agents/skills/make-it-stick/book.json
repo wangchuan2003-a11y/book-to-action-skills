@@ -1,0 +1,17 @@
+{
+  "id": "make-it-stick",
+  "title": "Make It Stick: The Science of Successful Learning",
+  "title_zh": "认知天性",
+  "authors": ["Peter C. Brown", "Henry L. Roediger III", "Mark A. McDaniel"],
+  "year": "2014",
+  "domains": ["学习科学", "技能训练", "学习评估"],
+  "use_cases": ["改造依赖重读和突击的学习计划", "设计基于提取和反馈的岗位练习", "区分熟悉感、记忆保持与陌生情境迁移"],
+  "summary": "通过努力提取、间隔与交错练习，以及表现与信心的对照，让学习过程更接近长期可用知识。",
+  "selection_rationale": "作者包括学习与记忆研究者，合法出版社试读直接提供核心主张及研究/理论的区分；方法可以转成低成本练习与可观察检查，具有明确应用价值。",
+  "limits": ["实际核读出版社试读中前言、第一章相关段落和书籍简介，未核读全书。", "本轮没有重新审计书中全部实验和后续复制研究，不能把概述当作完整证据综述。", "提取、间隔和交错的效果取决于材料、基础与目标，不提供通用最优日程或固定提升比例。", "AI给出正确答案、单次测验通过或学习者自信，都不单独证明长期掌握与真实工作能力。"],
+  "sources": [
+    {"id": "MIS-1", "title": "Make It Stick — Harvard University Press", "url": "https://www.hup.harvard.edu/books/9780674729018", "kind": "publisher", "accessed": "2026-09-07", "coverage": "读取书籍标题、三位作者、2014-04-14出版信息、内容简介、作者信息与官方试读链接。", "used_for": "书目元数据及检索、间隔、交错与熟悉感主题的确认。", "limitations": "简介和推荐语不能提供独立效果证明；促销及销售表述未用于选书排名。"},
+    {"id": "MIS-2", "title": "Make It Stick — official sample", "url": "https://www.hup.harvard.edu/file/feeds/PDF/9780674729018_sample.pdf", "kind": "primary_text", "accessed": "2026-09-07", "coverage": "实际读取26页官方样本中的书目信息、目录、前言、第一章Claims We Make in This Book及相邻关于证据、既有知识和模拟器练习的段落；未把样本索引当成章节全文。", "used_for": "提取、间隔、交错、判断校准、基础知识与作者对实证研究/理论/轶事的区分。", "limitations": "是选段不是全书；本项目未独立复核每个试验，未将书中例子效应量推广到用户。"},
+    {"id": "MIS-3", "title": "Make it Stick — Retrieval Practice", "url": "https://www.retrievalpractice.org/make-it-stick", "kind": "academic", "accessed": "2026-09-07", "coverage": "读取研究传播网站对八章的说明及与两位作者协作的指南说明。", "used_for": "交叉确认章节主题和学习风格、认识错觉等内容所在范围。", "limitations": "研究者面向教育实践的二次摘要，含书籍联盟链接；不是独立复制试验，不单独用于效果承诺。"}
+  ]
+}

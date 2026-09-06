@@ -1,0 +1,4 @@
+interface:
+  display_name: "系统之美：反馈与干预"
+  short_description: "用存量、流量与反馈分析反复出现的问题，并设计可观察的改进实验"
+  default_prompt: "请用 $thinking-in-systems 分析我们的工单积压为什么越加班越严重，并提出一个有验证指标的小实验。"

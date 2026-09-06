@@ -1,0 +1,16 @@
+{
+  "id": "thinking-in-systems",
+  "title": "Thinking in Systems: A Primer",
+  "title_zh": "系统之美",
+  "authors": ["Donella H. Meadows"],
+  "year": "2008",
+  "domains": ["系统思考", "组织改进", "复杂问题"],
+  "use_cases": ["诊断持续积压或产能失衡", "分析激励造成的副作用", "设计能够观察反馈的小范围干预"],
+  "summary": "从存量与流量、反馈和延迟理解系统行为，并以可检验的干预代替对表面症状的反复处理。",
+  "selection_rationale": "提供跨组织与个人场景可迁移的动态分析语言；有作者官方档案中的公开方法原文，且作者明确写出方法的例外与局限。入选是编辑选择，不代表全球排名。",
+  "limits": ["本版本核读公开作者文章和出版社页面，未核读全书。", "因果图是解释假说，不能替代观测、实验或领域证据。", "杠杆点次序不是普遍有效的行动排名；具体干预还受成本、权限与系统延迟约束。", "本文涉及的历史政策观点不能直接推广为当前政策建议。"],
+  "sources": [
+    {"id": "TIS-1", "title": "Thinking in Systems — Chelsea Green Publishing", "url": "https://www.chelseagreen.com/product/thinking-in-systems/", "kind": "publisher", "accessed": "2026-09-07", "coverage": "实际读取出版社页面当前可提取的书籍标题和评论区；检索定位书目与主题。", "used_for": "书籍身份与存量、流量、反馈、延迟等主题的交叉确认。", "limitations": "页面主要可读内容为推荐语，不能视为独立效果研究，也不支持声称已读全书。"},
+    {"id": "TIS-2", "title": "Leverage Points: Places to Intervene in a System", "url": "https://donellameadows.org/archives/leverage-points-places-to-intervene-in-a-system/", "kind": "author_material", "accessed": "2026-09-07", "coverage": "实际读取作者文章的开篇、存量流量解释、修订后十二项清单及参数、缓冲、结构、延迟、信息、规则、目标、范式和结尾限制说明。", "used_for": "核心概念、干预层次以及清单并非公式且有例外的边界。", "limitations": "这是一篇相关作者文章，不等同于逐章读取本书；文中经验与政策判断未经本项目独立验证。"}
+  ]
+}

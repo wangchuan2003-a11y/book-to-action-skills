@@ -1,0 +1,57 @@
+{
+  "id": "design-of-everyday-things",
+  "title": "The Design of Everyday Things",
+  "title_zh": "设计心理学：日常事物的设计",
+  "authors": [
+    "Don Norman"
+  ],
+  "year": "2013（修订扩充版；原版 1988）",
+  "domains": [
+    "交互设计",
+    "可用性"
+  ],
+  "use_cases": [
+    "诊断用户不知道如何操作的问题",
+    "改善操作后的状态理解",
+    "设计预防错误和恢复路径"
+  ],
+  "summary": "从人的目标与实际操作出发，检查能做什么、如何发现、动作如何对应结果、反馈和错误恢复。",
+  "selection_rationale": "把抽象的用户体验批评转成可观察的任务障碍；作者公开材料能核实示能与意符的常见混淆，修订版目录能确认概念范围。",
+  "limits": [
+    "本次读取作者文章及修订版书页，未通读全书。",
+    "可用性改善不能直接证明商业需求、长期留存或无障碍合规。",
+    "原则需要具体用户和情境验证，文化惯例与身体能力会改变解释。"
+  ],
+  "sources": [
+    {
+      "id": "DO1",
+      "title": "The Design of Everyday Things, Revised and Expanded Edition",
+      "url": "https://jnd.org/books/the-design-of-everyday-things-revised-and-expanded-edition/",
+      "kind": "author_material",
+      "accessed": "2026-09-07",
+      "coverage": "实际读取 2013 年修订版介绍、章节与完整目录。",
+      "used_for": "核对版本、概念模型、映射、反馈、约束、失误与错误、撤销和迭代测试的章节归属。",
+      "limitations": "目录证明主题被讨论，不等于读取对应章节论证或效果证据。"
+    },
+    {
+      "id": "DO2",
+      "title": "Affordances and Design",
+      "url": "https://jnd.org/affordances-and-design/",
+      "kind": "author_material",
+      "accessed": "2026-09-07",
+      "coverage": "实际读取作者文章正文：affordance、perceived affordance、文化约定、屏幕界面四原则。",
+      "used_for": "区分行动可能性、被感知的行动和反馈；核实惯例、文字与图形、概念模型的作用。",
+      "limitations": "作者解释文章，不是独立用户实验；历史举例不能当作对所有当前界面的绝对预测。"
+    },
+    {
+      "id": "DO3",
+      "title": "Signifiers, not affordances",
+      "url": "https://jnd.org/signifiers-not-affordances/",
+      "kind": "author_material",
+      "accessed": "2026-09-07",
+      "coverage": "实际读取作者发表于 ACM Interactions 15(6) 的公开作者版正文。",
+      "used_for": "意符作为可感知线索及其情境性、偶然线索可靠性。",
+      "limitations": "文章末尾有再分发限制；本项目只原创转述并链接，不复制文章。"
+    }
+  ]
+}

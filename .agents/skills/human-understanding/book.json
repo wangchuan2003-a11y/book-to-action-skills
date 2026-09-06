@@ -1,0 +1,49 @@
+{
+  "id": "human-understanding",
+  "title": "An Enquiry Concerning Human Understanding",
+  "title_zh": "人类理解研究",
+  "authors": [
+    "David Hume"
+  ],
+  "year": "1748 年初版；1758 年改用现名",
+  "domains": [
+    "epistemology",
+    "critical-thinking",
+    "evidence-evaluation"
+  ],
+  "use_cases": [
+    "区分概念证明与事实主张",
+    "检查从过去推广到未来的推断",
+    "核对证言因果关系与置信程度"
+  ],
+  "summary": "借休谟对经验、因果、证言与怀疑的分析，标出判断的推断跨步，使信念强度与证据相称。",
+  "selection_rationale": "为行动方法提供认识论检查：不把熟悉感当必然性，也不因不确定就放弃合理行动；经典地位不是经验效果证明。",
+  "limits": [
+    "认识论论证不等同现代统计、因果推断或心理学完整理论。",
+    "归纳无法取得演绎必然性不意味着所有经验结论同样不可靠。",
+    "不从古典论证生成数字概率，须有真实数据模型与假设。",
+    "学界对归纳论证的心理学解读与规范性解读存在争论。"
+  ],
+  "sources": [
+    {
+      "id": "hume-primary",
+      "title": "An Enquiry Concerning Human Understanding — Project Gutenberg #9662",
+      "url": "https://www.gutenberg.org/files/9662/9662-h/9662-h.htm",
+      "kind": "primary_text",
+      "accessed": "2026-09-07",
+      "coverage": "已读目录、IV 事实与观念关系及归纳疑问段落、V 习惯段落、X 证据相称与证言段落、XII 第 III 部分温和怀疑。",
+      "used_for": "核对观念关系、经验推断、习惯、证言与温和怀疑的论证位置。",
+      "limitations": "所读文本标示 L. A. Selby-Bigge 编订第二版 1902；连续段号未必同其他版的节内段号。"
+    },
+    {
+      "id": "hume-sep",
+      "title": "David Hume — Stanford Encyclopedia of Philosophy",
+      "url": "https://plato.stanford.edu/entries/hume/",
+      "kind": "academic",
+      "accessed": "2026-09-07",
+      "coverage": "已读导言、生平中两部 Enquiry 出版信息，以及归纳、custom or habit 和不同解读的相关段落。",
+      "used_for": "1748 初版名称、1758 改名及归纳论证解释争议。",
+      "limitations": "学术概述不消除争论，也不证明现代模型或决策效果。"
+    }
+  ]
+}

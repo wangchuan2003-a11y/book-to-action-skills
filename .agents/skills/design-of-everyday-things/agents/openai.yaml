@@ -1,0 +1,4 @@
+interface:
+  display_name: "设计心理学：日常事物的设计 · The Design of Everyday Things"
+  short_description: "从真实操作出发检查意符、映射、反馈与恢复，减少可用性障碍"
+  default_prompt: "使用 $design-of-everyday-things，分析用户为什么在这个操作流程里迷路，并给出最小改进和验证办法。"

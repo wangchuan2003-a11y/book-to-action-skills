@@ -1,0 +1,17 @@
+{
+  "id": "how-to-solve-it",
+  "title": "How to Solve It: A New Aspect of Mathematical Method",
+  "title_zh": "怎样解题",
+  "authors": ["George Pólya"],
+  "year": "1945",
+  "domains": ["数学解题", "问题求解", "算法思考"],
+  "use_cases": ["把含糊题目转换成未知量和条件", "用类比、简化或倒推突破解题停滞", "检查解答并提炼可迁移结构"],
+  "summary": "理解问题、制定计划、执行计划、回顾检验，并用启发式问题推动每个阶段。",
+  "selection_rationale": "四阶段及相关启发式有明确可核实的出版社资料，能转为具体求解行为；它补充研究选题和经验调查，适合条件较清楚的问题。",
+  "limits": ["核读范围为出版社简介、官方目录与引言，没有核读全书正文或全部题解。", "目录支持概念归属，不能支持未读条目的细节或效果承诺。", "启发式是寻找路径的工具，不保证找到解；样例验证不能代替证明。", "现实决策涉及事实不确定性和价值判断时，需要额外数据、试验及领域方法。"],
+  "sources": [
+    {"id": "POL-1", "title": "How to Solve It — Princeton University Press", "url": "https://press.princeton.edu/books/paperback/9780691164076/how-to-solve-it", "kind": "publisher", "accessed": "2026-09-07", "coverage": "读取书籍标题、作者、1945版权年份与2014版发行信息、简介、作者说明和官方目录/引言链接。", "used_for": "书目元数据及类比、归纳、倒推等方法主题。", "limitations": "营销语中的广泛适用不能作为对任何问题都有效的证明。"},
+    {"id": "POL-2", "title": "How to Solve It — Table of Contents", "url": "https://assets.press.princeton.edu/chapters/c669.pdf", "kind": "primary_text", "accessed": "2026-09-07", "coverage": "读取官方5页目录，包括Four phases、Understanding the problem、Devising a plan、Carrying out the plan、Looking back及启发式词典条目。", "used_for": "四阶段的准确归属，以及相关问题、重述、分解、维度检查、倒推和检查结果等条目存在的确认。", "limitations": "仅是目录，不用于冒充读过对应章节或证明详细步骤来自作者原句。"},
+    {"id": "POL-3", "title": "How to Solve It — Introduction", "url": "https://assets.press.princeton.edu/chapters/i669.pdf", "kind": "primary_text", "accessed": "2026-09-07", "coverage": "实际读取官方3页引言，包含提问清单用途、四部分结构、词典使用与教师/学生/解题者视角。", "used_for": "把启发式问题用于自身求解或适当帮助学生，以及从真实问题出发查词典的用法。", "limitations": "引言没有覆盖书内所有例题和词典正文；本项目不再分发PDF或大段原文。"}
+  ]
+}

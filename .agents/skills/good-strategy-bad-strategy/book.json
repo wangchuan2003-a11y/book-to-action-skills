@@ -1,0 +1,57 @@
+{
+  "id": "good-strategy-bad-strategy",
+  "title": "Good Strategy Bad Strategy",
+  "title_zh": "好战略，坏战略",
+  "authors": [
+    "Richard P. Rumelt"
+  ],
+  "year": "2011",
+  "domains": [
+    "战略",
+    "项目优先级"
+  ],
+  "use_cases": [
+    "诊断计划只有目标没有行动的问题",
+    "在资源有限时选择关键障碍",
+    "让多项行动彼此支持"
+  ],
+  "summary": "围绕关键挑战形成诊断、指导方针和协调行动，把目标变成有取舍的解决方案。",
+  "selection_rationale": "核心结构可直接检验真实方案是否解释障碍、做出选择并配置资源；作者公开摘录支持方法核实。",
+  "limits": [
+    "战略结构完整不保证诊断正确或商业成功。",
+    "作者案例是解释性材料，不能当作普遍因果定律。",
+    "本次公开摘录为未校订样张，不能声称核对过最终版全部章节。"
+  ],
+  "sources": [
+    {
+      "id": "GS1",
+      "title": "Good Strategy Bad Strategy — Author's public excerpt",
+      "url": "https://www.richardrumelt.com/books_excerpts/GSBS_excerpt.pdf",
+      "kind": "primary_text",
+      "accessed": "2026-09-07",
+      "coverage": "实际读取公开 29 页 PDF 中的目录、导言和第一章；关注 kernel、障碍、取舍与协调行动。",
+      "used_for": "三要素结构及战略聚焦原则。",
+      "limitations": "PDF 标注 UNCORRECTED PROOF，未核对最终版；只做原创转述，不给最终版页码或直接引文。"
+    },
+    {
+      "id": "GS2",
+      "title": "Good Strategy Bad Strategy — Penguin Random House",
+      "url": "https://www.penguinrandomhouse.com/books/208668/good-strategy-bad-strategy-by-richard-rumelt/",
+      "kind": "publisher",
+      "accessed": "2026-09-07",
+      "coverage": "实际读取书名、作者、出版日期、ISBN、简介；未读取最终版全文。",
+      "used_for": "核对 2011 年书目与主题归属。",
+      "limitations": "简介和推荐语属于出版介绍，不证明方法有效性。"
+    },
+    {
+      "id": "GS3",
+      "title": "Good Strategy Bad Strategy — Richard Rumelt",
+      "url": "https://www.richardrumelt.com/good-strategy-bad-strategy",
+      "kind": "author_material",
+      "accessed": "2026-09-07",
+      "coverage": "实际读取作者书页和 Supplemental Materials 链接。",
+      "used_for": "确认 GS1 摘录由作者官网公开提供。",
+      "limitations": "推荐语不作独立证据。"
+    }
+  ]
+}

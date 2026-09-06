@@ -1,0 +1,16 @@
+{
+  "id": "scientific-revolutions",
+  "title": "The Structure of Scientific Revolutions",
+  "title_zh": "科学革命的结构",
+  "authors": ["Thomas S. Kuhn"],
+  "year": "1962；本次核对2012年50周年第四版书目",
+  "domains": ["科学哲学", "研究方法", "概念分析"],
+  "use_cases": ["判断所谓范式革命到底改变了什么", "比较旧框架无法处理的异常与新框架代价", "审查把科学进步说成纯粹权力竞争的论证"],
+  "summary": "用常规科学、异常、危机与范式的区别分析研究变化，同时保留科学史论证的争议与适用边界。",
+  "selection_rationale": "本书为科学史和科学哲学提供了影响深远的变化模型，且其概念频繁被商业和技术讨论借用；精确限制概念的使用比复述颠覆口号更有实际价值。",
+  "limits": ["核读出版社简介和目录、Stanford Encyclopedia of Philosophy的相关章节，未核读全书原文。", "库恩的历史描述与哲学解释不是普遍预测定律，也不是团队管理操作手册。", "不可通约不等于完全不可比较；框架变动可以带来损失，不能把新框架自动视为更优。", "技术、商业和个人场景的应用是本项目类比，不是作者对当前AI或公司的判断。"],
+  "sources": [
+    {"id": "KUHN-1", "title": "The Structure of Scientific Revolutions, 50th Anniversary Edition — University of Chicago Press", "url": "https://press.uchicago.edu/ucp/books/book/chicago/S/bo13179781.html", "kind": "publisher", "accessed": "2026-09-07", "coverage": "经Jina读取出版社页面：书名、作者、第四版2012年出版信息、1962初版说明、内容简介及十三章和1969后记的目录。", "used_for": "版本与作者核对、主题覆盖、作品在科学史领域的定位。", "limitations": "出版社简介和评价有宣传性质，目录不等于阅读对应章节；不能支持完整的原书论证重建。"},
+    {"id": "KUHN-2", "title": "Thomas Kuhn — Stanford Encyclopedia of Philosophy", "url": "https://plato.stanford.edu/entries/thomas-kuhn/", "kind": "academic", "accessed": "2026-09-07", "coverage": "经Jina读取第2节The Development of Science与第3节The Concept of a Paradigm相关正文，涵盖常规科学、异常、危机、Kuhn-loss、disciplinary matrix及exemplars。", "used_for": "区分共有承诺与典型范例、异常与危机、解题能力与进步、对非理性主义误读的限制。", "limitations": "这是学术二手解释，不是本书原文，也不自动证明库恩模型适用于一切科学史或企业转型。文中页码未经本项目原书核对，因此不转载为已确认页码。"}
+  ]
+}

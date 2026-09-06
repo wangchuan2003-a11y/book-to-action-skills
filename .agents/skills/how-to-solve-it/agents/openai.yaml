@@ -1,0 +1,4 @@
+interface:
+  display_name: "怎样解题：从条件到检验"
+  short_description: "把未知量、条件、策略与检查连起来，用波利亚的方法推进具体难题"
+  default_prompt: "请用 $how-to-solve-it 帮我解决这道题，先核对条件，再选择一个策略并验证答案。"

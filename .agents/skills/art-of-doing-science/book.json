@@ -1,0 +1,16 @@
+{
+  "id": "art-of-doing-science",
+  "title": "The Art of Doing Science and Engineering: Learning to Learn",
+  "title_zh": "科学与工程的艺术（工作译名）",
+  "authors": ["Richard W. Hamming"],
+  "year": "1996/1997（原版记年来源不一）",
+  "domains": ["研究方法", "工程选题", "技术表达"],
+  "use_cases": ["筛选具有价值且可推进的技术问题", "为停滞研究找最小反证实验", "把一次性解决方案转成经过验证的可复用方法"],
+  "summary": "用重要问题、合理攻击路径、对异常的敏感以及清楚表达，组织研究与工程探索。",
+  "selection_rationale": "由具有重要计算科学贡献的作者总结研究实践，公开演讲可核实核心启发，尤其适合把宏大技术愿望收敛为可检验工作；履历与经典地位不被当作方法效果证明。",
+  "limits": ["主要核读相关作者演讲及出版社书籍说明，没有核读全书的数字滤波、概率等技术章节。", "职业轶事与回顾有选择偏差，不能推出遵循这些习惯就会成功。", "不采纳牺牲健康、家庭或持续加班作为必要条件。", "原版年份在出版社说明与作者生平书目中不同，保留差异而不伪装一致。"],
+  "sources": [
+    {"id": "HAM-1", "title": "The Art of Doing Science and Engineering — Stripe Press", "url": "https://press.stripe.com/the-art-of-doing-science-and-engineering", "kind": "publisher", "accessed": "2026-09-07", "coverage": "直接读取官网HTML中的书籍标题、Richard W. Hamming作者资料、summary及1996讲义汇编说明。", "used_for": "书目身份、本书与You and Your Research的关联、出版社所述1996汇编年份。", "limitations": "Jina抽取曾返回同站无关播客正文，已用直接HTML复核；营销简介不是技术原文或独立验证。"},
+    {"id": "HAM-2", "title": "You and Your Research — Richard Hamming, 7 March 1986", "url": "https://www.cs.virginia.edu/~robins/YouAndYourResearch.html", "kind": "primary_text", "accessed": "2026-09-07", "coverage": "读取大学站点托管演讲转录中的编辑说明、重要问题与攻击路径、容忍模糊性、开门线索、问题类别、表达、问答及末尾作者书目。", "used_for": "五项研究工作启发与其经验性边界；末尾书目把本书列为1997。", "limitations": "这是J. F. Kaiser编辑的演讲转录，不是全书；声音、表情等未包含，作者回顾与轶事未做独立因果验证。"}
+  ]
+}

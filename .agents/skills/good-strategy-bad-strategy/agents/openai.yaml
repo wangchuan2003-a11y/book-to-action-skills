@@ -1,0 +1,4 @@
+interface:
+  display_name: "好战略，坏战略 · Good Strategy Bad Strategy"
+  short_description: "围绕真实障碍做取舍，把宏大目标转成彼此支持的资源与行动"
+  default_prompt: "使用 $good-strategy-bad-strategy，审查我的项目计划，找出关键障碍并形成有取舍的行动方案。"

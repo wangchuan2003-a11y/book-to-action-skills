@@ -1,0 +1,4 @@
+interface:
+  display_name: "论语"
+  short_description: "从《论语》的学思与改过原则出发，形成可核实的学习和判断方法"
+  default_prompt: "用 $analects 帮我复盘一次判断失误：区分已知与未知，结合学思与改过原则提出下一次的具体做法。"

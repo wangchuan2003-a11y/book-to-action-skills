@@ -1,0 +1,4 @@
+interface:
+  display_name: "妈妈测试 · The Mom Test"
+  short_description: "把客户称赞转成可核实经历，检验问题、现有行为与下一步承诺"
+  default_prompt: "使用 $the-mom-test，改写我的客户访谈提纲，并区分哪些回答能支持需求、哪些仍只是猜测。"

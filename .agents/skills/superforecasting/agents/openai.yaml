@@ -1,0 +1,4 @@
+interface:
+  display_name: "超预测 · Superforecasting"
+  short_description: "把模糊判断变成可结算预测，记录参照类、概率更新及复盘证据"
+  default_prompt: "使用 $superforecasting，把我对项目能否按期完成的判断改成一份可结算、可更新的预测记录。"

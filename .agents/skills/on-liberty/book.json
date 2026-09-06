@@ -1,0 +1,48 @@
+{
+  "id": "on-liberty",
+  "title": "On Liberty",
+  "title_zh": "论自由",
+  "authors": [
+    "John Stuart Mill"
+  ],
+  "year": "1859",
+  "domains": [
+    "ethics",
+    "governance",
+    "critical-thinking"
+  ],
+  "use_cases": [
+    "审视团队规则对个人选择的限制",
+    "检查观点审查和异议处理",
+    "设计有边界的自主试验"
+  ],
+  "summary": "用伤害原则、可错性与个性发展检查干预理由，并为自主选择和异议保留可复核空间。",
+  "selection_rationale": "将自由、权力与异议问题变成具体的干预理由审查，与只讨论效率的决策方法互补；入选是问题导向的编辑判断，不是全球排名。",
+  "limits": [
+    "自由与伤害的界定属于规范争论，本书不能直接证明现代政策有效或合法。",
+    "作者第 I 章包含殖民时代的排除性例外；本 Skill 不采纳其文明等级论。",
+    "个人行为与对他人的影响常互相交织，不能把所有争议简化成纯粹私人事务。"
+  ],
+  "sources": [
+    {
+      "id": "mill-primary",
+      "title": "On Liberty — Project Gutenberg #34901",
+      "url": "https://www.gutenberg.org/files/34901/34901-h/34901-h.htm",
+      "kind": "primary_text",
+      "accessed": "2026-09-07",
+      "coverage": "已读第 I 章伤害原则、社会压力与适用对象段落；第 II 章异议、单方理由与死教条段落；第 III 章个性、生活试验与谷物商例子。未逐段研读全书。",
+      "used_for": "原则归属、章节定位、历史局限与具体语境。",
+      "limitations": "规范主张不等于现代实证；版本前言与 Mill 正文应分开。"
+    },
+    {
+      "id": "mill-sep",
+      "title": "John Stuart Mill — Stanford Encyclopedia of Philosophy",
+      "url": "https://plato.stanford.edu/entries/mill/",
+      "kind": "academic",
+      "accessed": "2026-09-07",
+      "coverage": "已读导言、Life 部分及条目中 On Liberty 相关定位与出版年。",
+      "used_for": "确认作者、1859 年出版与哲学语境。",
+      "limitations": "学术解释是二手分析，不是政策效果研究；未研读条目全部论证。"
+    }
+  ]
+}

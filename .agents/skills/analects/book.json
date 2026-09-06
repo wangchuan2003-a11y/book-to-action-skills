@@ -1,0 +1,58 @@
+{
+  "id": "analects",
+  "title": "The Analects",
+  "title_zh": "论语",
+  "authors": [
+    "孔子及其弟子言行传统；由后学编纂"
+  ],
+  "year": "先秦形成并经后世传承；具体编纂分期存在争论",
+  "domains": [
+    "learning",
+    "ethics",
+    "critical-thinking"
+  ],
+  "use_cases": [
+    "区分知道与不知道",
+    "将阅读转化为反思和改进",
+    "在团队判断中兼顾证据与对人的尊重"
+  ],
+  "summary": "从学思关系、知与不知、恕和改过观念出发，形成谦逊而可检查的学习与判断方法。",
+  "selection_rationale": "提供来自中国思想传统的修身与关系视角，补充单纯追求速度或收益的行动框架；经典地位不等于现代实证。",
+  "limits": [
+    "论语是传承与编纂形成的言行集，不能写成孔子独自完成且日期精确的现代专著。",
+    "古代礼制与角色伦理不能直接成为现代等级服从或压制异议的理由。",
+    "采用已核实篇章的有限原则，不承诺覆盖全部训诂与解释传统。"
+  ],
+  "sources": [
+    {
+      "id": "analects-wei-zheng",
+      "title": "论语·为政 — 中国哲学书电子化计划",
+      "url": "https://ctext.org/analects/wei-zheng/zh",
+      "kind": "primary_text",
+      "accessed": "2026-09-07",
+      "coverage": "已读 2.11—2.18 的相关中英文段落，重点核对 2.13、2.15、2.17、2.18。",
+      "used_for": "学思、知与不知、行动与慎言原则的原文和段落号。",
+      "limitations": "英译与古文解释有版本差异；现代工作流程是另行设计。"
+    },
+    {
+      "id": "analects-wei-ling",
+      "title": "论语·卫灵公 — 中国哲学书电子化计划",
+      "url": "https://ctext.org/analects/wei-ling-gong/zh",
+      "kind": "primary_text",
+      "accessed": "2026-09-07",
+      "coverage": "已读 15.23—15.31 的相关中英文段落，重点核对 15.23、15.24、15.30。",
+      "used_for": "不以人废言、恕和改过原则的文字与段落号。",
+      "limitations": "编号按本页；其他译本分章可能不同。"
+    },
+    {
+      "id": "analects-sep",
+      "title": "Confucius — Stanford Encyclopedia of Philosophy",
+      "url": "https://plato.stanford.edu/entries/confucius/",
+      "kind": "academic",
+      "accessed": "2026-09-07",
+      "coverage": "已读导言与第 1—2 节关于孔子形象、早期来源及论语编纂传统的相关段落。",
+      "used_for": "孔子传统、材料层累与历史解释的不确定性。",
+      "limitations": "学术概述不证明古代修身建议具有现代行为科学效果。"
+    }
+  ]
+}

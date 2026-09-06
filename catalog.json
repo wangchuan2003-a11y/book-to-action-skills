@@ -1,0 +1,695 @@
+{
+  "schema_version": 1,
+  "books": [
+    {
+      "id": "analects",
+      "title": "The Analects",
+      "title_zh": "论语",
+      "authors": [
+        "孔子及其弟子言行传统；由后学编纂"
+      ],
+      "year": "先秦形成并经后世传承；具体编纂分期存在争论",
+      "domains": [
+        "learning",
+        "ethics",
+        "critical-thinking"
+      ],
+      "use_cases": [
+        "区分知道与不知道",
+        "将阅读转化为反思和改进",
+        "在团队判断中兼顾证据与对人的尊重"
+      ],
+      "summary": "从学思关系、知与不知、恕和改过观念出发，形成谦逊而可检查的学习与判断方法。",
+      "selection_rationale": "提供来自中国思想传统的修身与关系视角，补充单纯追求速度或收益的行动框架；经典地位不等于现代实证。",
+      "limits": [
+        "论语是传承与编纂形成的言行集，不能写成孔子独自完成且日期精确的现代专著。",
+        "古代礼制与角色伦理不能直接成为现代等级服从或压制异议的理由。",
+        "采用已核实篇章的有限原则，不承诺覆盖全部训诂与解释传统。"
+      ],
+      "sources": [
+        {
+          "id": "analects-wei-zheng",
+          "title": "论语·为政 — 中国哲学书电子化计划",
+          "url": "https://ctext.org/analects/wei-zheng/zh",
+          "kind": "primary_text",
+          "accessed": "2026-09-07",
+          "coverage": "已读 2.11—2.18 的相关中英文段落，重点核对 2.13、2.15、2.17、2.18。",
+          "used_for": "学思、知与不知、行动与慎言原则的原文和段落号。",
+          "limitations": "英译与古文解释有版本差异；现代工作流程是另行设计。"
+        },
+        {
+          "id": "analects-wei-ling",
+          "title": "论语·卫灵公 — 中国哲学书电子化计划",
+          "url": "https://ctext.org/analects/wei-ling-gong/zh",
+          "kind": "primary_text",
+          "accessed": "2026-09-07",
+          "coverage": "已读 15.23—15.31 的相关中英文段落，重点核对 15.23、15.24、15.30。",
+          "used_for": "不以人废言、恕和改过原则的文字与段落号。",
+          "limitations": "编号按本页；其他译本分章可能不同。"
+        },
+        {
+          "id": "analects-sep",
+          "title": "Confucius — Stanford Encyclopedia of Philosophy",
+          "url": "https://plato.stanford.edu/entries/confucius/",
+          "kind": "academic",
+          "accessed": "2026-09-07",
+          "coverage": "已读导言与第 1—2 节关于孔子形象、早期来源及论语编纂传统的相关段落。",
+          "used_for": "孔子传统、材料层累与历史解释的不确定性。",
+          "limitations": "学术概述不证明古代修身建议具有现代行为科学效果。"
+        }
+      ]
+    },
+    {
+      "id": "art-of-doing-science",
+      "title": "The Art of Doing Science and Engineering: Learning to Learn",
+      "title_zh": "科学与工程的艺术（工作译名）",
+      "authors": [
+        "Richard W. Hamming"
+      ],
+      "year": "1996/1997（原版记年来源不一）",
+      "domains": [
+        "研究方法",
+        "工程选题",
+        "技术表达"
+      ],
+      "use_cases": [
+        "筛选具有价值且可推进的技术问题",
+        "为停滞研究找最小反证实验",
+        "把一次性解决方案转成经过验证的可复用方法"
+      ],
+      "summary": "用重要问题、合理攻击路径、对异常的敏感以及清楚表达，组织研究与工程探索。",
+      "selection_rationale": "由具有重要计算科学贡献的作者总结研究实践，公开演讲可核实核心启发，尤其适合把宏大技术愿望收敛为可检验工作；履历与经典地位不被当作方法效果证明。",
+      "limits": [
+        "主要核读相关作者演讲及出版社书籍说明，没有核读全书的数字滤波、概率等技术章节。",
+        "职业轶事与回顾有选择偏差，不能推出遵循这些习惯就会成功。",
+        "不采纳牺牲健康、家庭或持续加班作为必要条件。",
+        "原版年份在出版社说明与作者生平书目中不同，保留差异而不伪装一致。"
+      ],
+      "sources": [
+        {
+          "id": "HAM-1",
+          "title": "The Art of Doing Science and Engineering — Stripe Press",
+          "url": "https://press.stripe.com/the-art-of-doing-science-and-engineering",
+          "kind": "publisher",
+          "accessed": "2026-09-07",
+          "coverage": "直接读取官网HTML中的书籍标题、Richard W. Hamming作者资料、summary及1996讲义汇编说明。",
+          "used_for": "书目身份、本书与You and Your Research的关联、出版社所述1996汇编年份。",
+          "limitations": "Jina抽取曾返回同站无关播客正文，已用直接HTML复核；营销简介不是技术原文或独立验证。"
+        },
+        {
+          "id": "HAM-2",
+          "title": "You and Your Research — Richard Hamming, 7 March 1986",
+          "url": "https://www.cs.virginia.edu/~robins/YouAndYourResearch.html",
+          "kind": "primary_text",
+          "accessed": "2026-09-07",
+          "coverage": "读取大学站点托管演讲转录中的编辑说明、重要问题与攻击路径、容忍模糊性、开门线索、问题类别、表达、问答及末尾作者书目。",
+          "used_for": "五项研究工作启发与其经验性边界；末尾书目把本书列为1997。",
+          "limitations": "这是J. F. Kaiser编辑的演讲转录，不是全书；声音、表情等未包含，作者回顾与轶事未做独立因果验证。"
+        }
+      ]
+    },
+    {
+      "id": "art-of-war",
+      "title": "The Art of War",
+      "title_zh": "孙子兵法",
+      "authors": [
+        "孙子（传统归于孙武；作者与成书过程存在争论）"
+      ],
+      "year": "先秦军事经典；确切作者与成书年代不在本次研究中定论",
+      "domains": [
+        "strategy",
+        "decision-making",
+        "project-planning"
+      ],
+      "use_cases": [
+        "在资源约束下选择行动方案",
+        "审视长期消耗和退出条件",
+        "识别竞争情境的信息缺口与替代路径"
+      ],
+      "summary": "提取计、作战、谋攻、虚实与用间的有限原则，用于检查条件、成本、信息与低冲突替代方案。",
+      "selection_rationale": "提供中国军事经典的竞争与资源消耗视角，补充个人学习和伦理方法；现代迁移限定具体问题，不把所有关系军事化。",
+      "limits": [
+        "原始语境是战争；现代商业、合作和人际关系不天然是零和对抗。",
+        "古典格言、历史战例与 Giles 1910 评论不构成现代效果保证。",
+        "未获得足够现代学术正文来裁定作者与成书年代，保留传统归属和争议。",
+        "不从诡道、用间推导欺诈、隐私侵入或未经授权获取资料的许可。"
+      ],
+      "sources": [
+        {
+          "id": "sunzi-primary",
+          "title": "Sun Tzŭ on The Art of War, Lionel Giles translation and critical notes (1910) — Project Gutenberg #132",
+          "url": "https://www.gutenberg.org/files/132/132-h/132-h.htm",
+          "kind": "primary_text",
+          "accessed": "2026-09-07",
+          "coverage": "已读目录与 Giles 导论 Sun Wu and his Book 中作者争议段落；正文 I.3—4、II.2—5、III.2、III.18、VI.29—33、XIII.4—6 及相关译注。",
+          "used_for": "条件、消耗、避免战斗、知彼知己、因势调整与情报来源的原文位置。",
+          "limitations": "翻译与大量译注须分开；导论发表于 1910，不能代表当前学界共识。"
+        },
+        {
+          "id": "sunzi-catalogue",
+          "title": "The Art of War — Project Gutenberg bibliographic record",
+          "url": "https://www.gutenberg.org/ebooks/132",
+          "kind": "publisher",
+          "accessed": "2026-09-07",
+          "coverage": "已读传统作者、译者 Lionel Giles、译本年份 1910 与语言等书目字段；未采用自动生成摘要作证据。",
+          "used_for": "确认所读译本身份与日期。",
+          "limitations": "传统古代作者标注不裁定现代文本史争论；Public domain in the USA 不是所有译本的全球许可。"
+        }
+      ]
+    },
+    {
+      "id": "design-of-everyday-things",
+      "title": "The Design of Everyday Things",
+      "title_zh": "设计心理学：日常事物的设计",
+      "authors": [
+        "Don Norman"
+      ],
+      "year": "2013（修订扩充版；原版 1988）",
+      "domains": [
+        "交互设计",
+        "可用性"
+      ],
+      "use_cases": [
+        "诊断用户不知道如何操作的问题",
+        "改善操作后的状态理解",
+        "设计预防错误和恢复路径"
+      ],
+      "summary": "从人的目标与实际操作出发，检查能做什么、如何发现、动作如何对应结果、反馈和错误恢复。",
+      "selection_rationale": "把抽象的用户体验批评转成可观察的任务障碍；作者公开材料能核实示能与意符的常见混淆，修订版目录能确认概念范围。",
+      "limits": [
+        "本次读取作者文章及修订版书页，未通读全书。",
+        "可用性改善不能直接证明商业需求、长期留存或无障碍合规。",
+        "原则需要具体用户和情境验证，文化惯例与身体能力会改变解释。"
+      ],
+      "sources": [
+        {
+          "id": "DO1",
+          "title": "The Design of Everyday Things, Revised and Expanded Edition",
+          "url": "https://jnd.org/books/the-design-of-everyday-things-revised-and-expanded-edition/",
+          "kind": "author_material",
+          "accessed": "2026-09-07",
+          "coverage": "实际读取 2013 年修订版介绍、章节与完整目录。",
+          "used_for": "核对版本、概念模型、映射、反馈、约束、失误与错误、撤销和迭代测试的章节归属。",
+          "limitations": "目录证明主题被讨论，不等于读取对应章节论证或效果证据。"
+        },
+        {
+          "id": "DO2",
+          "title": "Affordances and Design",
+          "url": "https://jnd.org/affordances-and-design/",
+          "kind": "author_material",
+          "accessed": "2026-09-07",
+          "coverage": "实际读取作者文章正文：affordance、perceived affordance、文化约定、屏幕界面四原则。",
+          "used_for": "区分行动可能性、被感知的行动和反馈；核实惯例、文字与图形、概念模型的作用。",
+          "limitations": "作者解释文章，不是独立用户实验；历史举例不能当作对所有当前界面的绝对预测。"
+        },
+        {
+          "id": "DO3",
+          "title": "Signifiers, not affordances",
+          "url": "https://jnd.org/signifiers-not-affordances/",
+          "kind": "author_material",
+          "accessed": "2026-09-07",
+          "coverage": "实际读取作者发表于 ACM Interactions 15(6) 的公开作者版正文。",
+          "used_for": "意符作为可感知线索及其情境性、偶然线索可靠性。",
+          "limitations": "文章末尾有再分发限制；本项目只原创转述并链接，不复制文章。"
+        }
+      ]
+    },
+    {
+      "id": "good-strategy-bad-strategy",
+      "title": "Good Strategy Bad Strategy",
+      "title_zh": "好战略，坏战略",
+      "authors": [
+        "Richard P. Rumelt"
+      ],
+      "year": "2011",
+      "domains": [
+        "战略",
+        "项目优先级"
+      ],
+      "use_cases": [
+        "诊断计划只有目标没有行动的问题",
+        "在资源有限时选择关键障碍",
+        "让多项行动彼此支持"
+      ],
+      "summary": "围绕关键挑战形成诊断、指导方针和协调行动，把目标变成有取舍的解决方案。",
+      "selection_rationale": "核心结构可直接检验真实方案是否解释障碍、做出选择并配置资源；作者公开摘录支持方法核实。",
+      "limits": [
+        "战略结构完整不保证诊断正确或商业成功。",
+        "作者案例是解释性材料，不能当作普遍因果定律。",
+        "本次公开摘录为未校订样张，不能声称核对过最终版全部章节。"
+      ],
+      "sources": [
+        {
+          "id": "GS1",
+          "title": "Good Strategy Bad Strategy — Author's public excerpt",
+          "url": "https://www.richardrumelt.com/books_excerpts/GSBS_excerpt.pdf",
+          "kind": "primary_text",
+          "accessed": "2026-09-07",
+          "coverage": "实际读取公开 29 页 PDF 中的目录、导言和第一章；关注 kernel、障碍、取舍与协调行动。",
+          "used_for": "三要素结构及战略聚焦原则。",
+          "limitations": "PDF 标注 UNCORRECTED PROOF，未核对最终版；只做原创转述，不给最终版页码或直接引文。"
+        },
+        {
+          "id": "GS2",
+          "title": "Good Strategy Bad Strategy — Penguin Random House",
+          "url": "https://www.penguinrandomhouse.com/books/208668/good-strategy-bad-strategy-by-richard-rumelt/",
+          "kind": "publisher",
+          "accessed": "2026-09-07",
+          "coverage": "实际读取书名、作者、出版日期、ISBN、简介；未读取最终版全文。",
+          "used_for": "核对 2011 年书目与主题归属。",
+          "limitations": "简介和推荐语属于出版介绍，不证明方法有效性。"
+        },
+        {
+          "id": "GS3",
+          "title": "Good Strategy Bad Strategy — Richard Rumelt",
+          "url": "https://www.richardrumelt.com/good-strategy-bad-strategy",
+          "kind": "author_material",
+          "accessed": "2026-09-07",
+          "coverage": "实际读取作者书页和 Supplemental Materials 链接。",
+          "used_for": "确认 GS1 摘录由作者官网公开提供。",
+          "limitations": "推荐语不作独立证据。"
+        }
+      ]
+    },
+    {
+      "id": "how-to-solve-it",
+      "title": "How to Solve It: A New Aspect of Mathematical Method",
+      "title_zh": "怎样解题",
+      "authors": [
+        "George Pólya"
+      ],
+      "year": "1945",
+      "domains": [
+        "数学解题",
+        "问题求解",
+        "算法思考"
+      ],
+      "use_cases": [
+        "把含糊题目转换成未知量和条件",
+        "用类比、简化或倒推突破解题停滞",
+        "检查解答并提炼可迁移结构"
+      ],
+      "summary": "理解问题、制定计划、执行计划、回顾检验，并用启发式问题推动每个阶段。",
+      "selection_rationale": "四阶段及相关启发式有明确可核实的出版社资料，能转为具体求解行为；它补充研究选题和经验调查，适合条件较清楚的问题。",
+      "limits": [
+        "核读范围为出版社简介、官方目录与引言，没有核读全书正文或全部题解。",
+        "目录支持概念归属，不能支持未读条目的细节或效果承诺。",
+        "启发式是寻找路径的工具，不保证找到解；样例验证不能代替证明。",
+        "现实决策涉及事实不确定性和价值判断时，需要额外数据、试验及领域方法。"
+      ],
+      "sources": [
+        {
+          "id": "POL-1",
+          "title": "How to Solve It — Princeton University Press",
+          "url": "https://press.princeton.edu/books/paperback/9780691164076/how-to-solve-it",
+          "kind": "publisher",
+          "accessed": "2026-09-07",
+          "coverage": "读取书籍标题、作者、1945版权年份与2014版发行信息、简介、作者说明和官方目录/引言链接。",
+          "used_for": "书目元数据及类比、归纳、倒推等方法主题。",
+          "limitations": "营销语中的广泛适用不能作为对任何问题都有效的证明。"
+        },
+        {
+          "id": "POL-2",
+          "title": "How to Solve It — Table of Contents",
+          "url": "https://assets.press.princeton.edu/chapters/c669.pdf",
+          "kind": "primary_text",
+          "accessed": "2026-09-07",
+          "coverage": "读取官方5页目录，包括Four phases、Understanding the problem、Devising a plan、Carrying out the plan、Looking back及启发式词典条目。",
+          "used_for": "四阶段的准确归属，以及相关问题、重述、分解、维度检查、倒推和检查结果等条目存在的确认。",
+          "limitations": "仅是目录，不用于冒充读过对应章节或证明详细步骤来自作者原句。"
+        },
+        {
+          "id": "POL-3",
+          "title": "How to Solve It — Introduction",
+          "url": "https://assets.press.princeton.edu/chapters/i669.pdf",
+          "kind": "primary_text",
+          "accessed": "2026-09-07",
+          "coverage": "实际读取官方3页引言，包含提问清单用途、四部分结构、词典使用与教师/学生/解题者视角。",
+          "used_for": "把启发式问题用于自身求解或适当帮助学生，以及从真实问题出发查词典的用法。",
+          "limitations": "引言没有覆盖书内所有例题和词典正文；本项目不再分发PDF或大段原文。"
+        }
+      ]
+    },
+    {
+      "id": "human-understanding",
+      "title": "An Enquiry Concerning Human Understanding",
+      "title_zh": "人类理解研究",
+      "authors": [
+        "David Hume"
+      ],
+      "year": "1748 年初版；1758 年改用现名",
+      "domains": [
+        "epistemology",
+        "critical-thinking",
+        "evidence-evaluation"
+      ],
+      "use_cases": [
+        "区分概念证明与事实主张",
+        "检查从过去推广到未来的推断",
+        "核对证言因果关系与置信程度"
+      ],
+      "summary": "借休谟对经验、因果、证言与怀疑的分析，标出判断的推断跨步，使信念强度与证据相称。",
+      "selection_rationale": "为行动方法提供认识论检查：不把熟悉感当必然性，也不因不确定就放弃合理行动；经典地位不是经验效果证明。",
+      "limits": [
+        "认识论论证不等同现代统计、因果推断或心理学完整理论。",
+        "归纳无法取得演绎必然性不意味着所有经验结论同样不可靠。",
+        "不从古典论证生成数字概率，须有真实数据模型与假设。",
+        "学界对归纳论证的心理学解读与规范性解读存在争论。"
+      ],
+      "sources": [
+        {
+          "id": "hume-primary",
+          "title": "An Enquiry Concerning Human Understanding — Project Gutenberg #9662",
+          "url": "https://www.gutenberg.org/files/9662/9662-h/9662-h.htm",
+          "kind": "primary_text",
+          "accessed": "2026-09-07",
+          "coverage": "已读目录、IV 事实与观念关系及归纳疑问段落、V 习惯段落、X 证据相称与证言段落、XII 第 III 部分温和怀疑。",
+          "used_for": "核对观念关系、经验推断、习惯、证言与温和怀疑的论证位置。",
+          "limitations": "所读文本标示 L. A. Selby-Bigge 编订第二版 1902；连续段号未必同其他版的节内段号。"
+        },
+        {
+          "id": "hume-sep",
+          "title": "David Hume — Stanford Encyclopedia of Philosophy",
+          "url": "https://plato.stanford.edu/entries/hume/",
+          "kind": "academic",
+          "accessed": "2026-09-07",
+          "coverage": "已读导言、生平中两部 Enquiry 出版信息，以及归纳、custom or habit 和不同解读的相关段落。",
+          "used_for": "1748 初版名称、1758 改名及归纳论证解释争议。",
+          "limitations": "学术概述不消除争论，也不证明现代模型或决策效果。"
+        }
+      ]
+    },
+    {
+      "id": "make-it-stick",
+      "title": "Make It Stick: The Science of Successful Learning",
+      "title_zh": "认知天性",
+      "authors": [
+        "Peter C. Brown",
+        "Henry L. Roediger III",
+        "Mark A. McDaniel"
+      ],
+      "year": "2014",
+      "domains": [
+        "学习科学",
+        "技能训练",
+        "学习评估"
+      ],
+      "use_cases": [
+        "改造依赖重读和突击的学习计划",
+        "设计基于提取和反馈的岗位练习",
+        "区分熟悉感、记忆保持与陌生情境迁移"
+      ],
+      "summary": "通过努力提取、间隔与交错练习，以及表现与信心的对照，让学习过程更接近长期可用知识。",
+      "selection_rationale": "作者包括学习与记忆研究者，合法出版社试读直接提供核心主张及研究/理论的区分；方法可以转成低成本练习与可观察检查，具有明确应用价值。",
+      "limits": [
+        "实际核读出版社试读中前言、第一章相关段落和书籍简介，未核读全书。",
+        "本轮没有重新审计书中全部实验和后续复制研究，不能把概述当作完整证据综述。",
+        "提取、间隔和交错的效果取决于材料、基础与目标，不提供通用最优日程或固定提升比例。",
+        "AI给出正确答案、单次测验通过或学习者自信，都不单独证明长期掌握与真实工作能力。"
+      ],
+      "sources": [
+        {
+          "id": "MIS-1",
+          "title": "Make It Stick — Harvard University Press",
+          "url": "https://www.hup.harvard.edu/books/9780674729018",
+          "kind": "publisher",
+          "accessed": "2026-09-07",
+          "coverage": "读取书籍标题、三位作者、2014-04-14出版信息、内容简介、作者信息与官方试读链接。",
+          "used_for": "书目元数据及检索、间隔、交错与熟悉感主题的确认。",
+          "limitations": "简介和推荐语不能提供独立效果证明；促销及销售表述未用于选书排名。"
+        },
+        {
+          "id": "MIS-2",
+          "title": "Make It Stick — official sample",
+          "url": "https://www.hup.harvard.edu/file/feeds/PDF/9780674729018_sample.pdf",
+          "kind": "primary_text",
+          "accessed": "2026-09-07",
+          "coverage": "实际读取26页官方样本中的书目信息、目录、前言、第一章Claims We Make in This Book及相邻关于证据、既有知识和模拟器练习的段落；未把样本索引当成章节全文。",
+          "used_for": "提取、间隔、交错、判断校准、基础知识与作者对实证研究/理论/轶事的区分。",
+          "limitations": "是选段不是全书；本项目未独立复核每个试验，未将书中例子效应量推广到用户。"
+        },
+        {
+          "id": "MIS-3",
+          "title": "Make it Stick — Retrieval Practice",
+          "url": "https://www.retrievalpractice.org/make-it-stick",
+          "kind": "academic",
+          "accessed": "2026-09-07",
+          "coverage": "读取研究传播网站对八章的说明及与两位作者协作的指南说明。",
+          "used_for": "交叉确认章节主题和学习风格、认识错觉等内容所在范围。",
+          "limitations": "研究者面向教育实践的二次摘要，含书籍联盟链接；不是独立复制试验，不单独用于效果承诺。"
+        }
+      ]
+    },
+    {
+      "id": "on-liberty",
+      "title": "On Liberty",
+      "title_zh": "论自由",
+      "authors": [
+        "John Stuart Mill"
+      ],
+      "year": "1859",
+      "domains": [
+        "ethics",
+        "governance",
+        "critical-thinking"
+      ],
+      "use_cases": [
+        "审视团队规则对个人选择的限制",
+        "检查观点审查和异议处理",
+        "设计有边界的自主试验"
+      ],
+      "summary": "用伤害原则、可错性与个性发展检查干预理由，并为自主选择和异议保留可复核空间。",
+      "selection_rationale": "将自由、权力与异议问题变成具体的干预理由审查，与只讨论效率的决策方法互补；入选是问题导向的编辑判断，不是全球排名。",
+      "limits": [
+        "自由与伤害的界定属于规范争论，本书不能直接证明现代政策有效或合法。",
+        "作者第 I 章包含殖民时代的排除性例外；本 Skill 不采纳其文明等级论。",
+        "个人行为与对他人的影响常互相交织，不能把所有争议简化成纯粹私人事务。"
+      ],
+      "sources": [
+        {
+          "id": "mill-primary",
+          "title": "On Liberty — Project Gutenberg #34901",
+          "url": "https://www.gutenberg.org/files/34901/34901-h/34901-h.htm",
+          "kind": "primary_text",
+          "accessed": "2026-09-07",
+          "coverage": "已读第 I 章伤害原则、社会压力与适用对象段落；第 II 章异议、单方理由与死教条段落；第 III 章个性、生活试验与谷物商例子。未逐段研读全书。",
+          "used_for": "原则归属、章节定位、历史局限与具体语境。",
+          "limitations": "规范主张不等于现代实证；版本前言与 Mill 正文应分开。"
+        },
+        {
+          "id": "mill-sep",
+          "title": "John Stuart Mill — Stanford Encyclopedia of Philosophy",
+          "url": "https://plato.stanford.edu/entries/mill/",
+          "kind": "academic",
+          "accessed": "2026-09-07",
+          "coverage": "已读导言、Life 部分及条目中 On Liberty 相关定位与出版年。",
+          "used_for": "确认作者、1859 年出版与哲学语境。",
+          "limitations": "学术解释是二手分析，不是政策效果研究；未研读条目全部论证。"
+        }
+      ]
+    },
+    {
+      "id": "scientific-revolutions",
+      "title": "The Structure of Scientific Revolutions",
+      "title_zh": "科学革命的结构",
+      "authors": [
+        "Thomas S. Kuhn"
+      ],
+      "year": "1962；本次核对2012年50周年第四版书目",
+      "domains": [
+        "科学哲学",
+        "研究方法",
+        "概念分析"
+      ],
+      "use_cases": [
+        "判断所谓范式革命到底改变了什么",
+        "比较旧框架无法处理的异常与新框架代价",
+        "审查把科学进步说成纯粹权力竞争的论证"
+      ],
+      "summary": "用常规科学、异常、危机与范式的区别分析研究变化，同时保留科学史论证的争议与适用边界。",
+      "selection_rationale": "本书为科学史和科学哲学提供了影响深远的变化模型，且其概念频繁被商业和技术讨论借用；精确限制概念的使用比复述颠覆口号更有实际价值。",
+      "limits": [
+        "核读出版社简介和目录、Stanford Encyclopedia of Philosophy的相关章节，未核读全书原文。",
+        "库恩的历史描述与哲学解释不是普遍预测定律，也不是团队管理操作手册。",
+        "不可通约不等于完全不可比较；框架变动可以带来损失，不能把新框架自动视为更优。",
+        "技术、商业和个人场景的应用是本项目类比，不是作者对当前AI或公司的判断。"
+      ],
+      "sources": [
+        {
+          "id": "KUHN-1",
+          "title": "The Structure of Scientific Revolutions, 50th Anniversary Edition — University of Chicago Press",
+          "url": "https://press.uchicago.edu/ucp/books/book/chicago/S/bo13179781.html",
+          "kind": "publisher",
+          "accessed": "2026-09-07",
+          "coverage": "经Jina读取出版社页面：书名、作者、第四版2012年出版信息、1962初版说明、内容简介及十三章和1969后记的目录。",
+          "used_for": "版本与作者核对、主题覆盖、作品在科学史领域的定位。",
+          "limitations": "出版社简介和评价有宣传性质，目录不等于阅读对应章节；不能支持完整的原书论证重建。"
+        },
+        {
+          "id": "KUHN-2",
+          "title": "Thomas Kuhn — Stanford Encyclopedia of Philosophy",
+          "url": "https://plato.stanford.edu/entries/thomas-kuhn/",
+          "kind": "academic",
+          "accessed": "2026-09-07",
+          "coverage": "经Jina读取第2节The Development of Science与第3节The Concept of a Paradigm相关正文，涵盖常规科学、异常、危机、Kuhn-loss、disciplinary matrix及exemplars。",
+          "used_for": "区分共有承诺与典型范例、异常与危机、解题能力与进步、对非理性主义误读的限制。",
+          "limitations": "这是学术二手解释，不是本书原文，也不自动证明库恩模型适用于一切科学史或企业转型。文中页码未经本项目原书核对，因此不转载为已确认页码。"
+        }
+      ]
+    },
+    {
+      "id": "superforecasting",
+      "title": "Superforecasting",
+      "title_zh": "超预测",
+      "authors": [
+        "Philip E. Tetlock",
+        "Dan Gardner"
+      ],
+      "year": "2015",
+      "domains": [
+        "判断与决策",
+        "概率预测"
+      ],
+      "use_cases": [
+        "把模糊趋势判断改为可结算预测",
+        "记录并更新项目风险概率",
+        "复盘预测过程而非只看输赢"
+      ],
+      "summary": "把未来问题定义为可检验事件，用参照类、分解、竞争解释和记录式更新改善概率判断。",
+      "selection_rationale": "方法可以产生可结算的预测记录；Good Judgment 的公开原则与研究团队的开放论文使方法归属及部分实证可核实，与战略行动设计互补。",
+      "limits": [
+        "研究主要涉及有期限、可结算的地缘政治预测，不保证其他领域迁移。",
+        "单次命中、漂亮推理和精细小数都不能证明校准良好。",
+        "2014 年论文来自原研究团队，不能视为独立复制。"
+      ],
+      "sources": [
+        {
+          "id": "SF1",
+          "title": "Ten Commandments for Aspiring Superforecasters",
+          "url": "https://goodjudgment.com/philip-tetlocks-10-commandments-of-superforecasting/",
+          "kind": "author_material",
+          "accessed": "2026-09-07",
+          "coverage": "实际读取十条原则及第十一条提醒的网页正文。",
+          "used_for": "问题分流、分解、内外视角、证据更新、对立因果力量、概率、复盘与练习的方法归属。",
+          "limitations": "作者共同创办机构的书中方法摘述，包含培训营销；不是独立效果检验。"
+        },
+        {
+          "id": "SF2",
+          "title": "Psychological Strategies for Winning a Geopolitical Forecasting Tournament",
+          "url": "https://faculty.wharton.upenn.edu/wp-content/uploads/2015/07/2014---psychological-strategies-for-winning-a-tournament.pdf",
+          "kind": "academic",
+          "accessed": "2026-09-07",
+          "coverage": "通过网页阅读器实际读取论文摘要、Training/Teaming/Tracking、设计、结果与讨论段落；未复算原始数据。",
+          "used_for": "说明概率训练、团队交流、按表现组队在研究比赛中的证据，以及校准、分辨力、不可消除的不确定性。",
+          "limitations": "Mellers 等，2014，原研究团队论文；不同干预的设计不可混同为完全相同的随机实验；不能推导该 Skill 已提高准确率。"
+        }
+      ]
+    },
+    {
+      "id": "the-mom-test",
+      "title": "The Mom Test",
+      "title_zh": "妈妈测试",
+      "authors": [
+        "Rob Fitzpatrick"
+      ],
+      "year": "2013",
+      "domains": [
+        "客户访谈",
+        "需求发现"
+      ],
+      "use_cases": [
+        "把引导性访谈问题改成事实问题",
+        "区分礼貌称赞与需求证据",
+        "设计与阶段相称的承诺和下一步"
+      ],
+      "summary": "通过具体经历、现有行为和有成本的承诺检验需求假设，降低访谈中的礼貌性假阳性。",
+      "selection_rationale": "直接覆盖产品从想法到需求证据之间的常见断点；作者访谈和教学资源可以核查主要方法，与可用性和战略技能形成不同职责。",
+      "limits": [
+        "访谈反映受访者报告及选择偏差，不能替代市场规模估计或真实购买使用。",
+        "没有付费或近期经历不自动证明需求不存在，可能涉及权限、预算、罕见高后果事件或缺少可行方案。",
+        "一项承诺只支持对应程度的兴趣，不保证成交或留存。"
+      ],
+      "sources": [
+        {
+          "id": "MT1",
+          "title": "The Right Way to Talk to People About Your Business with Rob Fitzpatrick",
+          "url": "https://www.indiehackers.com/podcast/154-rob-fitzpatrick-of-the-mom-test",
+          "kind": "author_material",
+          "accessed": "2026-09-07",
+          "coverage": "实际读取作者访谈转录中三条提问规则、具体过去行为、承诺、切换访谈模式和三项学习目标等相关段落；未核对音频。",
+          "used_for": "三规则、需求证据、承诺、发现与推销的区别。",
+          "limitations": "作者口述的编辑转录；个案和修辞数字不作独立有效性证明。"
+        },
+        {
+          "id": "MT2",
+          "title": "Teacher Resources | The Mom Test",
+          "url": "https://www.momtestbook.com/teachers",
+          "kind": "author_material",
+          "accessed": "2026-09-07",
+          "coverage": "实际读取作者推荐的教学主题与练习：识别坏问题、偏差数据、重要问题、承诺与推进。",
+          "used_for": "核查练习设计与章节主题归属。",
+          "limitations": "作者自述的教学使用不能证明大学背书或学习效果；未读取所列章节全文。"
+        },
+        {
+          "id": "MT3",
+          "title": "The Mom Test — Robfitz Ltd publication record on Google Books",
+          "url": "https://books.google.com/books/about/The_Mom_Test.html?id=Z5nYDwAAQBAJ",
+          "kind": "publisher",
+          "accessed": "2026-09-07",
+          "coverage": "实际读取 Google Books 托管的书目、目录与出版介绍。",
+          "used_for": "核对 Rob Fitzpatrick、Robfitz Ltd、2013 年及 ISBN 9781492180746。",
+          "limitations": "这里的 publisher 表示出版书目信息；托管方为 Google Books，并非出版社官网。未读取全书，简介不支持效果承诺。"
+        }
+      ]
+    },
+    {
+      "id": "thinking-in-systems",
+      "title": "Thinking in Systems: A Primer",
+      "title_zh": "系统之美",
+      "authors": [
+        "Donella H. Meadows"
+      ],
+      "year": "2008",
+      "domains": [
+        "系统思考",
+        "组织改进",
+        "复杂问题"
+      ],
+      "use_cases": [
+        "诊断持续积压或产能失衡",
+        "分析激励造成的副作用",
+        "设计能够观察反馈的小范围干预"
+      ],
+      "summary": "从存量与流量、反馈和延迟理解系统行为，并以可检验的干预代替对表面症状的反复处理。",
+      "selection_rationale": "提供跨组织与个人场景可迁移的动态分析语言；有作者官方档案中的公开方法原文，且作者明确写出方法的例外与局限。入选是编辑选择，不代表全球排名。",
+      "limits": [
+        "本版本核读公开作者文章和出版社页面，未核读全书。",
+        "因果图是解释假说，不能替代观测、实验或领域证据。",
+        "杠杆点次序不是普遍有效的行动排名；具体干预还受成本、权限与系统延迟约束。",
+        "本文涉及的历史政策观点不能直接推广为当前政策建议。"
+      ],
+      "sources": [
+        {
+          "id": "TIS-1",
+          "title": "Thinking in Systems — Chelsea Green Publishing",
+          "url": "https://www.chelseagreen.com/product/thinking-in-systems/",
+          "kind": "publisher",
+          "accessed": "2026-09-07",
+          "coverage": "实际读取出版社页面当前可提取的书籍标题和评论区；检索定位书目与主题。",
+          "used_for": "书籍身份与存量、流量、反馈、延迟等主题的交叉确认。",
+          "limitations": "页面主要可读内容为推荐语，不能视为独立效果研究，也不支持声称已读全书。"
+        },
+        {
+          "id": "TIS-2",
+          "title": "Leverage Points: Places to Intervene in a System",
+          "url": "https://donellameadows.org/archives/leverage-points-places-to-intervene-in-a-system/",
+          "kind": "author_material",
+          "accessed": "2026-09-07",
+          "coverage": "实际读取作者文章的开篇、存量流量解释、修订后十二项清单及参数、缓冲、结构、延迟、信息、规则、目标、范式和结尾限制说明。",
+          "used_for": "核心概念、干预层次以及清单并非公式且有例外的边界。",
+          "limitations": "这是一篇相关作者文章，不等同于逐章读取本书；文中经验与政策判断未经本项目独立验证。"
+        }
+      ]
+    }
+  ]
+}
