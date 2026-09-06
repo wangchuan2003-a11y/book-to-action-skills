@@ -1,0 +1,17 @@
+{
+  "id": "dhammapada",
+  "title": "Dhammapada (Pali recension)",
+  "title_zh": "法句经（巴利本）",
+  "authors": ["佛陀（偈颂传统归属；文本经编集传承）"],
+  "year": "早期佛教偈颂集；所用Thanissaro英译前言署1997年",
+  "domains": ["佛教伦理", "宗教文本", "审慎言行"],
+  "use_cases": ["解释敌意、真实言语和自制的选偈", "在明确请求时反思冲突回应", "区分会背诵、实际行动与未经证实的修行成就"],
+  "summary": "围绕巴利本选偈讨论言行与修习，并把宗教教义、译者解释和现代应用明确区分。",
+  "selection_rationale": "早期佛教重要偈颂集，提供以言行实践为中心的伦理材料；公开署名译本有清楚范围，适合防止只凭摘句或书名作判断。",
+  "limits": ["本轮核读第1品、第17品和译者导言相关内容，未通读全经。", "巴利Dhammapada与不同语言Dharmapada传统并非统一编排，不能互造偈号或中文原句。", "业、轮回与解脱论述属于宗教教义，不当作科学定律或受害者归责依据。", "现代暂停、反馈和冲突分析属于项目应用，不保证情绪或治疗效果。"],
+  "sources": [
+    {"id": "DHP-1", "title": "The Dhammapada: A Translation — Thanissaro Bhikkhu", "url": "https://www.accesstoinsight.org/tipitaka/kn/dhp/dhp.intro.than.html", "kind": "author_material", "accessed": "2026-09-07", "coverage": "读取译者前言、导言开头及词汇/书目中的巴利与其他语言传统说明；前言署1997年12月。", "used_for": "译者与版本范围、偈颂传统归属、宗教伦理及文学语境。", "limitations": "译者本人的传统内解释不是所有佛教派别或学者的共识；未逐一核对历史论述。"},
+    {"id": "DHP-2", "title": "Yamakavagga: Pairs — Dhammapada Chapter 1", "url": "https://www.accesstoinsight.org/tipitaka/kn/dhp/dhp.01.than.html", "kind": "primary_text", "accessed": "2026-09-07", "coverage": "读取第1品1—20偈英译，应用聚焦3—6的敌意与19—20的背诵/实践对照。", "used_for": "减少敌意与重视实际言行的经文依据。", "limitations": "心理与来世后果的宗教表达不被当成经过本项目验证的因果规律。"},
+    {"id": "DHP-3", "title": "Kodhavagga: Anger — Dhammapada Chapter 17", "url": "https://www.accesstoinsight.org/tipitaka/kn/dhp/dhp.17.than.html", "kind": "primary_text", "accessed": "2026-09-07", "coverage": "读取第17品221—234偈英译，聚焦自制、真实言语、称赞批评与身语意。", "used_for": "辨析冲动回应、诚实、实践与反馈。", "limitations": "伦理和宗教劝诫不是临床治疗协议，不能据此诊断或承诺解决心理问题。"}
+  ]
+}

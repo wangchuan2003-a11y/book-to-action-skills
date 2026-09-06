@@ -1,0 +1,17 @@
+{
+  "id": "muqaddimah",
+  "title": "The Muqaddimah: An Introduction to History",
+  "title_zh": "历史绪论",
+  "authors": ["Ibn Khaldūn（伊本·赫勒敦）"],
+  "year": "14世纪（1370年代写作）",
+  "domains": ["史学方法", "社会凝聚力", "制度变迁"],
+  "use_cases": ["检验历史兴衰叙事的证据与机制", "区分实际互助和血统名号", "在明确请求时审查历史到现代组织的类比"],
+  "summary": "通过史料可靠性、asabiyyah及制度和环境条件，审查简单的群体兴衰解释，并限制固定周期和本质论误用。",
+  "selection_rationale": "伊斯兰思想与史学传统中的重要作品，为历史解释和社会关系提供独特入口；已读选段可直接纠正把凝聚力等同血统的误读，学术背景帮助保留历史条件。",
+  "limits": ["本轮直接核读Rosenthal英译第二章第8节及目录，其他史学与变迁背景来自署名百科二级解读。", "电子转录存在排版和文字瑕疵，未与阿拉伯文或纸本逐页校勘。", "asabiyyah和作者阶段模式是历史分析概念，不是种族优越或固定年数衰亡定律。", "现代组织案例为原创类比，没有实测投资、管理或政治效果。"],
+  "sources": [
+    {"id": "MUQ-1", "title": "The Muqaddimah — Rosenthal translation, digital contents", "url": "https://www.muslimphilosophy.com/ik/Muqaddimah/Table_of_Contents.htm", "kind": "primary_text", "accessed": "2026-09-07", "coverage": "读取作品入口和目录，入口注明Ibn Khaldun与Franz Rosenthal译者，目录用于定位第二章选节。", "used_for": "卷内结构、作者和英译归属。", "limitations": "目录只用于定位，不算已读各章正文；民间学术文献站电子转录未做版面校勘。"},
+    {"id": "MUQ-2", "title": "Chapter II, Section 8 — Group feeling", "url": "https://www.muslimphilosophy.com/ik/Muqaddimah/Chapter2/Ch_2_08.htm", "kind": "primary_text", "accessed": "2026-09-07", "coverage": "实际读取关于亲缘、clients and allies、联系互助以及谱系实用性的整节英译。", "used_for": "asabiyyah与关系、互助和盟友的联系，防止将其简化为血统优越。", "limitations": "单节不能代表全书社会理论；历史性的自然化与规范表述不被当作现代人类学结论。"},
+    {"id": "MUQ-3", "title": "Ibn Khaldūn — Encyclopaedia Britannica", "url": "https://www.britannica.com/biography/Ibn-Khaldun", "kind": "academic", "accessed": "2026-09-07", "coverage": "本轮协作研究实际读取Charles Issawi署名正文中1375年退隐后写作、史学方法、asabiyyah及政治社会经济因素和黑死病转折的说明；排除页首AI自动问答。", "used_for": "14世纪/1370年代写作背景、方法概述和超出机械周期的条件。", "limitations": "这是专业百科二手解释，不是原书逐字引文或现代普遍定律，未采用夸张赞誉。"}
+  ]
+}

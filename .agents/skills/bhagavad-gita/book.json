@@ -1,0 +1,17 @@
+{
+  "id": "bhagavad-gita",
+  "title": "Bhagavad Gītā",
+  "title_zh": "薄伽梵歌",
+  "authors": ["古代印度传承文本（《摩诃婆罗多》的一部分）"],
+  "year": "古代印度文本（具体成书年代存在争议）",
+  "domains": ["印度哲学", "宗教伦理", "责任与行动"],
+  "use_cases": ["解释行动与结果执著的区别", "在用户明确请求时反思责任冲突", "区分经文、注疏立场和现代决策应用"],
+  "summary": "围绕已核读选节思考责任、行动与审思，保留宗教叙事和多种解释背景，避免把经文用于无条件服从或结果保证。",
+  "selection_rationale": "具有广泛影响的印度思想经典，提供与现代管理语言不同的责任和行动问题；公开译注与学术背景可支持范围清楚的应用，入选不意味着认可唯一宗教解释。",
+  "limits": ["本轮只核读2.47、18.63的署名译注和学术背景选段，未读全书。", "采用Swami Mukundananda英文译注作选节依据，它不代表所有印度教注疏传统。", "宗教和规范主张不等于科学定律，不承诺情绪或绩效效果。", "现代责任比较和反馈步骤为本项目设计，不能用经文消除法律、伦理与授权边界。"],
+  "sources": [
+    {"id": "GIT-1", "title": "Bhagavad Gita 2.47 — Swami Mukundananda", "url": "https://www.holy-bhagavad-gita.org/chapter/2/verse/47", "kind": "primary_text", "accessed": "2026-09-07", "coverage": "实际读取2.47梵文、词义、英文译文及关于行动、结果和不行动的注释开头。", "used_for": "行动与行动之果、不执著于不行动的文本依据。", "limitations": "英文译注属于署名宗教解释；关于神意、业和放下结果改善工作等说明不当作已证实科学。"},
+    {"id": "GIT-2", "title": "Bhagavad Gita 18.63 — Swami Mukundananda", "url": "https://www.holy-bhagavad-gita.org/chapter/18/verse/63/", "kind": "primary_text", "accessed": "2026-09-07", "coverage": "读取18.63英文译文及关于审思与选择的相关注释。", "used_for": "讨论审思后选择，并限制无条件服从的现代误用。", "limitations": "单节不代表整部经典的自由意志理论；注释中的神学解释不被改写为科学事实。"},
+    {"id": "GIT-3", "title": "Bhagavad Gītā — Internet Encyclopedia of Philosophy", "url": "https://iep.utm.edu/bhagavad-gita/", "kind": "academic", "accessed": "2026-09-07", "coverage": "读取条目开头与Introduction相关段落，确认史诗位置、Arjuna/Krishna叙事和不同伦理及接受背景。", "used_for": "把选节放回印度哲学与宗教叙事，区分文本和现代工作类比。", "limitations": "Shyam Ranganathan的学术解读不是全部研究者或信仰传统的共识；未读取其全部论证。"}
+  ]
+}

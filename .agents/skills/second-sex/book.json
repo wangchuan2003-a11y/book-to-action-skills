@@ -1,0 +1,48 @@
+{
+  "id": "second-sex",
+  "title": "The Second Sex",
+  "title_zh": "第二性",
+  "authors": [
+    "Simone de Beauvoir"
+  ],
+  "year": "1949",
+  "domains": [
+    "ethics",
+    "gender",
+    "social-analysis"
+  ],
+  "use_cases": [
+    "检查把性别角色说成天性的论证",
+    "分析默认标准与被当成他者的位置",
+    "区分形式选择和真实可用的行动机会"
+  ],
+  "summary": "以Beauvoir关于他者、身体处境与自由的哲学分析，检查角色期待如何影响具体选择；经验判断仍需现实材料。",
+  "selection_rationale": "补充个人决策框架容易忽视的社会位置、资源和规范问题；学术材料能明确作者论证、后续争议和版本限制。",
+  "limits": [
+    "本次读取学术解释与出版信息，没有通读法文原著或英语译本。",
+    "存在主义和现象学论证不能替代当代社会统计、医学知识或个案事实。",
+    "作品具有1949年语境，关于阶级、种族、性与家庭的概括受批评，不能代表所有女性的经验。"
+  ],
+  "sources": [
+    {
+      "id": "SS1",
+      "title": "Simone de Beauvoir — Stanford Encyclopedia of Philosophy",
+      "url": "https://plato.stanford.edu/entries/beauvoir/",
+      "kind": "academic",
+      "accessed": "2026-09-07",
+      "coverage": "实际读取导言、第2节相关译介讨论及The Second Sex部分关于他者、身体处境、成为女人、自由和历史局限的段落。",
+      "used_for": "作者与1949年书目；他者、情境中的自由、社会角色与身体经验、后续解释争论。",
+      "limitations": "学术阐释不是原书逐字阅读，也不证明任何当前组织中的歧视事实或干预效果。"
+    },
+    {
+      "id": "SS2",
+      "title": "The Second Sex — Knopf Doubleday publication record on Google Books",
+      "url": "https://books.google.com/books?vid=ISBN9780307277787",
+      "kind": "publisher",
+      "accessed": "2026-09-07",
+      "coverage": "实际读取2011版出版书目、译者Constance Borde与Sheila Malovany-Chevallier信息、目录及版本说明。",
+      "used_for": "区分新英译版、早期英译删节及作者/译者身份。",
+      "limitations": "Google Books托管出版记录而非出版社官网；目录不等于已读章节，推荐语不作理论或经验依据。"
+    }
+  ]
+}

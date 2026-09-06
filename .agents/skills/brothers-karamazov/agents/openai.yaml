@@ -1,0 +1,4 @@
+interface:
+  display_name: "卡拉马佐夫兄弟"
+  short_description: "按已读卷章分析人物争论与叙述评价，分开发言归属并保留解释张力"
+  default_prompt: "用 $brothers-karamazov 分析这段叙述或对话，只限我已读的卷章，区分人物主张与作者归属。"

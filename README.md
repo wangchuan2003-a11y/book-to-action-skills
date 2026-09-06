@@ -1,5 +1,7 @@
 # Book to Action Skills
 
+简体中文 · [English](README.en.md)
+
 把值得反复读的书，变成遇到真实问题时能调用的方法。
 
 中文优先的开放 Agent Skills 书库：学习、解题、系统分析、预测、产品、策略与中西经典论证。每本书提供独立 Skill、来源说明、具体示例和行为评估案例。
@@ -8,43 +10,60 @@
 
 [v0.2.0评估记录](evals/release-v0.2.0.md)覆盖新增12本、一次隐式加载和可重复准备案例的工具。
 
+[v0.3.0评估记录](evals/release-v0.3.0.md)包含文学与非西方思想扩展，以及47个实际执行案例中发现的一处出处遗漏及定向修复。
+
 这里的“精选”是编辑选择，不是客观的世界排名。我们看重方法的解释力、来源的可核实性、跨情境的用途，以及能否说清什么时候不该用。
 
 ## 从一个问题开始
 
 <!-- catalog:start -->
-当前收录 **25 本书**、**72 条来源记录**、**96 个已编写行为案例**。来源记录不等于独立来源数量；案例已编写不代表全部执行。
+当前收录 **36 本书**、**98 条来源记录**、**139 个已编写行为案例**。来源记录不等于独立来源数量；案例已编写不代表全部执行。
 
 | 你遇到的问题 | 书籍 / Skill |
 | --- | --- |
 | 区分知道与不知道 | [论语](.agents/skills/analects/SKILL.md) · `analects` |
+| 检查波动究竟增加损失还是带来机会 | [反脆弱](.agents/skills/antifragile/SKILL.md) · `antifragile` |
 | 筛选具有价值且可推进的技术问题 | [科学与工程的艺术（工作译名）](.agents/skills/art-of-doing-science/SKILL.md) · `art-of-doing-science` |
 | 在资源约束下选择行动方案 | [孙子兵法](.agents/skills/art-of-war/SKILL.md) · `art-of-war` |
 | 检查一个解释是否只是可任意改写的故事 | [无穷的开始](.agents/skills/beginning-of-infinity/SKILL.md) · `beginning-of-infinity` |
+| 解释行动与结果执著的区别 | [薄伽梵歌](.agents/skills/bhagavad-gita/SKILL.md) · `bhagavad-gita` |
 | 把相关问题改写为明确的干预问题 | [为什么：关于因果关系的新科学](.agents/skills/book-of-why/SKILL.md) · `book-of-why` |
+| 分析叙述者的评价与知识边界 | [卡拉马佐夫兄弟](.agents/skills/brothers-karamazov/SKILL.md) · `brothers-karamazov` |
 | 理解商品、劳动与劳动力的差别 | [资本论：第一卷](.agents/skills/capital-volume-one/SKILL.md) · `capital-volume-one` |
 | 诊断用户不知道如何操作的问题 | [设计心理学：日常事物的设计](.agents/skills/design-of-everyday-things/SKILL.md) · `design-of-everyday-things` |
+| 审查资源分配是否带来真实可达机会 | [以自由看待发展](.agents/skills/development-as-freedom/SKILL.md) · `development-as-freedom` |
+| 解释敌意、真实言语和自制的选偈 | [法句经（巴利本）](.agents/skills/dhammapada/SKILL.md) · `dhammapada` |
+| 辨认虚构作者与现实作者 | [堂吉诃德](.agents/skills/don-quixote/SKILL.md) · `don-quixote` |
+| 在已读范围内分析人物判断和叙述层次 | [红楼梦](.agents/skills/dream-of-red-chamber/SKILL.md) · `dream-of-red-chamber` |
 | 诊断计划只有目标没有行动的问题 | [好战略，坏战略](.agents/skills/good-strategy-bad-strategy/SKILL.md) · `good-strategy-bad-strategy` |
 | 诊断共享资源的过度使用与维护不足 | [公共事务的治理之道](.agents/skills/governing-the-commons/SKILL.md) · `governing-the-commons` |
 | 把含糊题目转换成未知量和条件 | [怎样解题](.agents/skills/how-to-solve-it/SKILL.md) · `how-to-solve-it` |
 | 区分概念证明与事实主张 | [人类理解研究](.agents/skills/human-understanding/SKILL.md) · `human-understanding` |
 | 改造依赖重读和突击的学习计划 | [认知天性](.agents/skills/make-it-stick/SKILL.md) · `make-it-stick` |
+| 在用户明确希望时探索当下有意义的小行动 | [活出生命的意义](.agents/skills/mans-search-for-meaning/SKILL.md) · `mans-search-for-meaning` |
 | 面对批评时区分事实与评价 | [沉思录](.agents/skills/meditations/SKILL.md) · `meditations` |
+| 检验历史兴衰叙事的证据与机制 | [历史绪论](.agents/skills/muqaddimah/SKILL.md) · `muqaddimah` |
 | 分析行动目的与手段 | [尼各马可伦理学](.agents/skills/nicomachean-ethics/SKILL.md) · `nicomachean-ethics` |
 | 审视团队规则对个人选择的限制 | [论自由](.agents/skills/on-liberty/SKILL.md) · `on-liberty` |
 | 检验自然选择解释缺了哪些条件 | [物种起源](.agents/skills/origin-of-species/SKILL.md) · `origin-of-species` |
 | 检验公平或正义的定义 | [理想国](.agents/skills/republic/SKILL.md) · `republic` |
 | 判断所谓范式革命到底改变了什么 | [科学革命的结构](.agents/skills/scientific-revolutions/SKILL.md) · `scientific-revolutions` |
+| 检查把性别角色说成天性的论证 | [第二性](.agents/skills/second-sex/SKILL.md) · `second-sex` |
 | 审查统一指标遗漏的工作情境 | [国家的视角](.agents/skills/seeing-like-a-state/SKILL.md) · `seeing-like-a-state` |
 | 区分基因视角与个人自私的道德判断 | [自私的基因](.agents/skills/selfish-gene/SKILL.md) · `selfish-gene` |
 | 把模糊趋势判断改为可结算预测 | [超预测](.agents/skills/superforecasting/SKILL.md) · `superforecasting` |
 | 区分有用行动与过度干预 | [道德经](.agents/skills/tao-te-ching/SKILL.md) · `tao-te-ching` |
 | 把引导性访谈问题改成事实问题 | [妈妈测试](.agents/skills/the-mom-test/SKILL.md) · `the-mom-test` |
+| 检查直觉判断是否忽略基准率和样本条件 | [思考，快与慢](.agents/skills/thinking-fast-and-slow/SKILL.md) · `thinking-fast-and-slow` |
 | 诊断持续积压或产能失衡 | [系统之美](.agents/skills/thinking-in-systems/SKILL.md) · `thinking-in-systems` |
 | 比较专业化收益与任务规模 | [国富论](.agents/skills/wealth-of-nations/SKILL.md) · `wealth-of-nations` |
 <!-- catalog:end -->
 
 如果只想开始：读过却记不住，选 `make-it-stick`；反复救火，选 `thinking-in-systems`；想开发但没验证需求，选 `the-mom-test`。
+
+不确定用哪本时，先看 [从问题选择一本书](docs/choose-a-book.md)，了解因果、预测、学习、策略与伦理各自解决什么问题。
+
+想直接试一次，使用 [AI回答质量复核示例](examples/ai-quality-review.md)：包含可检查的合成输入、判断依据、最小修正和可选迁移题。
 
 ## 使用
 

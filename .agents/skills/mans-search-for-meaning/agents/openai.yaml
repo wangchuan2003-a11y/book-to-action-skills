@@ -1,0 +1,4 @@
+interface:
+  display_name: "活出生命的意义 · Man's Search for Meaning"
+  short_description: "在承认痛苦与现实限制的前提下，探索由自己认可的意义和小行动"
+  default_prompt: "使用 $mans-search-for-meaning，帮我区分眼前处境与仍可选择的行动，不替我规定人生意义。"

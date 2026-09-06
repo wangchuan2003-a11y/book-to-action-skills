@@ -1,0 +1,4 @@
+interface:
+  display_name: "第二性 · The Second Sex"
+  short_description: "检查性别角色与默认标准，结合身体处境、资源和实际选择理解自由"
+  default_prompt: "使用 $second-sex，检查这个角色分工的理由，把性别假设、实际能力和可用选择分别说明。"

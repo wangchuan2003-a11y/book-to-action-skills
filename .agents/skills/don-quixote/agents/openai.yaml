@@ -1,0 +1,4 @@
+interface:
+  display_name: "堂吉诃德"
+  short_description: "按已读部章分析叙述声音、转述与幽默，分清虚构作者和现实作者"
+  default_prompt: "用 $don-quixote 分析我提供的片段，只限已读部章，解释是谁在讲述、哪些信息经过转述。"

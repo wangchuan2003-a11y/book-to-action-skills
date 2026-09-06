@@ -1,0 +1,58 @@
+{
+  "id": "thinking-fast-and-slow",
+  "title": "Thinking, Fast and Slow",
+  "title_zh": "思考，快与慢",
+  "authors": [
+    "Daniel Kahneman"
+  ],
+  "year": "2011",
+  "domains": [
+    "judgment",
+    "cognitive-biases",
+    "decision-making"
+  ],
+  "use_cases": [
+    "检查直觉判断是否忽略基准率和样本条件",
+    "区分信心与外部证据",
+    "审查旧心理学案例的适用范围与复现情况"
+  ],
+  "summary": "把直觉判断转成可核查的事实、参照类和比较，并区分双过程模型、具体心理学效应与现实决策证据。",
+  "selection_rationale": "提供常见判断错误的分析语言；出版社导言、作者Nobel讲座与一项独立复现研究能同时支持方法归属和证据边界。",
+  "limits": [
+    "系统1和系统2是处理方式的理论标签，不是两个脑区或可直接切换的人格。",
+    "慢思考不保证正确；能力、信息、领域熟悉度和任务条件仍然重要。",
+    "社会行为启动等旧案例存在复现和机制争议，不能把单项结果当作稳定操控行为的按钮。"
+  ],
+  "sources": [
+    {
+      "id": "TFS1",
+      "title": "Thinking, Fast and Slow — Macmillan publisher excerpt",
+      "url": "https://us.macmillan.com/books/9780374533557/thinkingfastandslow/",
+      "kind": "primary_text",
+      "accessed": "2026-09-07",
+      "coverage": "实际读取出版社页面的Introduction与Origins相关摘录，含判断偏差、样本大小、代表性和基准率的例子。",
+      "used_for": "作者的纠错目标、直觉与信心的局限、对自身判断也要检视。",
+      "limitations": "本次未读全书或启动效应对应章节；导言中的历史统计和例子不当作当前人口事实。"
+    },
+    {
+      "id": "TFS2",
+      "title": "Daniel Kahneman — Maps of Bounded Rationality: Nobel Lecture",
+      "url": "https://www.nobelprize.org/uploads/2018/06/kahnemann-lecture.pdf",
+      "kind": "author_material",
+      "accessed": "2026-09-07",
+      "coverage": "实际读取2002年Nobel讲座第1节双过程与可及性，以及文首关于判断、框架和属性替代的说明。",
+      "used_for": "系统1/2的过程特征、直觉监控和容易想起的内容可能影响判断。",
+      "limitations": "讲座早于本书，不是新神经影像证据；未逐项重新验证其中所有心理学研究。"
+    },
+    {
+      "id": "TFS3",
+      "title": "Behavioral Priming: It's All in the Mind, but Whose Mind?",
+      "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0029081",
+      "kind": "independent_research",
+      "accessed": "2026-09-07",
+      "coverage": "实际读取Doyen等2012年论文摘要与引言中两项复现实验的设计概要及报告结果。",
+      "used_for": "老年词语—步速行为启动例子的复现限制和实验者预期可能参与机制。",
+      "limitations": "这项研究不是对所有启动效应或整本书的否定；本次未复算数据，也未完成全领域荟萃综述。"
+    }
+  ]
+}

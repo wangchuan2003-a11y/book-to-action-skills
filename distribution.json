@@ -2,6 +2,7 @@
   "files": [
     "LICENSE",
     "README.md",
+    "README.en.md",
     "CONTRIBUTING.md",
     "catalog.json",
     "scripts/install.py",
@@ -11,11 +12,17 @@
     "scripts/prepare_eval.py",
     "tests/test_tools.py",
     "docs/selection-method.md",
+    "docs/choose-a-book.md",
+    "examples/ai-quality-review.md",
     "docs/iteration-log.md",
     "evals/README.md",
     "evals/release-v0.1.0.md",
     "evals/outputs/codex-superforecasting-v0.1.0.md",
     "evals/release-v0.2.0.md",
-    "evals/outputs/codex-implicit-systems-v0.2.0.md"
+    "evals/outputs/codex-implicit-systems-v0.2.0.md",
+    "evals/results/v0.2.0-economy-initial.json",
+    "evals/results/v0.2.0-ethics-science-initial.json",
+    "evals/outputs/scott-0007-retest-v0.3.0.md",
+    "evals/release-v0.3.0.md"
   ]
 }

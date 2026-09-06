@@ -1,0 +1,58 @@
+{
+  "id": "antifragile",
+  "title": "Antifragile",
+  "title_zh": "反脆弱",
+  "authors": [
+    "Nassim Nicholas Taleb"
+  ],
+  "year": "2012",
+  "domains": [
+    "risk",
+    "experimentation",
+    "optionality"
+  ],
+  "use_cases": [
+    "检查波动究竟增加损失还是带来机会",
+    "设计损失有限且可保留收益的小试验",
+    "区分抗冲击与从冲击中受益"
+  ],
+  "summary": "分析对扰动的损益反应、选择权与不可承受损失，再设计有成本核算和退出条件的试验。",
+  "selection_rationale": "将注意力从猜中事件转向承担何种后果；作者文章与形式化摘要能核实核心概念，同时暴露需要限制的夸张推广。",
+  "limits": [
+    "承受冲击不等于从冲击获益，局部获益也不等于整个系统反脆弱。",
+    "有限小试验仍可能积累成本、共享风险或伤害他人，不能把不确定性当稳赚机会。",
+    "书中的医学、历史、经济与生物类比需要各自证据，不能由凸性统一证明。"
+  ],
+  "sources": [
+    {
+      "id": "AF1",
+      "title": "Understanding Is a Poor Substitute for Convexity (Antifragility)",
+      "url": "https://www.edge.org/conversation/nassim_nicholas_taleb-understanding-is-a-poor-substitute-for-convexity-antifragility",
+      "kind": "author_material",
+      "accessed": "2026-09-07",
+      "coverage": "实际读取作者关于损益不对称、选择权及研究试错规则的文章正文。",
+      "used_for": "比较暴露的收益和损失，降低每次试验代价并保留选择。",
+      "limitations": "作者论证不是独立效果验证；关于规划、基因突变和研究史的强烈断言不作通行科学事实。"
+    },
+    {
+      "id": "AF2",
+      "title": "Mathematical Definition, Mapping, and Detection of (Anti)Fragility",
+      "url": "https://arxiv.org/abs/1208.1189",
+      "kind": "academic",
+      "accessed": "2026-09-07",
+      "coverage": "实际直接读取arXiv摘要页：Taleb与Raphael Douady、2012提交及抽象定义；未读取全文证明。",
+      "used_for": "形式化工作将反脆弱与对波动/离散程度的正向敏感和非线性联系起来。",
+      "limitations": "仅摘要，不声称验证定理条件、模型优越性或现实系统效果；同作者研究不计为独立复制。"
+    },
+    {
+      "id": "AF3",
+      "title": "Antifragile — Random House publication record on Google Books",
+      "url": "https://books.google.com/books?vid=ISBN9781400067824",
+      "kind": "publisher",
+      "accessed": "2026-09-07",
+      "coverage": "实际读取出版书目、2012年日期、ISBN及简介。",
+      "used_for": "核对书名、作者、出版年和主题。",
+      "limitations": "Google Books托管出版记录而非出版社官网；简介中免疫预测错误等绝对措辞不作为保证，未读全书。"
+    }
+  ]
+}

@@ -60,6 +60,64 @@
       ]
     },
     {
+      "id": "antifragile",
+      "title": "Antifragile",
+      "title_zh": "反脆弱",
+      "authors": [
+        "Nassim Nicholas Taleb"
+      ],
+      "year": "2012",
+      "domains": [
+        "risk",
+        "experimentation",
+        "optionality"
+      ],
+      "use_cases": [
+        "检查波动究竟增加损失还是带来机会",
+        "设计损失有限且可保留收益的小试验",
+        "区分抗冲击与从冲击中受益"
+      ],
+      "summary": "分析对扰动的损益反应、选择权与不可承受损失，再设计有成本核算和退出条件的试验。",
+      "selection_rationale": "将注意力从猜中事件转向承担何种后果；作者文章与形式化摘要能核实核心概念，同时暴露需要限制的夸张推广。",
+      "limits": [
+        "承受冲击不等于从冲击获益，局部获益也不等于整个系统反脆弱。",
+        "有限小试验仍可能积累成本、共享风险或伤害他人，不能把不确定性当稳赚机会。",
+        "书中的医学、历史、经济与生物类比需要各自证据，不能由凸性统一证明。"
+      ],
+      "sources": [
+        {
+          "id": "AF1",
+          "title": "Understanding Is a Poor Substitute for Convexity (Antifragility)",
+          "url": "https://www.edge.org/conversation/nassim_nicholas_taleb-understanding-is-a-poor-substitute-for-convexity-antifragility",
+          "kind": "author_material",
+          "accessed": "2026-09-07",
+          "coverage": "实际读取作者关于损益不对称、选择权及研究试错规则的文章正文。",
+          "used_for": "比较暴露的收益和损失，降低每次试验代价并保留选择。",
+          "limitations": "作者论证不是独立效果验证；关于规划、基因突变和研究史的强烈断言不作通行科学事实。"
+        },
+        {
+          "id": "AF2",
+          "title": "Mathematical Definition, Mapping, and Detection of (Anti)Fragility",
+          "url": "https://arxiv.org/abs/1208.1189",
+          "kind": "academic",
+          "accessed": "2026-09-07",
+          "coverage": "实际直接读取arXiv摘要页：Taleb与Raphael Douady、2012提交及抽象定义；未读取全文证明。",
+          "used_for": "形式化工作将反脆弱与对波动/离散程度的正向敏感和非线性联系起来。",
+          "limitations": "仅摘要，不声称验证定理条件、模型优越性或现实系统效果；同作者研究不计为独立复制。"
+        },
+        {
+          "id": "AF3",
+          "title": "Antifragile — Random House publication record on Google Books",
+          "url": "https://books.google.com/books?vid=ISBN9781400067824",
+          "kind": "publisher",
+          "accessed": "2026-09-07",
+          "coverage": "实际读取出版书目、2012年日期、ISBN及简介。",
+          "used_for": "核对书名、作者、出版年和主题。",
+          "limitations": "Google Books托管出版记录而非出版社官网；简介中免疫预测错误等绝对措辞不作为保证，未读全书。"
+        }
+      ]
+    },
+    {
       "id": "art-of-doing-science",
       "title": "The Art of Doing Science and Engineering: Learning to Learn",
       "title_zh": "科学与工程的艺术（工作译名）",
@@ -236,6 +294,65 @@
       ]
     },
     {
+      "id": "bhagavad-gita",
+      "title": "Bhagavad Gītā",
+      "title_zh": "薄伽梵歌",
+      "authors": [
+        "古代印度传承文本（《摩诃婆罗多》的一部分）"
+      ],
+      "year": "古代印度文本（具体成书年代存在争议）",
+      "domains": [
+        "印度哲学",
+        "宗教伦理",
+        "责任与行动"
+      ],
+      "use_cases": [
+        "解释行动与结果执著的区别",
+        "在用户明确请求时反思责任冲突",
+        "区分经文、注疏立场和现代决策应用"
+      ],
+      "summary": "围绕已核读选节思考责任、行动与审思，保留宗教叙事和多种解释背景，避免把经文用于无条件服从或结果保证。",
+      "selection_rationale": "具有广泛影响的印度思想经典，提供与现代管理语言不同的责任和行动问题；公开译注与学术背景可支持范围清楚的应用，入选不意味着认可唯一宗教解释。",
+      "limits": [
+        "本轮只核读2.47、18.63的署名译注和学术背景选段，未读全书。",
+        "采用Swami Mukundananda英文译注作选节依据，它不代表所有印度教注疏传统。",
+        "宗教和规范主张不等于科学定律，不承诺情绪或绩效效果。",
+        "现代责任比较和反馈步骤为本项目设计，不能用经文消除法律、伦理与授权边界。"
+      ],
+      "sources": [
+        {
+          "id": "GIT-1",
+          "title": "Bhagavad Gita 2.47 — Swami Mukundananda",
+          "url": "https://www.holy-bhagavad-gita.org/chapter/2/verse/47",
+          "kind": "primary_text",
+          "accessed": "2026-09-07",
+          "coverage": "实际读取2.47梵文、词义、英文译文及关于行动、结果和不行动的注释开头。",
+          "used_for": "行动与行动之果、不执著于不行动的文本依据。",
+          "limitations": "英文译注属于署名宗教解释；关于神意、业和放下结果改善工作等说明不当作已证实科学。"
+        },
+        {
+          "id": "GIT-2",
+          "title": "Bhagavad Gita 18.63 — Swami Mukundananda",
+          "url": "https://www.holy-bhagavad-gita.org/chapter/18/verse/63/",
+          "kind": "primary_text",
+          "accessed": "2026-09-07",
+          "coverage": "读取18.63英文译文及关于审思与选择的相关注释。",
+          "used_for": "讨论审思后选择，并限制无条件服从的现代误用。",
+          "limitations": "单节不代表整部经典的自由意志理论；注释中的神学解释不被改写为科学事实。"
+        },
+        {
+          "id": "GIT-3",
+          "title": "Bhagavad Gītā — Internet Encyclopedia of Philosophy",
+          "url": "https://iep.utm.edu/bhagavad-gita/",
+          "kind": "academic",
+          "accessed": "2026-09-07",
+          "coverage": "读取条目开头与Introduction相关段落，确认史诗位置、Arjuna/Krishna叙事和不同伦理及接受背景。",
+          "used_for": "把选节放回印度哲学与宗教叙事，区分文本和现代工作类比。",
+          "limitations": "Shyam Ranganathan的学术解读不是全部研究者或信仰传统的共识；未读取其全部论证。"
+        }
+      ]
+    },
+    {
       "id": "book-of-why",
       "title": "The Book of Why",
       "title_zh": "为什么：关于因果关系的新科学",
@@ -291,6 +408,45 @@
           "coverage": "实际读取书目、出版日期和公开章节/勘误链接。",
           "used_for": "确认Pearl与Dana Mackenzie合著、Basic Books、2018年5月15日出版，以及BW1的官方提供链路。",
           "limitations": "本次未逐条核对勘误，评论链接和奖项不构成方法实效证明。"
+        }
+      ]
+    },
+    {
+      "id": "brothers-karamazov",
+      "title": "The Brothers Karamazov",
+      "title_zh": "卡拉马佐夫兄弟",
+      "authors": [
+        "Fyodor Dostoevsky"
+      ],
+      "year": "19世纪作品；本轮未核定原作初版与所据英译印本的完整书目",
+      "domains": [
+        "literature",
+        "dialogue-analysis",
+        "ethical-interpretation"
+      ],
+      "use_cases": [
+        "分析叙述者的评价与知识边界",
+        "区分人物争论与作者立场",
+        "在限定卷章内比较人物动机和伦理解释"
+      ],
+      "summary": "依开篇人物叙述及特定对话选段，区分评价、行为和发言层次，允许复杂解释而不将小说视为作者思想语录集。",
+      "selection_rationale": "家庭叙述和人物思想对话提供不同于单一论证文本的阅读对象，适合训练文本依据和立场归属；不把人物哲学化发言当作终极答案。",
+      "limits": [
+        "仅实际读到开篇及第五卷两处对话开头，不能宣称掌握全书情节和论证。",
+        "伊万、阿廖沙、叙述者及嵌套故事人物的发言不能互相替代或直接归为作者认可。",
+        "小说不是现实人格诊断、宗教立场测量或法律责任的经验样本。",
+        "Garnett 英译的姓名拼写与其他版本可能不同，应核对人物而不自行合并。"
+      ],
+      "sources": [
+        {
+          "id": "karamazov-primary",
+          "title": "The Brothers Karamazov, translated by Constance Garnett — Project Gutenberg #28054",
+          "url": "https://www.gutenberg.org/files/28054/28054-h/28054-h.htm",
+          "kind": "primary_text",
+          "accessed": "2026-09-07",
+          "coverage": "已读页首作者、译者和目录；第一部第一卷第一章开头对 Fyodor Pavlovitch 的叙述评价；第二部第五卷第四章 Rebellion 开头伊万发言，以及第五章 The Grand Inquisitor 前后的故事引入与伊万说明。未读取两章完整论证或小说结局。",
+          "used_for": "叙述评价的复杂性、人物发言归属、故事嵌套与卷章定位。",
+          "limitations": "目录不是正文覆盖；章的开头不足以代表完整论证；本轮没有额外核验全书版本史或独立学术综述。"
         }
       ]
     },
@@ -428,6 +584,202 @@
           "coverage": "实际读取作者发表于 ACM Interactions 15(6) 的公开作者版正文。",
           "used_for": "意符作为可感知线索及其情境性、偶然线索可靠性。",
           "limitations": "文章末尾有再分发限制；本项目只原创转述并链接，不复制文章。"
+        }
+      ]
+    },
+    {
+      "id": "development-as-freedom",
+      "title": "Development as Freedom",
+      "title_zh": "以自由看待发展",
+      "authors": [
+        "Amartya Sen"
+      ],
+      "year": "1999",
+      "domains": [
+        "发展伦理",
+        "能力框架",
+        "真实机会与能动性"
+      ],
+      "use_cases": [
+        "审查资源分配是否带来真实可达机会",
+        "区分完成率与自主选择",
+        "比较公共服务或教育方案的多维结果与障碍"
+      ],
+      "summary": "以人的真实机会和能动性审查发展方案，区分资源、实际实现和可选择能力，并公开维度与取舍。",
+      "selection_rationale": "发展思想中的重要作品入口，能力框架能揭示收入或服务提供量遗漏的现实差异；本版严格依据可核实的学术解读，透明保留未读原书的限制。",
+      "limits": [
+        "本轮没有取得原书正文，方法依据SEP学术二级说明，不能提供原书逐章或逐页总结。",
+        "能力框架包含Sen、Nussbaum及后继作者的不同理论，本Skill不把它们合成Sen的唯一立场。",
+        "能力维度、权重、分配和测量存在规范与方法争论，不保证单一客观总分。",
+        "方案提供资源不等于扩大真实机会，短期结果也不证明长期效果。"
+      ],
+      "sources": [
+        {
+          "id": "SEN-1",
+          "title": "The Capability Approach — Stanford Encyclopedia of Philosophy",
+          "url": "https://plato.stanford.edu/entries/capability-approach/",
+          "kind": "academic",
+          "accessed": "2026-09-07",
+          "coverage": "实际读取导论、functionings/capabilities、实质自由、转换因素、agency及选择聚合争论相关段落；另直接检查页面HTML书目，读到1999年Development as Freedom条目。",
+          "used_for": "书目年份与能力框架的基本区分、不同理论及规范争论，支撑范围有限的应用设计。",
+          "limitations": "二级学术综合，不是Development as Freedom原文；未把后来作者的全部发展归于Sen，未复核各项引证研究。"
+        }
+      ]
+    },
+    {
+      "id": "dhammapada",
+      "title": "Dhammapada (Pali recension)",
+      "title_zh": "法句经（巴利本）",
+      "authors": [
+        "佛陀（偈颂传统归属；文本经编集传承）"
+      ],
+      "year": "早期佛教偈颂集；所用Thanissaro英译前言署1997年",
+      "domains": [
+        "佛教伦理",
+        "宗教文本",
+        "审慎言行"
+      ],
+      "use_cases": [
+        "解释敌意、真实言语和自制的选偈",
+        "在明确请求时反思冲突回应",
+        "区分会背诵、实际行动与未经证实的修行成就"
+      ],
+      "summary": "围绕巴利本选偈讨论言行与修习，并把宗教教义、译者解释和现代应用明确区分。",
+      "selection_rationale": "早期佛教重要偈颂集，提供以言行实践为中心的伦理材料；公开署名译本有清楚范围，适合防止只凭摘句或书名作判断。",
+      "limits": [
+        "本轮核读第1品、第17品和译者导言相关内容，未通读全经。",
+        "巴利Dhammapada与不同语言Dharmapada传统并非统一编排，不能互造偈号或中文原句。",
+        "业、轮回与解脱论述属于宗教教义，不当作科学定律或受害者归责依据。",
+        "现代暂停、反馈和冲突分析属于项目应用，不保证情绪或治疗效果。"
+      ],
+      "sources": [
+        {
+          "id": "DHP-1",
+          "title": "The Dhammapada: A Translation — Thanissaro Bhikkhu",
+          "url": "https://www.accesstoinsight.org/tipitaka/kn/dhp/dhp.intro.than.html",
+          "kind": "author_material",
+          "accessed": "2026-09-07",
+          "coverage": "读取译者前言、导言开头及词汇/书目中的巴利与其他语言传统说明；前言署1997年12月。",
+          "used_for": "译者与版本范围、偈颂传统归属、宗教伦理及文学语境。",
+          "limitations": "译者本人的传统内解释不是所有佛教派别或学者的共识；未逐一核对历史论述。"
+        },
+        {
+          "id": "DHP-2",
+          "title": "Yamakavagga: Pairs — Dhammapada Chapter 1",
+          "url": "https://www.accesstoinsight.org/tipitaka/kn/dhp/dhp.01.than.html",
+          "kind": "primary_text",
+          "accessed": "2026-09-07",
+          "coverage": "读取第1品1—20偈英译，应用聚焦3—6的敌意与19—20的背诵/实践对照。",
+          "used_for": "减少敌意与重视实际言行的经文依据。",
+          "limitations": "心理与来世后果的宗教表达不被当成经过本项目验证的因果规律。"
+        },
+        {
+          "id": "DHP-3",
+          "title": "Kodhavagga: Anger — Dhammapada Chapter 17",
+          "url": "https://www.accesstoinsight.org/tipitaka/kn/dhp/dhp.17.than.html",
+          "kind": "primary_text",
+          "accessed": "2026-09-07",
+          "coverage": "读取第17品221—234偈英译，聚焦自制、真实言语、称赞批评与身语意。",
+          "used_for": "辨析冲动回应、诚实、实践与反馈。",
+          "limitations": "伦理和宗教劝诫不是临床治疗协议，不能据此诊断或承诺解决心理问题。"
+        }
+      ]
+    },
+    {
+      "id": "don-quixote",
+      "title": "Don Quixote",
+      "title_zh": "堂吉诃德",
+      "authors": [
+        "Miguel de Cervantes Saavedra"
+      ],
+      "year": "17世纪；本次未独立核验两部初版的精确日期",
+      "domains": [
+        "literature",
+        "narrative-analysis",
+        "translation-reading"
+      ],
+      "use_cases": [
+        "辨认虚构作者与现实作者",
+        "分析转述、误听和人物自我理解",
+        "在已读范围内讨论幽默、讽刺与解释差异"
+      ],
+      "summary": "围绕所读版本的叙述归属、转述链和译者说明，分析人物如何理解故事与自身，不把小说变成坚持梦想或放弃理想的口号。",
+      "selection_rationale": "这部小说适合检验说话层次、叙事中介与读者判断，补充只按事实结论读取书籍的习惯；本 Skill 采用有限选段，不宣称全书精读。",
+      "limits": [
+        "本轮重点读取第二部开头相关段落及版本说明，不覆盖全部第一部和结局。",
+        "书中的 Cide Hamete 等叙事角色不等于现实出版作者。",
+        "人物误认与讽刺不能成为诊断精神疾病、讥讽现实人群或证明人生规律的依据。",
+        "不同英译和配图来源可能被组合，书籍封面或图注不能代替译文版本核对。"
+      ],
+      "sources": [
+        {
+          "id": "quixote-primary",
+          "title": "The History of Don Quixote, translated by John Ormsby — Project Gutenberg #996",
+          "url": "https://www.gutenberg.org/files/996/996-h/996-h.htm",
+          "kind": "primary_text",
+          "accessed": "2026-09-07",
+          "coverage": "已读作者和译者书目、电子版编者说明、目录与 Ormsby 导论的相关解释；实际读到第二部第一章开头探访安排及第二章中 Sancho 转述作品作者名、Don Quixote 回应的段落。未逐章研读第一部或第二部全书。",
+          "used_for": "现实作者、译者与图像来源的区分，虚构叙事作者、转述链和误听的具体分析。",
+          "limitations": "目录、译者导论和小说正文必须区分；熟知情节的目录命中不算已读该章，导论解释不等于 Cervantes 的自述。"
+        }
+      ]
+    },
+    {
+      "id": "dream-of-red-chamber",
+      "title": "Dream of the Red Chamber / Hong lou meng",
+      "title_zh": "红楼梦",
+      "authors": [
+        "曹雪芹；后四十回的写作与整理归属有争论，不能一概归于同一作者"
+      ],
+      "year": "18世纪；1791年程伟元、高鹗整理刊行120回本",
+      "domains": [
+        "literature",
+        "narrative-analysis",
+        "chinese-fiction"
+      ],
+      "use_cases": [
+        "在已读范围内分析人物判断和叙述层次",
+        "区分正文框架与作者生平证据",
+        "比较版本、译名和家庭关系语境"
+      ],
+      "summary": "依具体回目和文字理解人物、叙述框架与家庭关系，区分现实作者、故事中的传抄者和人物声音，并保护未读情节。",
+      "selection_rationale": "以中文长篇小说中的多层叙述、人物关系和版本问题拓宽书库；文学阅读保持审美与解释价值，不被改造成成功学处方。",
+      "limits": [
+        "只实际读取所列开篇与第三回开头选段，不能声称全书已分析。",
+        "前八十回与后四十回的文本和归属问题须分开；后四十回存在不同解释。",
+        "书中作者自云、石头和传抄框架不能直接证明曹雪芹生平事实。",
+        "小说人物不能作为诊断现实人格、历史总体或管理规律的统计样本。"
+      ],
+      "sources": [
+        {
+          "id": "red-primary",
+          "title": "紅樓夢 — Project Gutenberg #24264",
+          "url": "https://www.gutenberg.org/cache/epub/24264/pg24264-images.html",
+          "kind": "primary_text",
+          "accessed": "2026-09-07",
+          "coverage": "已读页首书目、第一回开头作者自云、补天石、空空道人与传抄题名框架，以及第三回开头雨村谋求复职和黛玉离父赴京的段落。未逐回研读全书。",
+          "used_for": "中文文本、回目定位、叙述层次和具体关系语境。",
+          "limitations": "电子文本的异体字和混合字形不等于校勘定本；页首单一作者字段不能裁定后四十回归属。"
+        },
+        {
+          "id": "red-joly",
+          "title": "Hung Lou Meng, Book I, translated by H. Bencraft Joly — Project Gutenberg #9603",
+          "url": "https://www.gutenberg.org/cache/epub/9603/pg9603-images.html",
+          "kind": "primary_text",
+          "accessed": "2026-09-07",
+          "coverage": "已读译者身份、1891年9月1日署名的前言与第一回开头有关叙述框架、真假题名的英译。",
+          "used_for": "对照译名、叙述术语及译者自身的学习语境。",
+          "limitations": "本条是英译第一册的有限读取，不是完整译本分析；英译不能取代中文校勘。"
+        },
+        {
+          "id": "red-britannica",
+          "title": "Dream of the Red Chamber — Encyclopaedia Britannica",
+          "url": "https://www.britannica.com/topic/Dream-of-the-Red-Chamber",
+          "kind": "publisher",
+          "accessed": "2026-09-07",
+          "coverage": "经 Jina Reader 取得并实际读到作品名称、1791年120回刊本、程伟元与高鹗、后40回不同归属解释的段落；页面其他剧情摘要不用于对未读者展开内容。",
+          "used_for": "书目和版本争议的有限确认。",
+          "limitations": "百科编辑概述不是底本校勘研究；列出的几种可能性不表示证据强度相同或问题已解决。"
         }
       ]
     },
@@ -717,6 +1069,64 @@
       ]
     },
     {
+      "id": "mans-search-for-meaning",
+      "title": "Man's Search for Meaning",
+      "title_zh": "活出生命的意义",
+      "authors": [
+        "Viktor E. Frankl"
+      ],
+      "year": "1946（德文初版；英语版本后续修订）",
+      "domains": [
+        "meaning",
+        "reflection",
+        "ethics"
+      ],
+      "use_cases": [
+        "在用户明确希望时探索当下有意义的小行动",
+        "区分可改变的处境与当前可选择的回应",
+        "审查把痛苦浪漫化或强加意义的说法"
+      ],
+      "summary": "在承认真实痛苦、限制和支持需要的前提下，帮助用户探索自己认可的意义与有限行动；不将回忆录或意义疗法观点当成疗效保证。",
+      "selection_rationale": "提供关于处境、责任和意义的特定思想资源，并能训练不把他人经历变成自我要求；通过官方研究机构与出版记录明确来源和边界。",
+      "limits": [
+        "本次读取机构解释和书目介绍，未精读回忆录或治疗章节全文。",
+        "回忆录与理论主张不能证明找到意义就能治愈疾病或保障生存。",
+        "意义应由本人探索，不能美化伤害、责备受害者或替代朋友与专业支持。"
+      ],
+      "sources": [
+        {
+          "id": "MF1",
+          "title": "Logotherapy and Existential Analysis — Viktor Frankl Institute",
+          "url": "https://www.viktorfrankl.org/logotherapy.html",
+          "kind": "author_material",
+          "accessed": "2026-09-07",
+          "coverage": "实际读取Alexander Batthyány所写机构说明的Freedom of Will、Will to Meaning、Meaning in Life及不强加价值的段落。",
+          "used_for": "在给定可能性内的行动空间、具体个人情境中的意义与不能替人指定意义。",
+          "limitations": "这是机构对Frankl学派的说明，不是Frankl本人逐字原文或独立临床综述；疾病成因和疗效的强概括不作当前医学结论。"
+        },
+        {
+          "id": "MF2",
+          "title": "Books by Viktor Frankl — English editions",
+          "url": "https://www.viktorfrankl.org/books_by_vf.html",
+          "kind": "author_material",
+          "accessed": "2026-09-07",
+          "coverage": "直接读取机构书目中英文版Man's Search for Meaning条目、版本信息与介绍。",
+          "used_for": "确认英语版与From Death-Camp to Existentialism的修订关系、回忆录和意义疗法主题。",
+          "limitations": "书目与出版宣传不是效果证据；未读取清单中的其他书籍正文。"
+        },
+        {
+          "id": "MF3",
+          "title": "Man's Search for Meaning — Beacon Press",
+          "url": "https://www.beacon.org/Mans-Search-for-Meaning-P602.aspx",
+          "kind": "publisher",
+          "accessed": "2026-09-07",
+          "coverage": "实际读取出版社书页中的2006版书目、作者/序言/后记署名及介绍中的1946初版说明。",
+          "used_for": "核对作者、初版年份、Beacon版和回忆录的历史背景。",
+          "limitations": "出版社简介、推荐语和销量不作为临床依据；书页的推荐阅读和评论链接不等于本次已读，也未读取书中全部故事。"
+        }
+      ]
+    },
+    {
       "id": "meditations",
       "title": "Meditations",
       "title_zh": "沉思录",
@@ -762,6 +1172,65 @@
           "coverage": "已读导言、Life and Works 中生平和写作性质，及 4.2 Erase Impressions 中印象、同意与价值判断的解释分歧。",
           "used_for": "作者身份、写给自己的文本性质、晚年写作语境，以及不应把消除印象理解为随意抹去感受。",
           "limitations": "斯多葛理论与学者解释不是本次开展的治疗效果研究，也不代表作者所有表述无歧义。"
+        }
+      ]
+    },
+    {
+      "id": "muqaddimah",
+      "title": "The Muqaddimah: An Introduction to History",
+      "title_zh": "历史绪论",
+      "authors": [
+        "Ibn Khaldūn（伊本·赫勒敦）"
+      ],
+      "year": "14世纪（1370年代写作）",
+      "domains": [
+        "史学方法",
+        "社会凝聚力",
+        "制度变迁"
+      ],
+      "use_cases": [
+        "检验历史兴衰叙事的证据与机制",
+        "区分实际互助和血统名号",
+        "在明确请求时审查历史到现代组织的类比"
+      ],
+      "summary": "通过史料可靠性、asabiyyah及制度和环境条件，审查简单的群体兴衰解释，并限制固定周期和本质论误用。",
+      "selection_rationale": "伊斯兰思想与史学传统中的重要作品，为历史解释和社会关系提供独特入口；已读选段可直接纠正把凝聚力等同血统的误读，学术背景帮助保留历史条件。",
+      "limits": [
+        "本轮直接核读Rosenthal英译第二章第8节及目录，其他史学与变迁背景来自署名百科二级解读。",
+        "电子转录存在排版和文字瑕疵，未与阿拉伯文或纸本逐页校勘。",
+        "asabiyyah和作者阶段模式是历史分析概念，不是种族优越或固定年数衰亡定律。",
+        "现代组织案例为原创类比，没有实测投资、管理或政治效果。"
+      ],
+      "sources": [
+        {
+          "id": "MUQ-1",
+          "title": "The Muqaddimah — Rosenthal translation, digital contents",
+          "url": "https://www.muslimphilosophy.com/ik/Muqaddimah/Table_of_Contents.htm",
+          "kind": "primary_text",
+          "accessed": "2026-09-07",
+          "coverage": "读取作品入口和目录，入口注明Ibn Khaldun与Franz Rosenthal译者，目录用于定位第二章选节。",
+          "used_for": "卷内结构、作者和英译归属。",
+          "limitations": "目录只用于定位，不算已读各章正文；民间学术文献站电子转录未做版面校勘。"
+        },
+        {
+          "id": "MUQ-2",
+          "title": "Chapter II, Section 8 — Group feeling",
+          "url": "https://www.muslimphilosophy.com/ik/Muqaddimah/Chapter2/Ch_2_08.htm",
+          "kind": "primary_text",
+          "accessed": "2026-09-07",
+          "coverage": "实际读取关于亲缘、clients and allies、联系互助以及谱系实用性的整节英译。",
+          "used_for": "asabiyyah与关系、互助和盟友的联系，防止将其简化为血统优越。",
+          "limitations": "单节不能代表全书社会理论；历史性的自然化与规范表述不被当作现代人类学结论。"
+        },
+        {
+          "id": "MUQ-3",
+          "title": "Ibn Khaldūn — Encyclopaedia Britannica",
+          "url": "https://www.britannica.com/biography/Ibn-Khaldun",
+          "kind": "academic",
+          "accessed": "2026-09-07",
+          "coverage": "本轮协作研究实际读取Charles Issawi署名正文中1375年退隐后写作、史学方法、asabiyyah及政治社会经济因素和黑死病转折的说明；排除页首AI自动问答。",
+          "used_for": "14世纪/1370年代写作背景、方法概述和超出机械周期的条件。",
+          "limitations": "这是专业百科二手解释，不是原书逐字引文或现代普遍定律，未采用夸张赞誉。"
         }
       ]
     },
@@ -1015,6 +1484,54 @@
           "coverage": "经Jina读取第2节The Development of Science与第3节The Concept of a Paradigm相关正文，涵盖常规科学、异常、危机、Kuhn-loss、disciplinary matrix及exemplars。",
           "used_for": "区分共有承诺与典型范例、异常与危机、解题能力与进步、对非理性主义误读的限制。",
           "limitations": "这是学术二手解释，不是本书原文，也不自动证明库恩模型适用于一切科学史或企业转型。文中页码未经本项目原书核对，因此不转载为已确认页码。"
+        }
+      ]
+    },
+    {
+      "id": "second-sex",
+      "title": "The Second Sex",
+      "title_zh": "第二性",
+      "authors": [
+        "Simone de Beauvoir"
+      ],
+      "year": "1949",
+      "domains": [
+        "ethics",
+        "gender",
+        "social-analysis"
+      ],
+      "use_cases": [
+        "检查把性别角色说成天性的论证",
+        "分析默认标准与被当成他者的位置",
+        "区分形式选择和真实可用的行动机会"
+      ],
+      "summary": "以Beauvoir关于他者、身体处境与自由的哲学分析，检查角色期待如何影响具体选择；经验判断仍需现实材料。",
+      "selection_rationale": "补充个人决策框架容易忽视的社会位置、资源和规范问题；学术材料能明确作者论证、后续争议和版本限制。",
+      "limits": [
+        "本次读取学术解释与出版信息，没有通读法文原著或英语译本。",
+        "存在主义和现象学论证不能替代当代社会统计、医学知识或个案事实。",
+        "作品具有1949年语境，关于阶级、种族、性与家庭的概括受批评，不能代表所有女性的经验。"
+      ],
+      "sources": [
+        {
+          "id": "SS1",
+          "title": "Simone de Beauvoir — Stanford Encyclopedia of Philosophy",
+          "url": "https://plato.stanford.edu/entries/beauvoir/",
+          "kind": "academic",
+          "accessed": "2026-09-07",
+          "coverage": "实际读取导言、第2节相关译介讨论及The Second Sex部分关于他者、身体处境、成为女人、自由和历史局限的段落。",
+          "used_for": "作者与1949年书目；他者、情境中的自由、社会角色与身体经验、后续解释争论。",
+          "limitations": "学术阐释不是原书逐字阅读，也不证明任何当前组织中的歧视事实或干预效果。"
+        },
+        {
+          "id": "SS2",
+          "title": "The Second Sex — Knopf Doubleday publication record on Google Books",
+          "url": "https://books.google.com/books?vid=ISBN9780307277787",
+          "kind": "publisher",
+          "accessed": "2026-09-07",
+          "coverage": "实际读取2011版出版书目、译者Constance Borde与Sheila Malovany-Chevallier信息、目录及版本说明。",
+          "used_for": "区分新英译版、早期英译删节及作者/译者身份。",
+          "limitations": "Google Books托管出版记录而非出版社官网；目录不等于已读章节，推荐语不作理论或经验依据。"
         }
       ]
     },
@@ -1296,6 +1813,64 @@
           "coverage": "实际读取 Google Books 托管的书目、目录与出版介绍。",
           "used_for": "核对 Rob Fitzpatrick、Robfitz Ltd、2013 年及 ISBN 9781492180746。",
           "limitations": "这里的 publisher 表示出版书目信息；托管方为 Google Books，并非出版社官网。未读取全书，简介不支持效果承诺。"
+        }
+      ]
+    },
+    {
+      "id": "thinking-fast-and-slow",
+      "title": "Thinking, Fast and Slow",
+      "title_zh": "思考，快与慢",
+      "authors": [
+        "Daniel Kahneman"
+      ],
+      "year": "2011",
+      "domains": [
+        "judgment",
+        "cognitive-biases",
+        "decision-making"
+      ],
+      "use_cases": [
+        "检查直觉判断是否忽略基准率和样本条件",
+        "区分信心与外部证据",
+        "审查旧心理学案例的适用范围与复现情况"
+      ],
+      "summary": "把直觉判断转成可核查的事实、参照类和比较，并区分双过程模型、具体心理学效应与现实决策证据。",
+      "selection_rationale": "提供常见判断错误的分析语言；出版社导言、作者Nobel讲座与一项独立复现研究能同时支持方法归属和证据边界。",
+      "limits": [
+        "系统1和系统2是处理方式的理论标签，不是两个脑区或可直接切换的人格。",
+        "慢思考不保证正确；能力、信息、领域熟悉度和任务条件仍然重要。",
+        "社会行为启动等旧案例存在复现和机制争议，不能把单项结果当作稳定操控行为的按钮。"
+      ],
+      "sources": [
+        {
+          "id": "TFS1",
+          "title": "Thinking, Fast and Slow — Macmillan publisher excerpt",
+          "url": "https://us.macmillan.com/books/9780374533557/thinkingfastandslow/",
+          "kind": "primary_text",
+          "accessed": "2026-09-07",
+          "coverage": "实际读取出版社页面的Introduction与Origins相关摘录，含判断偏差、样本大小、代表性和基准率的例子。",
+          "used_for": "作者的纠错目标、直觉与信心的局限、对自身判断也要检视。",
+          "limitations": "本次未读全书或启动效应对应章节；导言中的历史统计和例子不当作当前人口事实。"
+        },
+        {
+          "id": "TFS2",
+          "title": "Daniel Kahneman — Maps of Bounded Rationality: Nobel Lecture",
+          "url": "https://www.nobelprize.org/uploads/2018/06/kahnemann-lecture.pdf",
+          "kind": "author_material",
+          "accessed": "2026-09-07",
+          "coverage": "实际读取2002年Nobel讲座第1节双过程与可及性，以及文首关于判断、框架和属性替代的说明。",
+          "used_for": "系统1/2的过程特征、直觉监控和容易想起的内容可能影响判断。",
+          "limitations": "讲座早于本书，不是新神经影像证据；未逐项重新验证其中所有心理学研究。"
+        },
+        {
+          "id": "TFS3",
+          "title": "Behavioral Priming: It's All in the Mind, but Whose Mind?",
+          "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0029081",
+          "kind": "independent_research",
+          "accessed": "2026-09-07",
+          "coverage": "实际读取Doyen等2012年论文摘要与引言中两项复现实验的设计概要及报告结果。",
+          "used_for": "老年词语—步速行为启动例子的复现限制和实验者预期可能参与机制。",
+          "limitations": "这项研究不是对所有启动效应或整本书的否定；本次未复算数据，也未完成全领域荟萃综述。"
         }
       ]
     },

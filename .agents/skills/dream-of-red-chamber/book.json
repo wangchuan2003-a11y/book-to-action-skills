@@ -1,0 +1,59 @@
+{
+  "id": "dream-of-red-chamber",
+  "title": "Dream of the Red Chamber / Hong lou meng",
+  "title_zh": "红楼梦",
+  "authors": [
+    "曹雪芹；后四十回的写作与整理归属有争论，不能一概归于同一作者"
+  ],
+  "year": "18世纪；1791年程伟元、高鹗整理刊行120回本",
+  "domains": [
+    "literature",
+    "narrative-analysis",
+    "chinese-fiction"
+  ],
+  "use_cases": [
+    "在已读范围内分析人物判断和叙述层次",
+    "区分正文框架与作者生平证据",
+    "比较版本、译名和家庭关系语境"
+  ],
+  "summary": "依具体回目和文字理解人物、叙述框架与家庭关系，区分现实作者、故事中的传抄者和人物声音，并保护未读情节。",
+  "selection_rationale": "以中文长篇小说中的多层叙述、人物关系和版本问题拓宽书库；文学阅读保持审美与解释价值，不被改造成成功学处方。",
+  "limits": [
+    "只实际读取所列开篇与第三回开头选段，不能声称全书已分析。",
+    "前八十回与后四十回的文本和归属问题须分开；后四十回存在不同解释。",
+    "书中作者自云、石头和传抄框架不能直接证明曹雪芹生平事实。",
+    "小说人物不能作为诊断现实人格、历史总体或管理规律的统计样本。"
+  ],
+  "sources": [
+    {
+      "id": "red-primary",
+      "title": "紅樓夢 — Project Gutenberg #24264",
+      "url": "https://www.gutenberg.org/cache/epub/24264/pg24264-images.html",
+      "kind": "primary_text",
+      "accessed": "2026-09-07",
+      "coverage": "已读页首书目、第一回开头作者自云、补天石、空空道人与传抄题名框架，以及第三回开头雨村谋求复职和黛玉离父赴京的段落。未逐回研读全书。",
+      "used_for": "中文文本、回目定位、叙述层次和具体关系语境。",
+      "limitations": "电子文本的异体字和混合字形不等于校勘定本；页首单一作者字段不能裁定后四十回归属。"
+    },
+    {
+      "id": "red-joly",
+      "title": "Hung Lou Meng, Book I, translated by H. Bencraft Joly — Project Gutenberg #9603",
+      "url": "https://www.gutenberg.org/cache/epub/9603/pg9603-images.html",
+      "kind": "primary_text",
+      "accessed": "2026-09-07",
+      "coverage": "已读译者身份、1891年9月1日署名的前言与第一回开头有关叙述框架、真假题名的英译。",
+      "used_for": "对照译名、叙述术语及译者自身的学习语境。",
+      "limitations": "本条是英译第一册的有限读取，不是完整译本分析；英译不能取代中文校勘。"
+    },
+    {
+      "id": "red-britannica",
+      "title": "Dream of the Red Chamber — Encyclopaedia Britannica",
+      "url": "https://www.britannica.com/topic/Dream-of-the-Red-Chamber",
+      "kind": "publisher",
+      "accessed": "2026-09-07",
+      "coverage": "经 Jina Reader 取得并实际读到作品名称、1791年120回刊本、程伟元与高鹗、后40回不同归属解释的段落；页面其他剧情摘要不用于对未读者展开内容。",
+      "used_for": "书目和版本争议的有限确认。",
+      "limitations": "百科编辑概述不是底本校勘研究；列出的几种可能性不表示证据强度相同或问题已解决。"
+    }
+  ]
+}

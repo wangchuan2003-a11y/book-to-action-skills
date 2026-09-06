@@ -1,0 +1,4 @@
+interface:
+  display_name: "反脆弱 · Antifragile"
+  short_description: "检查扰动的损益不对称与毁灭风险，设计可退出且成本有界的试验"
+  default_prompt: "使用 $antifragile，判断这个计划只是抗冲击还是可能从变化中受益，并设计损失可控的下一步。"

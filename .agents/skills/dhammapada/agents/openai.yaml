@@ -1,0 +1,4 @@
+interface:
+  display_name: "法句经：审慎言行"
+  short_description: "依据巴利法句经选偈反思敌意、诚实与实践，保留传统差异和自我保护边界"
+  default_prompt: "请用 $dhammapada 的已核读选偈帮我反思这次冲突，区分经文解释和可实践的回应。"

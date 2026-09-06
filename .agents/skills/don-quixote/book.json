@@ -1,0 +1,39 @@
+{
+  "id": "don-quixote",
+  "title": "Don Quixote",
+  "title_zh": "堂吉诃德",
+  "authors": [
+    "Miguel de Cervantes Saavedra"
+  ],
+  "year": "17世纪；本次未独立核验两部初版的精确日期",
+  "domains": [
+    "literature",
+    "narrative-analysis",
+    "translation-reading"
+  ],
+  "use_cases": [
+    "辨认虚构作者与现实作者",
+    "分析转述、误听和人物自我理解",
+    "在已读范围内讨论幽默、讽刺与解释差异"
+  ],
+  "summary": "围绕所读版本的叙述归属、转述链和译者说明，分析人物如何理解故事与自身，不把小说变成坚持梦想或放弃理想的口号。",
+  "selection_rationale": "这部小说适合检验说话层次、叙事中介与读者判断，补充只按事实结论读取书籍的习惯；本 Skill 采用有限选段，不宣称全书精读。",
+  "limits": [
+    "本轮重点读取第二部开头相关段落及版本说明，不覆盖全部第一部和结局。",
+    "书中的 Cide Hamete 等叙事角色不等于现实出版作者。",
+    "人物误认与讽刺不能成为诊断精神疾病、讥讽现实人群或证明人生规律的依据。",
+    "不同英译和配图来源可能被组合，书籍封面或图注不能代替译文版本核对。"
+  ],
+  "sources": [
+    {
+      "id": "quixote-primary",
+      "title": "The History of Don Quixote, translated by John Ormsby — Project Gutenberg #996",
+      "url": "https://www.gutenberg.org/files/996/996-h/996-h.htm",
+      "kind": "primary_text",
+      "accessed": "2026-09-07",
+      "coverage": "已读作者和译者书目、电子版编者说明、目录与 Ormsby 导论的相关解释；实际读到第二部第一章开头探访安排及第二章中 Sancho 转述作品作者名、Don Quixote 回应的段落。未逐章研读第一部或第二部全书。",
+      "used_for": "现实作者、译者与图像来源的区分，虚构叙事作者、转述链和误听的具体分析。",
+      "limitations": "目录、译者导论和小说正文必须区分；熟知情节的目录命中不算已读该章，导论解释不等于 Cervantes 的自述。"
+    }
+  ]
+}

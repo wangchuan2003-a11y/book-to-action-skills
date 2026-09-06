@@ -1,0 +1,58 @@
+{
+  "id": "mans-search-for-meaning",
+  "title": "Man's Search for Meaning",
+  "title_zh": "活出生命的意义",
+  "authors": [
+    "Viktor E. Frankl"
+  ],
+  "year": "1946（德文初版；英语版本后续修订）",
+  "domains": [
+    "meaning",
+    "reflection",
+    "ethics"
+  ],
+  "use_cases": [
+    "在用户明确希望时探索当下有意义的小行动",
+    "区分可改变的处境与当前可选择的回应",
+    "审查把痛苦浪漫化或强加意义的说法"
+  ],
+  "summary": "在承认真实痛苦、限制和支持需要的前提下，帮助用户探索自己认可的意义与有限行动；不将回忆录或意义疗法观点当成疗效保证。",
+  "selection_rationale": "提供关于处境、责任和意义的特定思想资源，并能训练不把他人经历变成自我要求；通过官方研究机构与出版记录明确来源和边界。",
+  "limits": [
+    "本次读取机构解释和书目介绍，未精读回忆录或治疗章节全文。",
+    "回忆录与理论主张不能证明找到意义就能治愈疾病或保障生存。",
+    "意义应由本人探索，不能美化伤害、责备受害者或替代朋友与专业支持。"
+  ],
+  "sources": [
+    {
+      "id": "MF1",
+      "title": "Logotherapy and Existential Analysis — Viktor Frankl Institute",
+      "url": "https://www.viktorfrankl.org/logotherapy.html",
+      "kind": "author_material",
+      "accessed": "2026-09-07",
+      "coverage": "实际读取Alexander Batthyány所写机构说明的Freedom of Will、Will to Meaning、Meaning in Life及不强加价值的段落。",
+      "used_for": "在给定可能性内的行动空间、具体个人情境中的意义与不能替人指定意义。",
+      "limitations": "这是机构对Frankl学派的说明，不是Frankl本人逐字原文或独立临床综述；疾病成因和疗效的强概括不作当前医学结论。"
+    },
+    {
+      "id": "MF2",
+      "title": "Books by Viktor Frankl — English editions",
+      "url": "https://www.viktorfrankl.org/books_by_vf.html",
+      "kind": "author_material",
+      "accessed": "2026-09-07",
+      "coverage": "直接读取机构书目中英文版Man's Search for Meaning条目、版本信息与介绍。",
+      "used_for": "确认英语版与From Death-Camp to Existentialism的修订关系、回忆录和意义疗法主题。",
+      "limitations": "书目与出版宣传不是效果证据；未读取清单中的其他书籍正文。"
+    },
+    {
+      "id": "MF3",
+      "title": "Man's Search for Meaning — Beacon Press",
+      "url": "https://www.beacon.org/Mans-Search-for-Meaning-P602.aspx",
+      "kind": "publisher",
+      "accessed": "2026-09-07",
+      "coverage": "实际读取出版社书页中的2006版书目、作者/序言/后记署名及介绍中的1946初版说明。",
+      "used_for": "核对作者、初版年份、Beacon版和回忆录的历史背景。",
+      "limitations": "出版社简介、推荐语和销量不作为临床依据；书页的推荐阅读和评论链接不等于本次已读，也未读取书中全部故事。"
+    }
+  ]
+}

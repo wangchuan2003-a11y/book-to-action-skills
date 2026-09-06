@@ -1,0 +1,4 @@
+interface:
+  display_name: "薄伽梵歌：责任与行动"
+  short_description: "在经文和译注背景中辨析责任、行动与结果执著，保留审思选择和现实边界"
+  default_prompt: "请用 $bhagavad-gita 的已核读选段分析这次责任冲突，区分经文、译注和现代应用。"

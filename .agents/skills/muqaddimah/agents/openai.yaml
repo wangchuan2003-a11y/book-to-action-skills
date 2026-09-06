@@ -1,0 +1,4 @@
+interface:
+  display_name: "历史绪论：凝聚力与变迁"
+  short_description: "从史料、实际互助和制度条件分析兴衰叙事，避免血统论与固定周期预言"
+  default_prompt: "请用 $muqaddimah 检查这个组织兴衰故事，区分史料、asabiyyah机制与现代类比的边界。"

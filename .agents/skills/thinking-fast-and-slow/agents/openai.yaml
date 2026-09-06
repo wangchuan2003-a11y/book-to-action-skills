@@ -1,0 +1,4 @@
+interface:
+  display_name: "思考，快与慢 · Thinking, Fast and Slow"
+  short_description: "检查基准率、样本与直觉替代，区分信心、心理学案例和实际证据"
+  default_prompt: "使用 $thinking-fast-and-slow，检查我的判断是否忽略基准率或把容易回答的问题当成真正问题。"

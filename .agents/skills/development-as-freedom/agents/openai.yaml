@@ -1,0 +1,4 @@
+interface:
+  display_name: "以自由看待发展：真实机会"
+  short_description: "区分收入、已实现状态与真实可选机会，找出资源转换障碍并保留当事人能动性"
+  default_prompt: "请用 $development-as-freedom 审查这个教育或公共服务方案，说明它扩大了哪些真实机会、还遗漏什么障碍。"

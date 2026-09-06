@@ -1,0 +1,39 @@
+{
+  "id": "brothers-karamazov",
+  "title": "The Brothers Karamazov",
+  "title_zh": "卡拉马佐夫兄弟",
+  "authors": [
+    "Fyodor Dostoevsky"
+  ],
+  "year": "19世纪作品；本轮未核定原作初版与所据英译印本的完整书目",
+  "domains": [
+    "literature",
+    "dialogue-analysis",
+    "ethical-interpretation"
+  ],
+  "use_cases": [
+    "分析叙述者的评价与知识边界",
+    "区分人物争论与作者立场",
+    "在限定卷章内比较人物动机和伦理解释"
+  ],
+  "summary": "依开篇人物叙述及特定对话选段，区分评价、行为和发言层次，允许复杂解释而不将小说视为作者思想语录集。",
+  "selection_rationale": "家庭叙述和人物思想对话提供不同于单一论证文本的阅读对象，适合训练文本依据和立场归属；不把人物哲学化发言当作终极答案。",
+  "limits": [
+    "仅实际读到开篇及第五卷两处对话开头，不能宣称掌握全书情节和论证。",
+    "伊万、阿廖沙、叙述者及嵌套故事人物的发言不能互相替代或直接归为作者认可。",
+    "小说不是现实人格诊断、宗教立场测量或法律责任的经验样本。",
+    "Garnett 英译的姓名拼写与其他版本可能不同，应核对人物而不自行合并。"
+  ],
+  "sources": [
+    {
+      "id": "karamazov-primary",
+      "title": "The Brothers Karamazov, translated by Constance Garnett — Project Gutenberg #28054",
+      "url": "https://www.gutenberg.org/files/28054/28054-h/28054-h.htm",
+      "kind": "primary_text",
+      "accessed": "2026-09-07",
+      "coverage": "已读页首作者、译者和目录；第一部第一卷第一章开头对 Fyodor Pavlovitch 的叙述评价；第二部第五卷第四章 Rebellion 开头伊万发言，以及第五章 The Grand Inquisitor 前后的故事引入与伊万说明。未读取两章完整论证或小说结局。",
+      "used_for": "叙述评价的复杂性、人物发言归属、故事嵌套与卷章定位。",
+      "limitations": "目录不是正文覆盖；章的开头不足以代表完整论证；本轮没有额外核验全书版本史或独立学术综述。"
+    }
+  ]
+}

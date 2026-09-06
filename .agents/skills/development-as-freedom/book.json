@@ -1,0 +1,15 @@
+{
+  "id": "development-as-freedom",
+  "title": "Development as Freedom",
+  "title_zh": "以自由看待发展",
+  "authors": ["Amartya Sen"],
+  "year": "1999",
+  "domains": ["发展伦理", "能力框架", "真实机会与能动性"],
+  "use_cases": ["审查资源分配是否带来真实可达机会", "区分完成率与自主选择", "比较公共服务或教育方案的多维结果与障碍"],
+  "summary": "以人的真实机会和能动性审查发展方案，区分资源、实际实现和可选择能力，并公开维度与取舍。",
+  "selection_rationale": "发展思想中的重要作品入口，能力框架能揭示收入或服务提供量遗漏的现实差异；本版严格依据可核实的学术解读，透明保留未读原书的限制。",
+  "limits": ["本轮没有取得原书正文，方法依据SEP学术二级说明，不能提供原书逐章或逐页总结。", "能力框架包含Sen、Nussbaum及后继作者的不同理论，本Skill不把它们合成Sen的唯一立场。", "能力维度、权重、分配和测量存在规范与方法争论，不保证单一客观总分。", "方案提供资源不等于扩大真实机会，短期结果也不证明长期效果。"],
+  "sources": [
+    {"id": "SEN-1", "title": "The Capability Approach — Stanford Encyclopedia of Philosophy", "url": "https://plato.stanford.edu/entries/capability-approach/", "kind": "academic", "accessed": "2026-09-07", "coverage": "实际读取导论、functionings/capabilities、实质自由、转换因素、agency及选择聚合争论相关段落；另直接检查页面HTML书目，读到1999年Development as Freedom条目。", "used_for": "书目年份与能力框架的基本区分、不同理论及规范争论，支撑范围有限的应用设计。", "limitations": "二级学术综合，不是Development as Freedom原文；未把后来作者的全部发展归于Sen，未复核各项引证研究。"}
+  ]
+}
