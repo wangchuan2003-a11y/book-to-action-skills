@@ -1,0 +1,78 @@
+{
+  "id": "beginning-of-infinity",
+  "title": "The Beginning of Infinity",
+  "title_zh": "无穷的开始",
+  "authors": [
+    "David Deutsch"
+  ],
+  "year": "2011",
+  "domains": [
+    "explanation",
+    "philosophy-of-science",
+    "problem-solving"
+  ],
+  "use_cases": [
+    "检查一个解释是否只是可任意改写的故事",
+    "把乐观主张转成有反证与边界的研究行动",
+    "区分解释范围和已有测试范围"
+  ],
+  "summary": "用Deutsch对解释、批评和知识增长的哲学观点改进问题分析，同时把作者的无限进步主张与实际资源和验证分开。",
+  "selection_rationale": "提供不同于仅拟合已见案例的解释质量视角；作者官方摘录和公开演讲可核实核心思想，能与因果和实验技能互补。",
+  "limits": [
+    "难以随意变动是作者的解释质量标准，不是无需证据的真理认证器。",
+    "无限进步与可解性是哲学论证，不是某工程项目必成或按时完成的保证。",
+    "本次只读取官方导言、第一章开头、公开演讲及书介，未读全部章节。"
+  ],
+  "sources": [
+    {
+      "id": "BI1",
+      "title": "The Beginning of Infinity — Introduction and contents",
+      "url": "https://www.thebeginningofinfinity.com/book/excerpt/",
+      "kind": "primary_text",
+      "accessed": "2026-09-07",
+      "coverage": "实际读取官方导言及目录。",
+      "used_for": "作者把解释改善与可能无界的进步联系起来的主张。",
+      "limitations": "导言宣示本书论点，不等于本项目独立验证世界史、价值或全部科学领域。"
+    },
+    {
+      "id": "BI2",
+      "title": "The Beginning of Infinity — Opening of Chapter 1",
+      "url": "https://www.thebeginningofinfinity.com/book/excerpt/opening/",
+      "kind": "primary_text",
+      "accessed": "2026-09-07",
+      "coverage": "实际读取第一章官方开头，重点为理论、经验、猜想和归纳批评段落。",
+      "used_for": "区分观察与解释，经验用于检验猜想，理论推论可超出已见情境。",
+      "limitations": "作者的科学哲学解释不代表唯一共识；文中的多宇宙等立场不作为全部物理学的确定结论。"
+    },
+    {
+      "id": "BI3",
+      "title": "David Deutsch: A new way to explain explanation",
+      "url": "https://www.ted.com/talks/david_deutsch_a_new_way_to_explain_explanation/transcript",
+      "kind": "author_material",
+      "accessed": "2026-09-07",
+      "coverage": "实际读取TED官方转录中猜想、可检验性、季节例子和hard-to-vary解释的相关段落。",
+      "used_for": "核心细节具有解释功能，不能任意换故事仍解释同一结果的标准。",
+      "limitations": "作者演讲不是独立实验；未核对视频逐字时间点，不把演讲对统计学的修辞当全面评价。"
+    },
+    {
+      "id": "BI4",
+      "title": "The Beginning of Infinity — Penguin Random House",
+      "url": "https://www.penguinrandomhouse.com/books/293575/the-beginning-of-infinity-by-david-deutsch/",
+      "kind": "publisher",
+      "accessed": "2026-09-07",
+      "coverage": "实际读取作者、2011电子版和2012平装版日期、简介。",
+      "used_for": "核对书目与作者立场归属。",
+      "limitations": "推荐语和畅销称号不作为科学或项目效果证据。"
+    },
+    {
+      "id": "BI5",
+      "title": "The Beginning of Infinity — Official book overview",
+      "url": "https://www.thebeginningofinfinity.com/",
+      "kind": "author_material",
+      "accessed": "2026-09-07",
+      "coverage": "实际读取官方书介中问题、纠错、进步与可解性的表述。",
+      "used_for": "把乐观和可解性明确归为作者主张。",
+      "limitations": "未读取第9章全文；简介无法支持无限资源、无期限成功或忽略物理限制。"
+    }
+  ]
+}

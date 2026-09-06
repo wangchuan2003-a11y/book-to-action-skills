@@ -1,0 +1,4 @@
+interface:
+  display_name: "自私的基因 · The Selfish Gene"
+  short_description: "区分基因视角、行为成本与心理动机，解释合作并检查遗传决定论"
+  default_prompt: "使用 $selfish-gene，分析这个关于合作的说法，区分生物机制、作者比喻和不能推出的道德结论。"

@@ -1,0 +1,20 @@
+{
+  "id": "wealth-of-nations",
+  "title": "An Inquiry into the Nature and Causes of the Wealth of Nations",
+  "title_zh": "国富论",
+  "authors": ["Adam Smith"],
+  "year": "1776",
+  "domains": ["经济思想", "分工与交换", "市场制度"],
+  "use_cases": ["比较专业化收益与任务规模", "区分价格、成本与有支付能力的需求", "分析竞争限制和市场所依赖的公共条件"],
+  "summary": "从分工、交换范围、价格形成与制度安排理解生产和交易，把作者的分析转为有条件的现实比较。",
+  "selection_rationale": "经济思想中的重要原著，可公开核读且拥有清晰机制；实际选段同时覆盖分工、竞争限制和公共设施，避免把经典压成市场万能口号。",
+  "limits": ["本轮核读指定章节的相关选段与版本说明，未通读全书。", "古典经济概念和历史判断不能整体等同现代经济学共识。", "现代协调成本和数字产品分析是本项目迁移，不是Smith对AI的原话。", "机制解释不保证商业、投资或政策结果；预测需要当期数据。"],
+  "sources": [
+    {"id": "WN-1", "title": "Wealth of Nations — Econlib edition information", "url": "https://www.econlib.org/library/Smith/smWN.html", "kind": "publisher", "accessed": "2026-09-07", "coverage": "读取电子版编辑说明：1776年初版，采用Cannan的1904年版本，基础为Smith生前1789年第五版；文本为公版。", "used_for": "书名、作者、初版年、编辑版本与段落引用方法。", "limitations": "数字出版方的编辑说明与Smith原文分开；公版状态不使全部历史主张自动成立。"},
+    {"id": "WN-2", "title": "Book I, Chapter 1 — Of the Division of Labor", "url": "https://www.econlib.org/library/Smith/smWN.html?chapter_num=4", "kind": "primary_text", "accessed": "2026-09-07", "coverage": "读取分工与熟练、切换时间、机器及方法改进相关段落。", "used_for": "识别分工的具体增效机制。", "limitations": "历史制针等案例不提供现代团队的效果估计，相关数字没有被推广使用。"},
+    {"id": "WN-3", "title": "Book I, Chapter 3 — Division of Labour Limited by the Extent of the Market", "url": "https://www.econlib.org/library/Smith/smWN.html?chapter_num=6", "kind": "primary_text", "accessed": "2026-09-07", "coverage": "读取市场范围限制专业化、乡村职业与水运扩大交换范围的段落。", "used_for": "任务或市场规模对专业化的条件约束。", "limitations": "十八世纪运输和职业例子不是现代规模门槛，现代协调成本需另测。"},
+    {"id": "WN-4", "title": "Book I, Chapter 7 — Of the Natural and Market Price of Commodities", "url": "https://www.econlib.org/library/Smith/smWN.html?chapter_num=10", "kind": "primary_text", "accessed": "2026-09-07", "coverage": "读取自然价格、市场价格、effectual demand及供给相对需求的解释。", "used_for": "准确区分作者价格概念和需求条件。", "limitations": "这是古典分析框架，不是现代所有市场的充分定价模型。"},
+    {"id": "WN-5", "title": "Book I, Chapter 10 — Of Wages and Profit in the Different Employments of Labour and Stock", "url": "https://www.econlib.org/library/Smith/smWN.html?chapter_num=13", "kind": "primary_text", "accessed": "2026-09-07", "coverage": "读取行会排他特权、学徒期限限制竞争及质量保障的相关段落。", "used_for": "说明竞争依赖制度与进入条件，并检验限制的实际机制。", "limitations": "不能从特定历史行会推断所有现代资质或监管都无益。"},
+    {"id": "WN-6", "title": "Book V, Chapter 1 — Of the Expences of the Sovereign or Commonwealth", "url": "https://www.econlib.org/library/Smith/smWN.html?chapter_num=35", "kind": "primary_text", "accessed": "2026-09-07", "coverage": "读取公共工程与公共机构部分开头，包含司法、便利商业的设施、教育和部分收费安排。", "used_for": "避免把Smith理解为拒绝公共设施与共同制度。", "limitations": "未核读本章全部教育或宗教论述，不据选段确定当代最优财政方案。"}
+  ]
+}

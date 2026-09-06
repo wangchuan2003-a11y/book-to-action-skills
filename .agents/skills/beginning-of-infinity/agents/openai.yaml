@@ -1,0 +1,4 @@
+interface:
+  display_name: "无穷的开始 · The Beginning of Infinity"
+  short_description: "检查解释的关键细节与反证，把乐观转成资源有界的求解行动"
+  default_prompt: "使用 $beginning-of-infinity，比较这两个解释，找出任意补故事的地方，并设计能改变判断的检验。"

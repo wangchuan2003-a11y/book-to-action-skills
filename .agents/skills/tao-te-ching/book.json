@@ -1,0 +1,59 @@
+{
+  "id": "tao-te-ching",
+  "title": "Tao Te Ching / Daodejing",
+  "title_zh": "道德经",
+  "authors": [
+    "老子（传统归属；文本形成与编纂过程有争论）"
+  ],
+  "year": "先秦文本传统；具体作者与成书分期有争论",
+  "domains": [
+    "daoist-philosophy",
+    "practical-judgment",
+    "intervention-design"
+  ],
+  "use_cases": [
+    "区分有用行动与过度干预",
+    "反思名目指标与实际情况",
+    "设计减少摩擦并保留责任的流程"
+  ],
+  "summary": "从名与道、无为、自然、慎终及慈俭思想检查干预方式，保留文本多义性，不把无为解释成失责或反对学习。",
+  "selection_rationale": "提供区别于扩张、控制和争胜的中国思想视角，用来审视行动是否扰乱其想帮助的过程；现代迁移仍须实际证据。",
+  "limits": [
+    "作者、成书过程、章序与字句存在文本史争议，不宣称所有版本完全一致。",
+    "无为不是完全不行动，更不是取消安全责任或必要专业治理。",
+    "减少控制、谦让或节俭的现代效果不能由古文直接证明。",
+    "不把古代政治、养生或宗教思想当成现代医学和组织管理万能法。"
+  ],
+  "sources": [
+    {
+      "id": "dao-primary",
+      "title": "道德经 — 中国哲学书电子化计划",
+      "url": "https://ctext.org/dao-de-jing/zh",
+      "kind": "primary_text",
+      "accessed": "2026-09-07",
+      "coverage": "已读本页通行章号 1、17、48、64、67 的中英文相关段落，核对命名、完成而不居功、日损、慎终及三宝；未逐章研读全书。",
+      "used_for": "中文原文和通行章号，以及五项有限原则的归属。",
+      "limitations": "本页是特定呈现；英文释义和现代应用不是古文唯一解释，不能混同出土文本章序。"
+    },
+    {
+      "id": "dao-sep",
+      "title": "Laozi — Stanford Encyclopedia of Philosophy",
+      "url": "https://plato.stanford.edu/entries/laozi/",
+      "kind": "academic",
+      "accessed": "2026-09-07",
+      "coverage": "已读导言，Date and Authorship、Textual Traditions 中编纂假说与马王堆郭店文本的相关段落，以及 Naturalness and Nonaction 中 wuwei 不等于 total inaction 的解释。",
+      "used_for": "作者与年代不确定性、传世与出土文本差异、无为和自然的解释边界。",
+      "limitations": "介绍多种学术理解，不提供唯一无争议译法，也不证明现代实践效果。"
+    },
+    {
+      "id": "dao-legge",
+      "title": "The Tao Teh King, or the Tao and its Characteristics, James Legge translation — Project Gutenberg #216",
+      "url": "https://www.gutenberg.org/cache/epub/216/pg216-images.html",
+      "kind": "primary_text",
+      "accessed": "2026-09-07",
+      "coverage": "已读译者书目信息与第 1、37、48、64 章相关英译段落。",
+      "used_for": "交叉核对无为与第 64 章早期处理、慎终等译法的表达。",
+      "limitations": "Legge 英译与 ctext 英文呈现不是独立经验研究；正式中文章号以 dao-primary 为准。"
+    }
+  ]
+}

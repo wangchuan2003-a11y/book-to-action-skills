@@ -1,0 +1,4 @@
+interface:
+  display_name: "资本论第一卷：概念与论证"
+  short_description: "区分价值、劳动力与剩余价值，检查公式、现实证据和规范判断之间的跳跃"
+  default_prompt: "请用 $capital-volume-one 检查这个关于工资、销售收入和剩余价值率的论断，说明假设与证据缺口。"

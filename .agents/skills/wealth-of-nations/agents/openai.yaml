@@ -1,0 +1,4 @@
+interface:
+  display_name: "国富论：分工与市场机制"
+  short_description: "从分工、市场范围、价格和制度解释经济选择，并明确古典理论的适用条件"
+  default_prompt: "请用 $wealth-of-nations 比较我们小团队是否值得进一步分工，核对需求规模、收益和协调成本。"

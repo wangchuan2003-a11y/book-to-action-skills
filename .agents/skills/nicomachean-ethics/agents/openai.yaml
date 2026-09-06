@@ -1,0 +1,4 @@
+interface:
+  display_name: "尼各马可伦理学"
+  short_description: "用目的、中道与实践智慧分析具体选择，把品格目标转成可观察的行动"
+  default_prompt: "用 $nicomachean-ethics 分析我的选择：明确目的，辨认过度与不足，并给出有理由的具体行动。"

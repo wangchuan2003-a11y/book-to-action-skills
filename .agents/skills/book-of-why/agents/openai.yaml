@@ -1,0 +1,4 @@
+interface:
+  display_name: "为什么：关于因果关系的新科学 · The Book of Why"
+  short_description: "先定位关联、干预和反事实，再检查图假设、混杂与可识别边界"
+  default_prompt: "使用 $book-of-why，审查这个相关性结论能否支持我的干预决策，并列出必要假设和最小验证。"

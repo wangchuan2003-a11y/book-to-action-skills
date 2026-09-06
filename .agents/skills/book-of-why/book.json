@@ -1,0 +1,59 @@
+{
+  "id": "book-of-why",
+  "title": "The Book of Why",
+  "title_zh": "为什么：关于因果关系的新科学",
+  "authors": [
+    "Judea Pearl",
+    "Dana Mackenzie"
+  ],
+  "year": "2018",
+  "domains": [
+    "causal-inference",
+    "experimentation",
+    "decision-making"
+  ],
+  "use_cases": [
+    "把相关问题改写为明确的干预问题",
+    "审查因果图和调整变量的假设",
+    "区分总体干预效应与个体反事实"
+  ],
+  "summary": "先定位关联、干预或反事实问题，再用明确因果假设判断数据是否足以识别目标，而不是把图或相关系数当证明。",
+  "selection_rationale": "直接帮助识别从观察走向行动的证据缺口；作者开放章节与配套学术教材能核查因果层级和调整原则。",
+  "limits": [
+    "公开第一章为未编辑工作稿，未核对正式版全文，不作直接引文。",
+    "因果图表达假设；模型内部可识别不等于这些假设在现实中已证实。",
+    "单个个体未发生的结果通常不能由总体平均效应唯一恢复。"
+  ],
+  "sources": [
+    {
+      "id": "BW1",
+      "title": "The Book of Why — Chapter 1: The Ladder of Causation",
+      "url": "https://bayes.cs.ucla.edu/WHY/why-ch1.pdf",
+      "kind": "primary_text",
+      "accessed": "2026-09-07",
+      "coverage": "实际读取公开第一章工作稿的因果三层、观察与干预、反事实、图模型相关段落。",
+      "used_for": "关联、干预、反事实的不同问题类型与模型需要。",
+      "limitations": "文件标有 Unedited working copy, do not quote；只原创转述，不引用定稿页码，不把认知进化故事当已证实科学。"
+    },
+    {
+      "id": "BW2",
+      "title": "Causal Inference in Statistics: A Primer — Chapter 3",
+      "url": "https://bayes.cs.ucla.edu/PRIMER/primer-ch3.pdf",
+      "kind": "academic",
+      "accessed": "2026-09-07",
+      "coverage": "实际读取第3.1、3.2、3.3节关于干预、调整公式、后门准则及碰撞点的相关正文。",
+      "used_for": "条件化与干预、假设图、调整集合和不能机械控制全部变量的技术边界。",
+      "limitations": "这是Pearl、Glymour、Jewell的2016年配套教材，不是The Book of Why正文；有再分发限制，不附原文PDF。"
+    },
+    {
+      "id": "BW3",
+      "title": "The Book of Why — UCLA author book page",
+      "url": "https://bayes.cs.ucla.edu/WHY/index.html",
+      "kind": "author_material",
+      "accessed": "2026-09-07",
+      "coverage": "实际读取书目、出版日期和公开章节/勘误链接。",
+      "used_for": "确认Pearl与Dana Mackenzie合著、Basic Books、2018年5月15日出版，以及BW1的官方提供链路。",
+      "limitations": "本次未逐条核对勘误，评论链接和奖项不构成方法实效证明。"
+    }
+  ]
+}

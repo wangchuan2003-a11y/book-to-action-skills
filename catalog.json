@@ -158,6 +158,223 @@
       ]
     },
     {
+      "id": "beginning-of-infinity",
+      "title": "The Beginning of Infinity",
+      "title_zh": "无穷的开始",
+      "authors": [
+        "David Deutsch"
+      ],
+      "year": "2011",
+      "domains": [
+        "explanation",
+        "philosophy-of-science",
+        "problem-solving"
+      ],
+      "use_cases": [
+        "检查一个解释是否只是可任意改写的故事",
+        "把乐观主张转成有反证与边界的研究行动",
+        "区分解释范围和已有测试范围"
+      ],
+      "summary": "用Deutsch对解释、批评和知识增长的哲学观点改进问题分析，同时把作者的无限进步主张与实际资源和验证分开。",
+      "selection_rationale": "提供不同于仅拟合已见案例的解释质量视角；作者官方摘录和公开演讲可核实核心思想，能与因果和实验技能互补。",
+      "limits": [
+        "难以随意变动是作者的解释质量标准，不是无需证据的真理认证器。",
+        "无限进步与可解性是哲学论证，不是某工程项目必成或按时完成的保证。",
+        "本次只读取官方导言、第一章开头、公开演讲及书介，未读全部章节。"
+      ],
+      "sources": [
+        {
+          "id": "BI1",
+          "title": "The Beginning of Infinity — Introduction and contents",
+          "url": "https://www.thebeginningofinfinity.com/book/excerpt/",
+          "kind": "primary_text",
+          "accessed": "2026-09-07",
+          "coverage": "实际读取官方导言及目录。",
+          "used_for": "作者把解释改善与可能无界的进步联系起来的主张。",
+          "limitations": "导言宣示本书论点，不等于本项目独立验证世界史、价值或全部科学领域。"
+        },
+        {
+          "id": "BI2",
+          "title": "The Beginning of Infinity — Opening of Chapter 1",
+          "url": "https://www.thebeginningofinfinity.com/book/excerpt/opening/",
+          "kind": "primary_text",
+          "accessed": "2026-09-07",
+          "coverage": "实际读取第一章官方开头，重点为理论、经验、猜想和归纳批评段落。",
+          "used_for": "区分观察与解释，经验用于检验猜想，理论推论可超出已见情境。",
+          "limitations": "作者的科学哲学解释不代表唯一共识；文中的多宇宙等立场不作为全部物理学的确定结论。"
+        },
+        {
+          "id": "BI3",
+          "title": "David Deutsch: A new way to explain explanation",
+          "url": "https://www.ted.com/talks/david_deutsch_a_new_way_to_explain_explanation/transcript",
+          "kind": "author_material",
+          "accessed": "2026-09-07",
+          "coverage": "实际读取TED官方转录中猜想、可检验性、季节例子和hard-to-vary解释的相关段落。",
+          "used_for": "核心细节具有解释功能，不能任意换故事仍解释同一结果的标准。",
+          "limitations": "作者演讲不是独立实验；未核对视频逐字时间点，不把演讲对统计学的修辞当全面评价。"
+        },
+        {
+          "id": "BI4",
+          "title": "The Beginning of Infinity — Penguin Random House",
+          "url": "https://www.penguinrandomhouse.com/books/293575/the-beginning-of-infinity-by-david-deutsch/",
+          "kind": "publisher",
+          "accessed": "2026-09-07",
+          "coverage": "实际读取作者、2011电子版和2012平装版日期、简介。",
+          "used_for": "核对书目与作者立场归属。",
+          "limitations": "推荐语和畅销称号不作为科学或项目效果证据。"
+        },
+        {
+          "id": "BI5",
+          "title": "The Beginning of Infinity — Official book overview",
+          "url": "https://www.thebeginningofinfinity.com/",
+          "kind": "author_material",
+          "accessed": "2026-09-07",
+          "coverage": "实际读取官方书介中问题、纠错、进步与可解性的表述。",
+          "used_for": "把乐观和可解性明确归为作者主张。",
+          "limitations": "未读取第9章全文；简介无法支持无限资源、无期限成功或忽略物理限制。"
+        }
+      ]
+    },
+    {
+      "id": "book-of-why",
+      "title": "The Book of Why",
+      "title_zh": "为什么：关于因果关系的新科学",
+      "authors": [
+        "Judea Pearl",
+        "Dana Mackenzie"
+      ],
+      "year": "2018",
+      "domains": [
+        "causal-inference",
+        "experimentation",
+        "decision-making"
+      ],
+      "use_cases": [
+        "把相关问题改写为明确的干预问题",
+        "审查因果图和调整变量的假设",
+        "区分总体干预效应与个体反事实"
+      ],
+      "summary": "先定位关联、干预或反事实问题，再用明确因果假设判断数据是否足以识别目标，而不是把图或相关系数当证明。",
+      "selection_rationale": "直接帮助识别从观察走向行动的证据缺口；作者开放章节与配套学术教材能核查因果层级和调整原则。",
+      "limits": [
+        "公开第一章为未编辑工作稿，未核对正式版全文，不作直接引文。",
+        "因果图表达假设；模型内部可识别不等于这些假设在现实中已证实。",
+        "单个个体未发生的结果通常不能由总体平均效应唯一恢复。"
+      ],
+      "sources": [
+        {
+          "id": "BW1",
+          "title": "The Book of Why — Chapter 1: The Ladder of Causation",
+          "url": "https://bayes.cs.ucla.edu/WHY/why-ch1.pdf",
+          "kind": "primary_text",
+          "accessed": "2026-09-07",
+          "coverage": "实际读取公开第一章工作稿的因果三层、观察与干预、反事实、图模型相关段落。",
+          "used_for": "关联、干预、反事实的不同问题类型与模型需要。",
+          "limitations": "文件标有 Unedited working copy, do not quote；只原创转述，不引用定稿页码，不把认知进化故事当已证实科学。"
+        },
+        {
+          "id": "BW2",
+          "title": "Causal Inference in Statistics: A Primer — Chapter 3",
+          "url": "https://bayes.cs.ucla.edu/PRIMER/primer-ch3.pdf",
+          "kind": "academic",
+          "accessed": "2026-09-07",
+          "coverage": "实际读取第3.1、3.2、3.3节关于干预、调整公式、后门准则及碰撞点的相关正文。",
+          "used_for": "条件化与干预、假设图、调整集合和不能机械控制全部变量的技术边界。",
+          "limitations": "这是Pearl、Glymour、Jewell的2016年配套教材，不是The Book of Why正文；有再分发限制，不附原文PDF。"
+        },
+        {
+          "id": "BW3",
+          "title": "The Book of Why — UCLA author book page",
+          "url": "https://bayes.cs.ucla.edu/WHY/index.html",
+          "kind": "author_material",
+          "accessed": "2026-09-07",
+          "coverage": "实际读取书目、出版日期和公开章节/勘误链接。",
+          "used_for": "确认Pearl与Dana Mackenzie合著、Basic Books、2018年5月15日出版，以及BW1的官方提供链路。",
+          "limitations": "本次未逐条核对勘误，评论链接和奖项不构成方法实效证明。"
+        }
+      ]
+    },
+    {
+      "id": "capital-volume-one",
+      "title": "Capital: A Critique of Political Economy, Volume I",
+      "title_zh": "资本论：第一卷",
+      "authors": [
+        "Karl Marx"
+      ],
+      "year": "1867",
+      "domains": [
+        "政治经济学",
+        "概念分析",
+        "劳动与生产关系"
+      ],
+      "use_cases": [
+        "理解商品、劳动与劳动力的差别",
+        "在明确假设下计算剩余价值率",
+        "检验从经典理论到现实企业或规范结论的推论"
+      ],
+      "summary": "将原书概念与模型推导重建清楚，并把它们同实际价格、会计数据、当代实证和伦理判断区分。",
+      "selection_rationale": "具有深远影响的政治经济学原著，能训练概念区分与论证边界；公开选段和学术争论材料可同时支持准确解释与批判审查，而非建立单一理论信条。",
+      "limits": [
+        "本轮核读第一卷第1、6、9章相关选段和版本说明，未通读第一卷或第二、三卷。",
+        "英文版章节与不同中译版的组织、措辞可能不同，按章名核对，不能猜页码。",
+        "劳动价值论、价格关系与剥削概念存在持续争论，不把它们当今天所有经济学家的共识。",
+        "现实销售额、工资与资产金额不能未经假设直接替换理论中的价值量。",
+        "本Skill不提供政治、投资结果保证，也不由用户读书推断其立场。"
+      ],
+      "sources": [
+        {
+          "id": "CAP-1",
+          "title": "Capital Volume I — edition information",
+          "url": "https://www.marxists.org/archive/marx/works/1867-c1/",
+          "kind": "primary_text",
+          "accessed": "2026-09-07",
+          "coverage": "读取版本说明：德文初版1867，英文初版1887；Moore与Aveling译、Engels编，注明部分第四德文版变化。",
+          "used_for": "作者、卷次、出版年及英文版本边界。",
+          "limitations": "MIA是具有马克思主义文献定位的档案，编辑立场与作者文本分开，不作为独立实证研究。"
+        },
+        {
+          "id": "CAP-2",
+          "title": "Capital I, Chapter One — Commodities",
+          "url": "https://www.marxists.org/archive/marx/works/1867-c1/ch01.htm",
+          "kind": "primary_text",
+          "accessed": "2026-09-07",
+          "coverage": "读取使用价值、社会必要劳动时间、生产率与个人耗时、价值相对表现相关选段。",
+          "used_for": "商品概念和社会必要劳动的条件；防止把慢劳动自动等同高价值。",
+          "limitations": "没有核读本章所有价值形式与物神性论述；原文主张不等于已获当代实证确认。"
+        },
+        {
+          "id": "CAP-3",
+          "title": "Capital I, Chapter Six — The Buying and Selling of Labour-Power",
+          "url": "https://www.marxists.org/archive/marx/works/1867-c1/ch06.htm",
+          "kind": "primary_text",
+          "accessed": "2026-09-07",
+          "coverage": "读取劳动力定义、自由劳动者的历史条件、再生产与劳动力价值中历史和道德因素的段落。",
+          "used_for": "劳动/劳动力区分与历史社会条件。",
+          "limitations": "不能据此推出现代工资只有生理生存成本，也没有直接测量用户所处劳动市场。"
+        },
+        {
+          "id": "CAP-4",
+          "title": "Capital I, Chapter Nine — The Rate of Surplus-Value",
+          "url": "https://www.marxists.org/archive/marx/works/1867-c1/ch09.htm",
+          "kind": "primary_text",
+          "accessed": "2026-09-07",
+          "coverage": "读取c、v、s表达式、当期耗用不变资本、产品价值/新价值、剩余价值率与必要/剩余劳动时间关系。",
+          "used_for": "理论内核算及分母、当期耗用与预付资本口径区分。",
+          "limitations": "公式正确不自动证明理论普遍有效，也不能未经桥接假设用于企业会计数据。"
+        },
+        {
+          "id": "CAP-5",
+          "title": "Karl Marx — Stanford Encyclopedia of Philosophy",
+          "url": "https://plato.stanford.edu/entries/marx/",
+          "kind": "academic",
+          "accessed": "2026-09-07",
+          "coverage": "读取Economic Analysis相关段落，尤其3.2 Labour Theory of Value、3.3 Exploitation中的解释、批评与替代立场。",
+          "used_for": "确认解释传统差异、劳动价值论论证争议及剥削概念不只一种重建方式。",
+          "limitations": "这是学术百科作者的综合评述，不是所有经济学家的共同声明；未据它总结其他未读章节。"
+        }
+      ]
+    },
+    {
       "id": "design-of-everyday-things",
       "title": "The Design of Everyday Things",
       "title_zh": "设计心理学：日常事物的设计",
@@ -268,6 +485,65 @@
           "coverage": "实际读取作者书页和 Supplemental Materials 链接。",
           "used_for": "确认 GS1 摘录由作者官网公开提供。",
           "limitations": "推荐语不作独立证据。"
+        }
+      ]
+    },
+    {
+      "id": "governing-the-commons",
+      "title": "Governing the Commons: The Evolution of Institutions for Collective Action",
+      "title_zh": "公共事务的治理之道",
+      "authors": [
+        "Elinor Ostrom"
+      ],
+      "year": "1990",
+      "domains": [
+        "制度分析",
+        "公共资源",
+        "集体行动"
+      ],
+      "use_cases": [
+        "诊断共享资源的过度使用与维护不足",
+        "设计使用者参与和可问责监测",
+        "区分资源性质、产权与实际治理规则"
+      ],
+      "summary": "从真实资源和实际使用规则出发，分析参与、监测、成本收益分配和争议处理如何支持集体行动。",
+      "selection_rationale": "提供超越市场或国家二选一的经验制度分析，公开作者材料与后续综述可以核实方法及其限制；入选基于用途与来源质量，不把获奖地位当作万能证明。",
+      "limits": [
+        "本轮核读作者2009年讲座和2010年综述，未核读1990年全书。",
+        "讲座包含后续修订的设计原则，不能全部当成原书的逐字表述。",
+        "共同池资源不等于共同产权，更不等于无规则开放使用。",
+        "社区案例不能直接证明全球治理或数字社区的有效性；自治、私有与公共管理均须按情境检验。"
+      ],
+      "sources": [
+        {
+          "id": "OST-1",
+          "title": "Elinor Ostrom — Prize Lecture",
+          "url": "https://www.nobelprize.org/prizes/economic-sciences/2009/ostrom/lecture/",
+          "kind": "author_material",
+          "accessed": "2026-09-07",
+          "coverage": "读取诺奖官网讲座题目、2009-12-08演讲日期与官方讲稿PDF链接。",
+          "used_for": "确认公开讲座的作者、时间和原始稿件来源。",
+          "limitations": "网页本身不是讲稿全文，不提供独立效果证据。"
+        },
+        {
+          "id": "OST-2",
+          "title": "Beyond Markets and States: Polycentric Governance of Complex Economic Systems",
+          "url": "https://www.nobelprize.org/uploads/2018/06/ostrom_lecture.pdf",
+          "kind": "author_material",
+          "accessed": "2026-09-07",
+          "coverage": "实际读取资源分类、制度分析、产权束、设计原则修订与局限相关段落，以及1990年Governing the Commons书目条目。",
+          "used_for": "资源排他与使用减损、产权制度差别、参与监测、渐进回应、冲突处理及嵌套层次。",
+          "limitations": "这是作者多年研究的回顾，含后续发展；案例结果未经本项目逐项复核，不支持自治必胜。"
+        },
+        {
+          "id": "OST-3",
+          "title": "A Review of Design Principles for Community-based Natural Resource Management",
+          "url": "https://www.ecologyandsociety.org/vol15/iss4/art38/main.html",
+          "kind": "independent_research",
+          "accessed": "2026-09-07",
+          "coverage": "读取Cox、Arnold、Villamayor Tomás的2010年综述摘要与Critique of the principles段落，摘要报告分析91项研究。",
+          "used_for": "交叉检验原则的经验支持，补入制度外部环境、原则不完备和规模迁移限制。",
+          "limitations": "研究者与Ostrom处于相关研究网络；综述不是随机实验，未正式分析大型非社区系统，本项目没有复做其编码与统计。"
         }
       ]
     },
@@ -441,6 +717,104 @@
       ]
     },
     {
+      "id": "meditations",
+      "title": "Meditations",
+      "title_zh": "沉思录",
+      "authors": [
+        "Marcus Aurelius"
+      ],
+      "year": "公元2世纪；包含其晚年军旅时期的自省记录，未核定单一完成年",
+      "domains": [
+        "stoic-ethics",
+        "self-reflection",
+        "interpersonal-judgment"
+      ],
+      "use_cases": [
+        "面对批评时区分事实与评价",
+        "选择兼顾责任和边界的回应",
+        "反思权力身份与报复冲动"
+      ],
+      "summary": "从马可·奥勒留的自我提醒出发检查判断、合作与行动，不把斯多葛伦理变成压抑情绪或忍受伤害的命令。",
+      "selection_rationale": "提供在外部不确定中审视自身判断与责任的经典练习，同时保留其帝王身份、宗教宇宙观和现代适用限制。",
+      "limits": [
+        "这是作者写给自己的斯多葛自省，不是通用心理治疗或医学指南。",
+        "真实伤害、疾病与制度问题不能还原成受害者的错误判断。",
+        "不能要求情绪立即消失；印象、感受与对其作出的解释需要区分。",
+        "不同译本分卷分段有差异，采用所读 George Long 版的卷与定位短语。"
+      ],
+      "sources": [
+        {
+          "id": "marcus-primary",
+          "title": "The Meditations, translated by George Long — Internet Classics Archive",
+          "url": "https://classics.mit.edu/Antoninus/meditations.mb.txt",
+          "kind": "primary_text",
+          "accessed": "2026-09-07",
+          "coverage": "已读译者信息、卷 II 开头面对难相处之人与合作段落，卷 IV 内在休整及 Take away thy opinion 段落，卷 VI 不模仿作恶者与不被 Caesar 身份染色段落；查看其他判断段落作为语境比较。",
+          "used_for": "判断、休整、合作、不报复与权力自省的原文定位。",
+          "limitations": "George Long 译本中的宗教宇宙观和古代规范主张不等同现代心理学事实；不宣称逐段读完整部作品。"
+        },
+        {
+          "id": "marcus-sep",
+          "title": "Marcus Aurelius — Stanford Encyclopedia of Philosophy",
+          "url": "https://plato.stanford.edu/entries/marcus-aurelius/",
+          "kind": "academic",
+          "accessed": "2026-09-07",
+          "coverage": "已读导言、Life and Works 中生平和写作性质，及 4.2 Erase Impressions 中印象、同意与价值判断的解释分歧。",
+          "used_for": "作者身份、写给自己的文本性质、晚年写作语境，以及不应把消除印象理解为随意抹去感受。",
+          "limitations": "斯多葛理论与学者解释不是本次开展的治疗效果研究，也不代表作者所有表述无歧义。"
+        }
+      ]
+    },
+    {
+      "id": "nicomachean-ethics",
+      "title": "Nicomachean Ethics",
+      "title_zh": "尼各马可伦理学",
+      "authors": [
+        "Aristotle"
+      ],
+      "year": "古希腊作品；本次未核定精确成书年",
+      "domains": [
+        "ethics",
+        "practical-judgment",
+        "habit-formation"
+      ],
+      "use_cases": [
+        "分析行动目的与手段",
+        "理解中道及其反例",
+        "把品格目标转为具体情境中的实践"
+      ],
+      "summary": "以目的、习惯、中道、审议和实践智慧分析如何行动；不把伦理判断压成折中比例或成功学公式。",
+      "selection_rationale": "以具体情境中的实践智慧连接知道与做到，补充抽象规则和效果导向的方法，同时暴露古代伦理的历史限制。",
+      "limits": [
+        "中道不是数学平均，也不是在正确与错误之间折中。",
+        "德性与幸福的理论是规范论证，不是现代习惯科学或健康处方。",
+        "古代社会、性别与外在条件的评价含历史偏见，不能作为今天排斥他人的标准。",
+        "所读 Chase 译本细章划分与通行版本可能不同，引用采用卷和定位词。"
+      ],
+      "sources": [
+        {
+          "id": "ethics-primary",
+          "title": "The Nicomachean Ethics of Aristotle, translated by D. P. Chase — Project Gutenberg #8438",
+          "url": "https://www.gutenberg.org/files/8438/8438-h/8438-h.htm",
+          "kind": "primary_text",
+          "accessed": "2026-09-07",
+          "coverage": "已读书目；正文卷 I 行动目的与外在条件段落，卷 II 习惯形成、德性行为条件、相对于个人的中道与无中道例外，卷 III 手段审议，卷 VI 实践智慧定义；辨认 J. A. Smith 导论。",
+          "used_for": "目的、习惯、中道、审议和实践智慧的归属，以及原文限制和历史偏见。",
+          "limitations": "译者与导论作者不等于 Aristotle；未逐章研读，卷级定位避免套错细章编号。"
+        },
+        {
+          "id": "ethics-sep",
+          "title": "Aristotle's Ethics — Stanford Encyclopedia of Philosophy",
+          "url": "https://plato.stanford.edu/entries/aristotle-ethics/",
+          "kind": "academic",
+          "accessed": "2026-09-07",
+          "coverage": "已读导言和 Preliminaries 中两部伦理学的书名、目的及归属；阅读实践智慧不能仅靠通用规则获得的解释，查看中道与决策程序相关结构。",
+          "used_for": "书目身份、eudaimonia 的解释与实践智慧的有限含义。",
+          "limitations": "学术解释不提供具体生活决策的自动程序，也不证明现代习惯训练效果。"
+        }
+      ]
+    },
+    {
       "id": "on-liberty",
       "title": "On Liberty",
       "title_zh": "论自由",
@@ -485,6 +859,113 @@
           "coverage": "已读导言、Life 部分及条目中 On Liberty 相关定位与出版年。",
           "used_for": "确认作者、1859 年出版与哲学语境。",
           "limitations": "学术解释是二手分析，不是政策效果研究；未研读条目全部论证。"
+        }
+      ]
+    },
+    {
+      "id": "origin-of-species",
+      "title": "On the Origin of Species",
+      "title_zh": "物种起源",
+      "authors": [
+        "Charles Darwin"
+      ],
+      "year": "1859",
+      "domains": [
+        "evolution",
+        "scientific-reasoning",
+        "biology"
+      ],
+      "use_cases": [
+        "检验自然选择解释缺了哪些条件",
+        "区分个体适应与种群跨代变化",
+        "审查把生物进化套用到社会的类比"
+      ],
+      "summary": "从变异、遗传、差异繁殖和具体环境解释种群变化，同时识别现代遗传学补充及进化类比的边界。",
+      "selection_rationale": "自然选择提供可检验的机制解释，适合训练从现象到条件的推理；通过1859初版转录和大学教学资料区分历史文本与现代解释。",
+      "limits": [
+        "本次只读初版第三章与第四章相关段落，没有通读全书或逐页校对原扫描。",
+        "现代进化论还包括遗传漂变、突变、迁移等机制，不能等同1859年的全部细节。",
+        "自然界发生的事不能直接规定社会制度、个人价值或道德责任。"
+      ],
+      "sources": [
+        {
+          "id": "OS1",
+          "title": "On the Origin of Species (1859), Chapter III",
+          "url": "https://en.wikisource.org/wiki/On_the_Origin_of_Species_%281859%29/Chapter_III",
+          "kind": "primary_text",
+          "accessed": "2026-09-07",
+          "coverage": "实际读取第三章前半关于变异、自然选择、生存斗争的广义含义、繁殖与数量限制的段落。",
+          "used_for": "说明斗争包含环境依赖与留下后代，不仅是直接争斗。",
+          "limitations": "Wikisource 初版社区转录，未逐页校对纸本扫描；历史例子的数字不作为现代实证。"
+        },
+        {
+          "id": "OS2",
+          "title": "On the Origin of Species (1859), Chapter IV",
+          "url": "https://en.wikisource.org/wiki/On_the_Origin_of_Species_%281859%29/Chapter_IV",
+          "kind": "primary_text",
+          "accessed": "2026-09-07",
+          "coverage": "实际读取第四章开头关于有利变异、遗传、存活与繁殖、环境改变及物种关系的段落。",
+          "used_for": "自然选择的条件链以及优势对环境的依赖。",
+          "limitations": "只核对已读段落；有害变异被消除等历史强表述不能无条件推广到有限种群。"
+        },
+        {
+          "id": "OS3",
+          "title": "Natural Selection — UC Berkeley Understanding Evolution",
+          "url": "https://evolution.berkeley.edu/evolution-101/mechanisms-the-processes-of-evolution/natural-selection/",
+          "kind": "academic",
+          "accessed": "2026-09-07",
+          "coverage": "实际读取 Natural Selection 主文及甲虫示例，页面标记2020年审订。",
+          "used_for": "现代教学解释中的性状变异、差异繁殖与遗传三条件，以及其他演化机制。",
+          "limitations": "大学教学说明不是本项目的实验；甲虫例子是简化教学模型，不是所有生态条件下的结局保证。"
+        }
+      ]
+    },
+    {
+      "id": "republic",
+      "title": "Republic",
+      "title_zh": "理想国",
+      "authors": [
+        "Plato"
+      ],
+      "year": "古希腊作品；本次未核定精确成书年",
+      "domains": [
+        "ethics",
+        "political-philosophy",
+        "critical-thinking"
+      ],
+      "use_cases": [
+        "检验公平或正义的定义",
+        "区分声誉利益与行动本身的理由",
+        "审查专家权威和制度类比"
+      ],
+      "summary": "以对话、反例和思想实验检查正义论证，区分人物提出的挑战、苏格拉底的回应与现代制度建议。",
+      "selection_rationale": "提供正义、知识与权力之间的经典论证案例，使行动讨论不仅关注效率，也检验目的和制度理由；不把经典地位当论证已成立。",
+      "limits": [
+        "这是柏拉图写作的哲学对话，人物发言不能逐句等同作者认可的命题。",
+        "城邦与灵魂类比、哲人统治和教育安排存在重大解释争论，不能直接成为现代组织制度。",
+        "洞穴和隐身戒指是思想实验或比喻，不是人类行为的实验结果。",
+        "只覆盖本次实际读取段落，不提供未经核实的 Stephanus 编号或现代译本页码。"
+      ],
+      "sources": [
+        {
+          "id": "republic-primary",
+          "title": "The Republic, translated by Benjamin Jowett — Project Gutenberg #1497",
+          "url": "https://www.gutenberg.org/files/1497/1497-h/1497-h.htm",
+          "kind": "primary_text",
+          "accessed": "2026-09-07",
+          "coverage": "已读书目信息；对话正文卷 I 归还武器反例，卷 II 格劳孔的善之分类和隐身戒指挑战，卷 IV 职分与城邦灵魂类比相关段落，卷 VI 船喻，卷 VII 洞穴及教育转向段落；并辨认前置 Jowett 导论。",
+          "used_for": "论证角色、反例、思想实验、权威与知识比喻的归属和卷级定位。",
+          "limitations": "Jowett 导论与正文不同；仅核实所列段落，不把译者分析或角色挑战当成作者定论。"
+        },
+        {
+          "id": "republic-sep",
+          "title": "Plato's Ethics and Politics in The Republic — Stanford Encyclopedia of Philosophy",
+          "url": "https://plato.stanford.edu/entries/plato-ethics-politics/",
+          "kind": "academic",
+          "accessed": "2026-09-07",
+          "coverage": "已读导言、问题和论证策略、卷 I—II 角色挑战与卷 IV 城邦灵魂类比的相关解释，查看政治争议的讨论结构。",
+          "used_for": "确认作品的核心问题、苏格拉底的论证路线与政治解释争议。",
+          "limitations": "学术解释不能证明现代规则正当或有效；未研读该条目所有政治争论。"
         }
       ]
     },
@@ -538,6 +1019,123 @@
       ]
     },
     {
+      "id": "seeing-like-a-state",
+      "title": "Seeing Like a State: How Certain Schemes to Improve the Human Condition Have Failed",
+      "title_zh": "国家的视角",
+      "authors": [
+        "James C. Scott"
+      ],
+      "year": "1998（原作）；1999（所核出版社平装版）",
+      "domains": [
+        "制度批判",
+        "标准化",
+        "地方知识"
+      ],
+      "use_cases": [
+        "审查统一指标遗漏的工作情境",
+        "分析分类与考核如何改变人的行为",
+        "为中央协调与地方实践保留纠错接口"
+      ],
+      "summary": "分析行政可读性如何简化现实，以及当简化模型被强制施加时可能丢失哪些实践知识与纠错机会。",
+      "selection_rationale": "对标准化、数据治理和大型组织规划具有可迁移的批判价值；作者公开文章明确展示简化的收益与损失，可避免把观点缩成反规划口号。",
+      "limits": [
+        "本轮读取出版社简介和作者相关公开文章，未核读全书。",
+        "作者历史案例的因果解释未在本项目中独立复核。",
+        "地方知识不是天然正确，标准化也不必然造成灾难。",
+        "数字产品与管理指标的案例是本项目迁移设计，不是作者对当代AI系统的判断。"
+      ],
+      "sources": [
+        {
+          "id": "SCO-1",
+          "title": "Seeing Like a State — Yale University Press",
+          "url": "https://yalebooks.yale.edu/book/9780300078152/seeing-like-a-state/",
+          "kind": "publisher",
+          "accessed": "2026-09-07",
+          "coverage": "读取标题、作者、1999-02-08平装版日期、内容简介和作者信息。",
+          "used_for": "书目、地方实践知识主题，以及出版社对作者四项条件的概括。",
+          "limitations": "简介不是完整历史论证；推荐语与营销措辞未被当成方法有效性的证明。"
+        },
+        {
+          "id": "SCO-2",
+          "title": "The Trouble with the View from Above — James C. Scott",
+          "url": "https://www.cato-unbound.org/2010/09/08/james-c-scott/trouble-view-above/",
+          "kind": "author_material",
+          "accessed": "2026-09-07",
+          "coverage": "读取2010年作者文章中的命名与道路/急救例子、Legibility and Power、科学林业及结论。",
+          "used_for": "行政与地方可读性、测量改变行为、简化遗漏和对企业标准化的适用范围。",
+          "limitations": "作者发表于具有思想立场的论坛的后续文章，不等同全书；历史例证未经本项目独立复核。"
+        },
+        {
+          "id": "SCO-3",
+          "title": "A Review of Design Principles for Community-based Natural Resource Management",
+          "url": "https://www.ecologyandsociety.org/vol15/iss4/art38/main.html",
+          "kind": "academic",
+          "accessed": "2026-09-07",
+          "coverage": "读取综述的制度情境限制讨论及参考文献中Scott 1998年原书条目。",
+          "used_for": "核对原作出版年份，并为避免通用制度清单提供相邻学术背景。",
+          "limitations": "该文评估Ostrom原则而不是检验Scott全书；不能充当Scott所有论点的独立验证。"
+        }
+      ]
+    },
+    {
+      "id": "selfish-gene",
+      "title": "The Selfish Gene",
+      "title_zh": "自私的基因",
+      "authors": [
+        "Richard Dawkins"
+      ],
+      "year": "1976",
+      "domains": [
+        "evolution",
+        "cooperation",
+        "scientific-literacy"
+      ],
+      "use_cases": [
+        "区分基因视角与个人自私的道德判断",
+        "解释合作或利他为何不与自然选择矛盾",
+        "检查遗传决定论和选择层级的概念混淆"
+      ],
+      "summary": "用基因视角检查繁殖贡献与行为效果，同时区分生物学利他、心理动机、遗传影响和伦理规范。",
+      "selection_rationale": "能纠正书名引发的常见误解，并把合作问题转成可检验的成本、收益和关系结构；授权摘录与学术说明可互相校正。",
+      "limits": [
+        "基因没有意图；自私是作者的功能性比喻，不能拿来诊断个人品格。",
+        "行为涉及基因、环境、发育与学习，遗传影响不等于固定命运。",
+        "群体选择与亲缘选择的关系有模型和表述争论，不能用1976年的修辞宣布一切讨论已结束。"
+      ],
+      "sources": [
+        {
+          "id": "SG1",
+          "title": "Read an extract from The Selfish Gene by Richard Dawkins",
+          "url": "https://www.newscientist.com/article/2528309-read-an-extract-from-the-selfish-gene-by-richard-dawkins/",
+          "kind": "primary_text",
+          "accessed": "2026-09-07",
+          "coverage": "实际读取New Scientist于2026年公开的第一章选段，重点为自私/利他、不是道德倡议、遗传不等于不可改变的说明。",
+          "used_for": "作者对本书范围的明确限制及避免道德处方、遗传决定论的依据。",
+          "limitations": "页面标明来自Oxford 50周年版并署作者版权；只原创转述，不再分发摘录。历史人性修辞不作为现代共识。"
+        },
+        {
+          "id": "SG2",
+          "title": "The Selfish Gene (40th Anniversary edition) — Oxford University Press",
+          "url": "https://www.oupjapan.co.jp/en/node/15197?language=en",
+          "kind": "publisher",
+          "accessed": "2026-09-07",
+          "coverage": "实际读取书目、1976初版说明、2016版信息及目录。",
+          "used_for": "作者、初版年、基因视角与不同版次章节范围。",
+          "limitations": "出版介绍与推荐语不证明现代各项科学主张；目录不等于读过对应章节。"
+        },
+        {
+          "id": "SG3",
+          "title": "Biological Altruism — Stanford Encyclopedia of Philosophy",
+          "url": "https://plato.stanford.edu/entries/altruism-biological/",
+          "kind": "academic",
+          "accessed": "2026-09-07",
+          "coverage": "实际读取第1节选择层级、第2节亲缘选择与包容适合度、第3节相关成本与互惠讨论的相关段落。",
+          "used_for": "亲缘选择、Hamilton规则的适用条件、遗传决定论边界，以及群体与亲缘选择关系的争论。",
+          "limitations": "学术综述不是本项目复算或完整实证审查；数学等价等判断须保留模型条件，不能无条件概括。"
+        }
+      ]
+    },
+    {
       "id": "superforecasting",
       "title": "Superforecasting",
       "title_zh": "超预测",
@@ -582,6 +1180,65 @@
           "coverage": "通过网页阅读器实际读取论文摘要、Training/Teaming/Tracking、设计、结果与讨论段落；未复算原始数据。",
           "used_for": "说明概率训练、团队交流、按表现组队在研究比赛中的证据，以及校准、分辨力、不可消除的不确定性。",
           "limitations": "Mellers 等，2014，原研究团队论文；不同干预的设计不可混同为完全相同的随机实验；不能推导该 Skill 已提高准确率。"
+        }
+      ]
+    },
+    {
+      "id": "tao-te-ching",
+      "title": "Tao Te Ching / Daodejing",
+      "title_zh": "道德经",
+      "authors": [
+        "老子（传统归属；文本形成与编纂过程有争论）"
+      ],
+      "year": "先秦文本传统；具体作者与成书分期有争论",
+      "domains": [
+        "daoist-philosophy",
+        "practical-judgment",
+        "intervention-design"
+      ],
+      "use_cases": [
+        "区分有用行动与过度干预",
+        "反思名目指标与实际情况",
+        "设计减少摩擦并保留责任的流程"
+      ],
+      "summary": "从名与道、无为、自然、慎终及慈俭思想检查干预方式，保留文本多义性，不把无为解释成失责或反对学习。",
+      "selection_rationale": "提供区别于扩张、控制和争胜的中国思想视角，用来审视行动是否扰乱其想帮助的过程；现代迁移仍须实际证据。",
+      "limits": [
+        "作者、成书过程、章序与字句存在文本史争议，不宣称所有版本完全一致。",
+        "无为不是完全不行动，更不是取消安全责任或必要专业治理。",
+        "减少控制、谦让或节俭的现代效果不能由古文直接证明。",
+        "不把古代政治、养生或宗教思想当成现代医学和组织管理万能法。"
+      ],
+      "sources": [
+        {
+          "id": "dao-primary",
+          "title": "道德经 — 中国哲学书电子化计划",
+          "url": "https://ctext.org/dao-de-jing/zh",
+          "kind": "primary_text",
+          "accessed": "2026-09-07",
+          "coverage": "已读本页通行章号 1、17、48、64、67 的中英文相关段落，核对命名、完成而不居功、日损、慎终及三宝；未逐章研读全书。",
+          "used_for": "中文原文和通行章号，以及五项有限原则的归属。",
+          "limitations": "本页是特定呈现；英文释义和现代应用不是古文唯一解释，不能混同出土文本章序。"
+        },
+        {
+          "id": "dao-sep",
+          "title": "Laozi — Stanford Encyclopedia of Philosophy",
+          "url": "https://plato.stanford.edu/entries/laozi/",
+          "kind": "academic",
+          "accessed": "2026-09-07",
+          "coverage": "已读导言，Date and Authorship、Textual Traditions 中编纂假说与马王堆郭店文本的相关段落，以及 Naturalness and Nonaction 中 wuwei 不等于 total inaction 的解释。",
+          "used_for": "作者与年代不确定性、传世与出土文本差异、无为和自然的解释边界。",
+          "limitations": "介绍多种学术理解，不提供唯一无争议译法，也不证明现代实践效果。"
+        },
+        {
+          "id": "dao-legge",
+          "title": "The Tao Teh King, or the Tao and its Characteristics, James Legge translation — Project Gutenberg #216",
+          "url": "https://www.gutenberg.org/cache/epub/216/pg216-images.html",
+          "kind": "primary_text",
+          "accessed": "2026-09-07",
+          "coverage": "已读译者书目信息与第 1、37、48、64 章相关英译段落。",
+          "used_for": "交叉核对无为与第 64 章早期处理、慎终等译法的表达。",
+          "limitations": "Legge 英译与 ctext 英文呈现不是独立经验研究；正式中文章号以 dao-primary 为准。"
         }
       ]
     },
@@ -688,6 +1345,95 @@
           "coverage": "实际读取作者文章的开篇、存量流量解释、修订后十二项清单及参数、缓冲、结构、延迟、信息、规则、目标、范式和结尾限制说明。",
           "used_for": "核心概念、干预层次以及清单并非公式且有例外的边界。",
           "limitations": "这是一篇相关作者文章，不等同于逐章读取本书；文中经验与政策判断未经本项目独立验证。"
+        }
+      ]
+    },
+    {
+      "id": "wealth-of-nations",
+      "title": "An Inquiry into the Nature and Causes of the Wealth of Nations",
+      "title_zh": "国富论",
+      "authors": [
+        "Adam Smith"
+      ],
+      "year": "1776",
+      "domains": [
+        "经济思想",
+        "分工与交换",
+        "市场制度"
+      ],
+      "use_cases": [
+        "比较专业化收益与任务规模",
+        "区分价格、成本与有支付能力的需求",
+        "分析竞争限制和市场所依赖的公共条件"
+      ],
+      "summary": "从分工、交换范围、价格形成与制度安排理解生产和交易，把作者的分析转为有条件的现实比较。",
+      "selection_rationale": "经济思想中的重要原著，可公开核读且拥有清晰机制；实际选段同时覆盖分工、竞争限制和公共设施，避免把经典压成市场万能口号。",
+      "limits": [
+        "本轮核读指定章节的相关选段与版本说明，未通读全书。",
+        "古典经济概念和历史判断不能整体等同现代经济学共识。",
+        "现代协调成本和数字产品分析是本项目迁移，不是Smith对AI的原话。",
+        "机制解释不保证商业、投资或政策结果；预测需要当期数据。"
+      ],
+      "sources": [
+        {
+          "id": "WN-1",
+          "title": "Wealth of Nations — Econlib edition information",
+          "url": "https://www.econlib.org/library/Smith/smWN.html",
+          "kind": "publisher",
+          "accessed": "2026-09-07",
+          "coverage": "读取电子版编辑说明：1776年初版，采用Cannan的1904年版本，基础为Smith生前1789年第五版；文本为公版。",
+          "used_for": "书名、作者、初版年、编辑版本与段落引用方法。",
+          "limitations": "数字出版方的编辑说明与Smith原文分开；公版状态不使全部历史主张自动成立。"
+        },
+        {
+          "id": "WN-2",
+          "title": "Book I, Chapter 1 — Of the Division of Labor",
+          "url": "https://www.econlib.org/library/Smith/smWN.html?chapter_num=4",
+          "kind": "primary_text",
+          "accessed": "2026-09-07",
+          "coverage": "读取分工与熟练、切换时间、机器及方法改进相关段落。",
+          "used_for": "识别分工的具体增效机制。",
+          "limitations": "历史制针等案例不提供现代团队的效果估计，相关数字没有被推广使用。"
+        },
+        {
+          "id": "WN-3",
+          "title": "Book I, Chapter 3 — Division of Labour Limited by the Extent of the Market",
+          "url": "https://www.econlib.org/library/Smith/smWN.html?chapter_num=6",
+          "kind": "primary_text",
+          "accessed": "2026-09-07",
+          "coverage": "读取市场范围限制专业化、乡村职业与水运扩大交换范围的段落。",
+          "used_for": "任务或市场规模对专业化的条件约束。",
+          "limitations": "十八世纪运输和职业例子不是现代规模门槛，现代协调成本需另测。"
+        },
+        {
+          "id": "WN-4",
+          "title": "Book I, Chapter 7 — Of the Natural and Market Price of Commodities",
+          "url": "https://www.econlib.org/library/Smith/smWN.html?chapter_num=10",
+          "kind": "primary_text",
+          "accessed": "2026-09-07",
+          "coverage": "读取自然价格、市场价格、effectual demand及供给相对需求的解释。",
+          "used_for": "准确区分作者价格概念和需求条件。",
+          "limitations": "这是古典分析框架，不是现代所有市场的充分定价模型。"
+        },
+        {
+          "id": "WN-5",
+          "title": "Book I, Chapter 10 — Of Wages and Profit in the Different Employments of Labour and Stock",
+          "url": "https://www.econlib.org/library/Smith/smWN.html?chapter_num=13",
+          "kind": "primary_text",
+          "accessed": "2026-09-07",
+          "coverage": "读取行会排他特权、学徒期限限制竞争及质量保障的相关段落。",
+          "used_for": "说明竞争依赖制度与进入条件，并检验限制的实际机制。",
+          "limitations": "不能从特定历史行会推断所有现代资质或监管都无益。"
+        },
+        {
+          "id": "WN-6",
+          "title": "Book V, Chapter 1 — Of the Expences of the Sovereign or Commonwealth",
+          "url": "https://www.econlib.org/library/Smith/smWN.html?chapter_num=35",
+          "kind": "primary_text",
+          "accessed": "2026-09-07",
+          "coverage": "读取公共工程与公共机构部分开头，包含司法、便利商业的设施、教育和部分收费安排。",
+          "used_for": "避免把Smith理解为拒绝公共设施与共同制度。",
+          "limitations": "未核读本章全部教育或宗教论述，不据选段确定当代最优财政方案。"
         }
       ]
     }

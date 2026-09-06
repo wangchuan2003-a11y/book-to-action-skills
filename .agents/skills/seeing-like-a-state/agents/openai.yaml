@@ -1,0 +1,4 @@
+interface:
+  display_name: "国家的视角：标准化的盲区"
+  short_description: "审查统一指标和管理方案遗漏了什么，保留实践知识、协调收益与纠错空间"
+  default_prompt: "请用 $seeing-like-a-state 审查这项统一考核方案，指出它遗漏的现场知识和最小修补方式。"

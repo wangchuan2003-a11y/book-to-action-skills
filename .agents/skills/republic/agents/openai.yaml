@@ -1,0 +1,4 @@
+interface:
+  display_name: "理想国"
+  short_description: "借《理想国》检验正义与权威的理由，区分对话角色、反例和现实证据"
+  default_prompt: "用 $republic 检查这条公平规则：说明隐含定义、角色利益、最强反例以及可修订之处。"

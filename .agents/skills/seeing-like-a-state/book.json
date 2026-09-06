@@ -1,0 +1,17 @@
+{
+  "id": "seeing-like-a-state",
+  "title": "Seeing Like a State: How Certain Schemes to Improve the Human Condition Have Failed",
+  "title_zh": "国家的视角",
+  "authors": ["James C. Scott"],
+  "year": "1998（原作）；1999（所核出版社平装版）",
+  "domains": ["制度批判", "标准化", "地方知识"],
+  "use_cases": ["审查统一指标遗漏的工作情境", "分析分类与考核如何改变人的行为", "为中央协调与地方实践保留纠错接口"],
+  "summary": "分析行政可读性如何简化现实，以及当简化模型被强制施加时可能丢失哪些实践知识与纠错机会。",
+  "selection_rationale": "对标准化、数据治理和大型组织规划具有可迁移的批判价值；作者公开文章明确展示简化的收益与损失，可避免把观点缩成反规划口号。",
+  "limits": ["本轮读取出版社简介和作者相关公开文章，未核读全书。", "作者历史案例的因果解释未在本项目中独立复核。", "地方知识不是天然正确，标准化也不必然造成灾难。", "数字产品与管理指标的案例是本项目迁移设计，不是作者对当代AI系统的判断。"],
+  "sources": [
+    {"id": "SCO-1", "title": "Seeing Like a State — Yale University Press", "url": "https://yalebooks.yale.edu/book/9780300078152/seeing-like-a-state/", "kind": "publisher", "accessed": "2026-09-07", "coverage": "读取标题、作者、1999-02-08平装版日期、内容简介和作者信息。", "used_for": "书目、地方实践知识主题，以及出版社对作者四项条件的概括。", "limitations": "简介不是完整历史论证；推荐语与营销措辞未被当成方法有效性的证明。"},
+    {"id": "SCO-2", "title": "The Trouble with the View from Above — James C. Scott", "url": "https://www.cato-unbound.org/2010/09/08/james-c-scott/trouble-view-above/", "kind": "author_material", "accessed": "2026-09-07", "coverage": "读取2010年作者文章中的命名与道路/急救例子、Legibility and Power、科学林业及结论。", "used_for": "行政与地方可读性、测量改变行为、简化遗漏和对企业标准化的适用范围。", "limitations": "作者发表于具有思想立场的论坛的后续文章，不等同全书；历史例证未经本项目独立复核。"},
+    {"id": "SCO-3", "title": "A Review of Design Principles for Community-based Natural Resource Management", "url": "https://www.ecologyandsociety.org/vol15/iss4/art38/main.html", "kind": "academic", "accessed": "2026-09-07", "coverage": "读取综述的制度情境限制讨论及参考文献中Scott 1998年原书条目。", "used_for": "核对原作出版年份，并为避免通用制度清单提供相邻学术背景。", "limitations": "该文评估Ostrom原则而不是检验Scott全书；不能充当Scott所有论点的独立验证。"}
+  ]
+}

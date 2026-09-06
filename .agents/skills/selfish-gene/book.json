@@ -1,0 +1,58 @@
+{
+  "id": "selfish-gene",
+  "title": "The Selfish Gene",
+  "title_zh": "自私的基因",
+  "authors": [
+    "Richard Dawkins"
+  ],
+  "year": "1976",
+  "domains": [
+    "evolution",
+    "cooperation",
+    "scientific-literacy"
+  ],
+  "use_cases": [
+    "区分基因视角与个人自私的道德判断",
+    "解释合作或利他为何不与自然选择矛盾",
+    "检查遗传决定论和选择层级的概念混淆"
+  ],
+  "summary": "用基因视角检查繁殖贡献与行为效果，同时区分生物学利他、心理动机、遗传影响和伦理规范。",
+  "selection_rationale": "能纠正书名引发的常见误解，并把合作问题转成可检验的成本、收益和关系结构；授权摘录与学术说明可互相校正。",
+  "limits": [
+    "基因没有意图；自私是作者的功能性比喻，不能拿来诊断个人品格。",
+    "行为涉及基因、环境、发育与学习，遗传影响不等于固定命运。",
+    "群体选择与亲缘选择的关系有模型和表述争论，不能用1976年的修辞宣布一切讨论已结束。"
+  ],
+  "sources": [
+    {
+      "id": "SG1",
+      "title": "Read an extract from The Selfish Gene by Richard Dawkins",
+      "url": "https://www.newscientist.com/article/2528309-read-an-extract-from-the-selfish-gene-by-richard-dawkins/",
+      "kind": "primary_text",
+      "accessed": "2026-09-07",
+      "coverage": "实际读取New Scientist于2026年公开的第一章选段，重点为自私/利他、不是道德倡议、遗传不等于不可改变的说明。",
+      "used_for": "作者对本书范围的明确限制及避免道德处方、遗传决定论的依据。",
+      "limitations": "页面标明来自Oxford 50周年版并署作者版权；只原创转述，不再分发摘录。历史人性修辞不作为现代共识。"
+    },
+    {
+      "id": "SG2",
+      "title": "The Selfish Gene (40th Anniversary edition) — Oxford University Press",
+      "url": "https://www.oupjapan.co.jp/en/node/15197?language=en",
+      "kind": "publisher",
+      "accessed": "2026-09-07",
+      "coverage": "实际读取书目、1976初版说明、2016版信息及目录。",
+      "used_for": "作者、初版年、基因视角与不同版次章节范围。",
+      "limitations": "出版介绍与推荐语不证明现代各项科学主张；目录不等于读过对应章节。"
+    },
+    {
+      "id": "SG3",
+      "title": "Biological Altruism — Stanford Encyclopedia of Philosophy",
+      "url": "https://plato.stanford.edu/entries/altruism-biological/",
+      "kind": "academic",
+      "accessed": "2026-09-07",
+      "coverage": "实际读取第1节选择层级、第2节亲缘选择与包容适合度、第3节相关成本与互惠讨论的相关段落。",
+      "used_for": "亲缘选择、Hamilton规则的适用条件、遗传决定论边界，以及群体与亲缘选择关系的争论。",
+      "limitations": "学术综述不是本项目复算或完整实证审查；数学等价等判断须保留模型条件，不能无条件概括。"
+    }
+  ]
+}

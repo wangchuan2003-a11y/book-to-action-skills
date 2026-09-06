@@ -1,0 +1,4 @@
+interface:
+  display_name: "道德经"
+  short_description: "借《道德经》审视多余干预与责任，让减少控制的建议具备真实观察边界"
+  default_prompt: "用 $tao-te-ching 审查这个流程：哪些干预必要，哪些可能多余，怎样在保留责任的前提下验证简化？"

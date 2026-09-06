@@ -16,7 +16,12 @@ def render(root: Path) -> tuple[str, str]:
              for p in sorted((root / ".agents/skills").glob("*/book.json"))]
     payload = {"schema_version": 1, "books": books}
     catalog = json.dumps(payload, ensure_ascii=False, indent=2) + "\n"
-    rows = ["| 你遇到的问题 | 书籍 / Skill |", "| --- | --- |"]
+    source_count = sum(len(book["sources"]) for book in books)
+    case_count = sum(len(json.loads((root / ".agents/skills" / book["id"] / "evals/cases.json")
+                                   .read_text(encoding="utf-8"))) for book in books)
+    rows = [f"当前收录 **{len(books)} 本书**、**{source_count} 条来源记录**、**{case_count} 个已编写行为案例**。"
+            "来源记录不等于独立来源数量；案例已编写不代表全部执行。", "",
+            "| 你遇到的问题 | 书籍 / Skill |", "| --- | --- |"]
     for book in books:
         escape = lambda s: s.replace("|", "\\|").replace("\n", " ")
         use_case = escape(book["use_cases"][0])

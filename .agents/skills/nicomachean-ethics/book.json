@@ -1,0 +1,49 @@
+{
+  "id": "nicomachean-ethics",
+  "title": "Nicomachean Ethics",
+  "title_zh": "尼各马可伦理学",
+  "authors": [
+    "Aristotle"
+  ],
+  "year": "古希腊作品；本次未核定精确成书年",
+  "domains": [
+    "ethics",
+    "practical-judgment",
+    "habit-formation"
+  ],
+  "use_cases": [
+    "分析行动目的与手段",
+    "理解中道及其反例",
+    "把品格目标转为具体情境中的实践"
+  ],
+  "summary": "以目的、习惯、中道、审议和实践智慧分析如何行动；不把伦理判断压成折中比例或成功学公式。",
+  "selection_rationale": "以具体情境中的实践智慧连接知道与做到，补充抽象规则和效果导向的方法，同时暴露古代伦理的历史限制。",
+  "limits": [
+    "中道不是数学平均，也不是在正确与错误之间折中。",
+    "德性与幸福的理论是规范论证，不是现代习惯科学或健康处方。",
+    "古代社会、性别与外在条件的评价含历史偏见，不能作为今天排斥他人的标准。",
+    "所读 Chase 译本细章划分与通行版本可能不同，引用采用卷和定位词。"
+  ],
+  "sources": [
+    {
+      "id": "ethics-primary",
+      "title": "The Nicomachean Ethics of Aristotle, translated by D. P. Chase — Project Gutenberg #8438",
+      "url": "https://www.gutenberg.org/files/8438/8438-h/8438-h.htm",
+      "kind": "primary_text",
+      "accessed": "2026-09-07",
+      "coverage": "已读书目；正文卷 I 行动目的与外在条件段落，卷 II 习惯形成、德性行为条件、相对于个人的中道与无中道例外，卷 III 手段审议，卷 VI 实践智慧定义；辨认 J. A. Smith 导论。",
+      "used_for": "目的、习惯、中道、审议和实践智慧的归属，以及原文限制和历史偏见。",
+      "limitations": "译者与导论作者不等于 Aristotle；未逐章研读，卷级定位避免套错细章编号。"
+    },
+    {
+      "id": "ethics-sep",
+      "title": "Aristotle's Ethics — Stanford Encyclopedia of Philosophy",
+      "url": "https://plato.stanford.edu/entries/aristotle-ethics/",
+      "kind": "academic",
+      "accessed": "2026-09-07",
+      "coverage": "已读导言和 Preliminaries 中两部伦理学的书名、目的及归属；阅读实践智慧不能仅靠通用规则获得的解释，查看中道与决策程序相关结构。",
+      "used_for": "书目身份、eudaimonia 的解释与实践智慧的有限含义。",
+      "limitations": "学术解释不提供具体生活决策的自动程序，也不证明现代习惯训练效果。"
+    }
+  ]
+}

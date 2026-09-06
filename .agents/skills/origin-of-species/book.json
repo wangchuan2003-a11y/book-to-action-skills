@@ -1,0 +1,58 @@
+{
+  "id": "origin-of-species",
+  "title": "On the Origin of Species",
+  "title_zh": "物种起源",
+  "authors": [
+    "Charles Darwin"
+  ],
+  "year": "1859",
+  "domains": [
+    "evolution",
+    "scientific-reasoning",
+    "biology"
+  ],
+  "use_cases": [
+    "检验自然选择解释缺了哪些条件",
+    "区分个体适应与种群跨代变化",
+    "审查把生物进化套用到社会的类比"
+  ],
+  "summary": "从变异、遗传、差异繁殖和具体环境解释种群变化，同时识别现代遗传学补充及进化类比的边界。",
+  "selection_rationale": "自然选择提供可检验的机制解释，适合训练从现象到条件的推理；通过1859初版转录和大学教学资料区分历史文本与现代解释。",
+  "limits": [
+    "本次只读初版第三章与第四章相关段落，没有通读全书或逐页校对原扫描。",
+    "现代进化论还包括遗传漂变、突变、迁移等机制，不能等同1859年的全部细节。",
+    "自然界发生的事不能直接规定社会制度、个人价值或道德责任。"
+  ],
+  "sources": [
+    {
+      "id": "OS1",
+      "title": "On the Origin of Species (1859), Chapter III",
+      "url": "https://en.wikisource.org/wiki/On_the_Origin_of_Species_%281859%29/Chapter_III",
+      "kind": "primary_text",
+      "accessed": "2026-09-07",
+      "coverage": "实际读取第三章前半关于变异、自然选择、生存斗争的广义含义、繁殖与数量限制的段落。",
+      "used_for": "说明斗争包含环境依赖与留下后代，不仅是直接争斗。",
+      "limitations": "Wikisource 初版社区转录，未逐页校对纸本扫描；历史例子的数字不作为现代实证。"
+    },
+    {
+      "id": "OS2",
+      "title": "On the Origin of Species (1859), Chapter IV",
+      "url": "https://en.wikisource.org/wiki/On_the_Origin_of_Species_%281859%29/Chapter_IV",
+      "kind": "primary_text",
+      "accessed": "2026-09-07",
+      "coverage": "实际读取第四章开头关于有利变异、遗传、存活与繁殖、环境改变及物种关系的段落。",
+      "used_for": "自然选择的条件链以及优势对环境的依赖。",
+      "limitations": "只核对已读段落；有害变异被消除等历史强表述不能无条件推广到有限种群。"
+    },
+    {
+      "id": "OS3",
+      "title": "Natural Selection — UC Berkeley Understanding Evolution",
+      "url": "https://evolution.berkeley.edu/evolution-101/mechanisms-the-processes-of-evolution/natural-selection/",
+      "kind": "academic",
+      "accessed": "2026-09-07",
+      "coverage": "实际读取 Natural Selection 主文及甲虫示例，页面标记2020年审订。",
+      "used_for": "现代教学解释中的性状变异、差异繁殖与遗传三条件，以及其他演化机制。",
+      "limitations": "大学教学说明不是本项目的实验；甲虫例子是简化教学模型，不是所有生态条件下的结局保证。"
+    }
+  ]
+}

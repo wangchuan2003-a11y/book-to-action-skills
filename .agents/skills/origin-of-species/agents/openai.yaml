@@ -1,0 +1,4 @@
+interface:
+  display_name: "物种起源 · On the Origin of Species"
+  short_description: "用变异、遗传与差异繁殖检验进化解释，并拆清科学事实和社会类比"
+  default_prompt: "使用 $origin-of-species，检查这个自然选择解释成立需要哪些条件，以及哪些结论超出了证据。"

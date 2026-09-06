@@ -1,0 +1,49 @@
+{
+  "id": "republic",
+  "title": "Republic",
+  "title_zh": "理想国",
+  "authors": [
+    "Plato"
+  ],
+  "year": "古希腊作品；本次未核定精确成书年",
+  "domains": [
+    "ethics",
+    "political-philosophy",
+    "critical-thinking"
+  ],
+  "use_cases": [
+    "检验公平或正义的定义",
+    "区分声誉利益与行动本身的理由",
+    "审查专家权威和制度类比"
+  ],
+  "summary": "以对话、反例和思想实验检查正义论证，区分人物提出的挑战、苏格拉底的回应与现代制度建议。",
+  "selection_rationale": "提供正义、知识与权力之间的经典论证案例，使行动讨论不仅关注效率，也检验目的和制度理由；不把经典地位当论证已成立。",
+  "limits": [
+    "这是柏拉图写作的哲学对话，人物发言不能逐句等同作者认可的命题。",
+    "城邦与灵魂类比、哲人统治和教育安排存在重大解释争论，不能直接成为现代组织制度。",
+    "洞穴和隐身戒指是思想实验或比喻，不是人类行为的实验结果。",
+    "只覆盖本次实际读取段落，不提供未经核实的 Stephanus 编号或现代译本页码。"
+  ],
+  "sources": [
+    {
+      "id": "republic-primary",
+      "title": "The Republic, translated by Benjamin Jowett — Project Gutenberg #1497",
+      "url": "https://www.gutenberg.org/files/1497/1497-h/1497-h.htm",
+      "kind": "primary_text",
+      "accessed": "2026-09-07",
+      "coverage": "已读书目信息；对话正文卷 I 归还武器反例，卷 II 格劳孔的善之分类和隐身戒指挑战，卷 IV 职分与城邦灵魂类比相关段落，卷 VI 船喻，卷 VII 洞穴及教育转向段落；并辨认前置 Jowett 导论。",
+      "used_for": "论证角色、反例、思想实验、权威与知识比喻的归属和卷级定位。",
+      "limitations": "Jowett 导论与正文不同；仅核实所列段落，不把译者分析或角色挑战当成作者定论。"
+    },
+    {
+      "id": "republic-sep",
+      "title": "Plato's Ethics and Politics in The Republic — Stanford Encyclopedia of Philosophy",
+      "url": "https://plato.stanford.edu/entries/plato-ethics-politics/",
+      "kind": "academic",
+      "accessed": "2026-09-07",
+      "coverage": "已读导言、问题和论证策略、卷 I—II 角色挑战与卷 IV 城邦灵魂类比的相关解释，查看政治争议的讨论结构。",
+      "used_for": "确认作品的核心问题、苏格拉底的论证路线与政治解释争议。",
+      "limitations": "学术解释不能证明现代规则正当或有效；未研读该条目所有政治争论。"
+    }
+  ]
+}

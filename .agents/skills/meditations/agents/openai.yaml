@@ -1,0 +1,4 @@
+interface:
+  display_name: "沉思录"
+  short_description: "借《沉思录》区分事实与判断，选择有责任、有边界且可持续的回应"
+  default_prompt: "用 $meditations 帮我反思这件事：区分事实和追加判断，承认真实影响，再选择一个可行回应。"

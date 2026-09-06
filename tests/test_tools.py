@@ -15,6 +15,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "scripts"))
 from build_catalog import render
 from install import copy_plan, plan_install
 from package import package
+from prepare_eval import prepare
 from validate import latest_civil_date, safe_url, validate_collection, validate_skill
 
 
@@ -76,6 +77,34 @@ class ToolTests(unittest.TestCase):
         self.assertEqual(date(2026, 9, 7), latest_civil_date(instant))
         early = datetime(2026, 9, 6, 9, 0, tzinfo=timezone.utc)
         self.assertEqual(date(2026, 9, 6), latest_civil_date(early))
+
+    def test_eval_prompts_do_not_contain_the_rubric(self):
+        output = self.collection / ".local/eval-test"
+        result = prepare(self.collection, ["sample-book"], output)
+        self.assertEqual(3, result["case_count"])
+        for file in (output / "prompts").glob("*.md"):
+            text = file.read_text(encoding="utf-8")
+            self.assertIn("Review a claim", text)
+            self.assertNotIn("Invented data", text)
+            self.assertNotIn("must_include", text)
+        rubrics = json.loads((output / "reviewer-rubrics.json").read_text(encoding="utf-8"))
+        self.assertEqual(["Invented data"], rubrics[0]["must_avoid"])
+        with self.assertRaises(ValueError):
+            prepare(self.collection, ["sample-book"], output)
+
+    def test_eval_preflight_does_not_write_for_invalid_selection(self):
+        output = self.collection / ".local/invalid-eval"
+        with self.assertRaises(ValueError):
+            prepare(self.collection, ["sample-book", "missing"], output)
+        self.assertFalse(output.exists())
+        with self.assertRaises(ValueError):
+            prepare(self.collection, ["sample-book"], self.root / "outside")
+
+    def test_eval_outputs_cannot_pollute_the_skill_collection(self):
+        output = self.collection / ".agents/skills/eval-output"
+        with self.assertRaises(ValueError):
+            prepare(self.collection, ["sample-book"], output)
+        self.assertFalse(output.exists())
 
     def test_empty_collection_rejected(self):
         self.assertTrue(validate_collection(self.project)[0])

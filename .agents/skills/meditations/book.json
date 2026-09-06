@@ -1,0 +1,49 @@
+{
+  "id": "meditations",
+  "title": "Meditations",
+  "title_zh": "沉思录",
+  "authors": [
+    "Marcus Aurelius"
+  ],
+  "year": "公元2世纪；包含其晚年军旅时期的自省记录，未核定单一完成年",
+  "domains": [
+    "stoic-ethics",
+    "self-reflection",
+    "interpersonal-judgment"
+  ],
+  "use_cases": [
+    "面对批评时区分事实与评价",
+    "选择兼顾责任和边界的回应",
+    "反思权力身份与报复冲动"
+  ],
+  "summary": "从马可·奥勒留的自我提醒出发检查判断、合作与行动，不把斯多葛伦理变成压抑情绪或忍受伤害的命令。",
+  "selection_rationale": "提供在外部不确定中审视自身判断与责任的经典练习，同时保留其帝王身份、宗教宇宙观和现代适用限制。",
+  "limits": [
+    "这是作者写给自己的斯多葛自省，不是通用心理治疗或医学指南。",
+    "真实伤害、疾病与制度问题不能还原成受害者的错误判断。",
+    "不能要求情绪立即消失；印象、感受与对其作出的解释需要区分。",
+    "不同译本分卷分段有差异，采用所读 George Long 版的卷与定位短语。"
+  ],
+  "sources": [
+    {
+      "id": "marcus-primary",
+      "title": "The Meditations, translated by George Long — Internet Classics Archive",
+      "url": "https://classics.mit.edu/Antoninus/meditations.mb.txt",
+      "kind": "primary_text",
+      "accessed": "2026-09-07",
+      "coverage": "已读译者信息、卷 II 开头面对难相处之人与合作段落，卷 IV 内在休整及 Take away thy opinion 段落，卷 VI 不模仿作恶者与不被 Caesar 身份染色段落；查看其他判断段落作为语境比较。",
+      "used_for": "判断、休整、合作、不报复与权力自省的原文定位。",
+      "limitations": "George Long 译本中的宗教宇宙观和古代规范主张不等同现代心理学事实；不宣称逐段读完整部作品。"
+    },
+    {
+      "id": "marcus-sep",
+      "title": "Marcus Aurelius — Stanford Encyclopedia of Philosophy",
+      "url": "https://plato.stanford.edu/entries/marcus-aurelius/",
+      "kind": "academic",
+      "accessed": "2026-09-07",
+      "coverage": "已读导言、Life and Works 中生平和写作性质，及 4.2 Erase Impressions 中印象、同意与价值判断的解释分歧。",
+      "used_for": "作者身份、写给自己的文本性质、晚年写作语境，以及不应把消除印象理解为随意抹去感受。",
+      "limitations": "斯多葛理论与学者解释不是本次开展的治疗效果研究，也不代表作者所有表述无歧义。"
+    }
+  ]
+}

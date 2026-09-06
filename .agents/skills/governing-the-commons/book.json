@@ -1,0 +1,17 @@
+{
+  "id": "governing-the-commons",
+  "title": "Governing the Commons: The Evolution of Institutions for Collective Action",
+  "title_zh": "公共事务的治理之道",
+  "authors": ["Elinor Ostrom"],
+  "year": "1990",
+  "domains": ["制度分析", "公共资源", "集体行动"],
+  "use_cases": ["诊断共享资源的过度使用与维护不足", "设计使用者参与和可问责监测", "区分资源性质、产权与实际治理规则"],
+  "summary": "从真实资源和实际使用规则出发，分析参与、监测、成本收益分配和争议处理如何支持集体行动。",
+  "selection_rationale": "提供超越市场或国家二选一的经验制度分析，公开作者材料与后续综述可以核实方法及其限制；入选基于用途与来源质量，不把获奖地位当作万能证明。",
+  "limits": ["本轮核读作者2009年讲座和2010年综述，未核读1990年全书。", "讲座包含后续修订的设计原则，不能全部当成原书的逐字表述。", "共同池资源不等于共同产权，更不等于无规则开放使用。", "社区案例不能直接证明全球治理或数字社区的有效性；自治、私有与公共管理均须按情境检验。"],
+  "sources": [
+    {"id": "OST-1", "title": "Elinor Ostrom — Prize Lecture", "url": "https://www.nobelprize.org/prizes/economic-sciences/2009/ostrom/lecture/", "kind": "author_material", "accessed": "2026-09-07", "coverage": "读取诺奖官网讲座题目、2009-12-08演讲日期与官方讲稿PDF链接。", "used_for": "确认公开讲座的作者、时间和原始稿件来源。", "limitations": "网页本身不是讲稿全文，不提供独立效果证据。"},
+    {"id": "OST-2", "title": "Beyond Markets and States: Polycentric Governance of Complex Economic Systems", "url": "https://www.nobelprize.org/uploads/2018/06/ostrom_lecture.pdf", "kind": "author_material", "accessed": "2026-09-07", "coverage": "实际读取资源分类、制度分析、产权束、设计原则修订与局限相关段落，以及1990年Governing the Commons书目条目。", "used_for": "资源排他与使用减损、产权制度差别、参与监测、渐进回应、冲突处理及嵌套层次。", "limitations": "这是作者多年研究的回顾，含后续发展；案例结果未经本项目逐项复核，不支持自治必胜。"},
+    {"id": "OST-3", "title": "A Review of Design Principles for Community-based Natural Resource Management", "url": "https://www.ecologyandsociety.org/vol15/iss4/art38/main.html", "kind": "independent_research", "accessed": "2026-09-07", "coverage": "读取Cox、Arnold、Villamayor Tomás的2010年综述摘要与Critique of the principles段落，摘要报告分析91项研究。", "used_for": "交叉检验原则的经验支持，补入制度外部环境、原则不完备和规模迁移限制。", "limitations": "研究者与Ostrom处于相关研究网络；综述不是随机实验，未正式分析大型非社区系统，本项目没有复做其编码与统计。"}
+  ]
+}

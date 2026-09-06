@@ -1,0 +1,19 @@
+{
+  "id": "capital-volume-one",
+  "title": "Capital: A Critique of Political Economy, Volume I",
+  "title_zh": "资本论：第一卷",
+  "authors": ["Karl Marx"],
+  "year": "1867",
+  "domains": ["政治经济学", "概念分析", "劳动与生产关系"],
+  "use_cases": ["理解商品、劳动与劳动力的差别", "在明确假设下计算剩余价值率", "检验从经典理论到现实企业或规范结论的推论"],
+  "summary": "将原书概念与模型推导重建清楚，并把它们同实际价格、会计数据、当代实证和伦理判断区分。",
+  "selection_rationale": "具有深远影响的政治经济学原著，能训练概念区分与论证边界；公开选段和学术争论材料可同时支持准确解释与批判审查，而非建立单一理论信条。",
+  "limits": ["本轮核读第一卷第1、6、9章相关选段和版本说明，未通读第一卷或第二、三卷。", "英文版章节与不同中译版的组织、措辞可能不同，按章名核对，不能猜页码。", "劳动价值论、价格关系与剥削概念存在持续争论，不把它们当今天所有经济学家的共识。", "现实销售额、工资与资产金额不能未经假设直接替换理论中的价值量。", "本Skill不提供政治、投资结果保证，也不由用户读书推断其立场。"],
+  "sources": [
+    {"id": "CAP-1", "title": "Capital Volume I — edition information", "url": "https://www.marxists.org/archive/marx/works/1867-c1/", "kind": "primary_text", "accessed": "2026-09-07", "coverage": "读取版本说明：德文初版1867，英文初版1887；Moore与Aveling译、Engels编，注明部分第四德文版变化。", "used_for": "作者、卷次、出版年及英文版本边界。", "limitations": "MIA是具有马克思主义文献定位的档案，编辑立场与作者文本分开，不作为独立实证研究。"},
+    {"id": "CAP-2", "title": "Capital I, Chapter One — Commodities", "url": "https://www.marxists.org/archive/marx/works/1867-c1/ch01.htm", "kind": "primary_text", "accessed": "2026-09-07", "coverage": "读取使用价值、社会必要劳动时间、生产率与个人耗时、价值相对表现相关选段。", "used_for": "商品概念和社会必要劳动的条件；防止把慢劳动自动等同高价值。", "limitations": "没有核读本章所有价值形式与物神性论述；原文主张不等于已获当代实证确认。"},
+    {"id": "CAP-3", "title": "Capital I, Chapter Six — The Buying and Selling of Labour-Power", "url": "https://www.marxists.org/archive/marx/works/1867-c1/ch06.htm", "kind": "primary_text", "accessed": "2026-09-07", "coverage": "读取劳动力定义、自由劳动者的历史条件、再生产与劳动力价值中历史和道德因素的段落。", "used_for": "劳动/劳动力区分与历史社会条件。", "limitations": "不能据此推出现代工资只有生理生存成本，也没有直接测量用户所处劳动市场。"},
+    {"id": "CAP-4", "title": "Capital I, Chapter Nine — The Rate of Surplus-Value", "url": "https://www.marxists.org/archive/marx/works/1867-c1/ch09.htm", "kind": "primary_text", "accessed": "2026-09-07", "coverage": "读取c、v、s表达式、当期耗用不变资本、产品价值/新价值、剩余价值率与必要/剩余劳动时间关系。", "used_for": "理论内核算及分母、当期耗用与预付资本口径区分。", "limitations": "公式正确不自动证明理论普遍有效，也不能未经桥接假设用于企业会计数据。"},
+    {"id": "CAP-5", "title": "Karl Marx — Stanford Encyclopedia of Philosophy", "url": "https://plato.stanford.edu/entries/marx/", "kind": "academic", "accessed": "2026-09-07", "coverage": "读取Economic Analysis相关段落，尤其3.2 Labour Theory of Value、3.3 Exploitation中的解释、批评与替代立场。", "used_for": "确认解释传统差异、劳动价值论论证争议及剥削概念不只一种重建方式。", "limitations": "这是学术百科作者的综合评述，不是所有经济学家的共同声明；未据它总结其他未读章节。"}
+  ]
+}
