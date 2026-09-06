@@ -116,7 +116,8 @@ class ToolTests(unittest.TestCase):
         before = list(self.project.rglob("*"))
         plan = plan_install(self.collection, self.project, ["sample-book"], "codex")
         self.assertEqual(before, list(self.project.rglob("*")))
-        self.assertEqual(plan[0][1], self.project / ".agents/skills/sample-book")
+        # Windows runners may supply an 8.3 TEMP path; the installer returns its canonical form.
+        self.assertEqual(plan[0][1], (self.project / ".agents/skills/sample-book").resolve())
 
     def test_copy_matches_every_source_byte(self):
         plan = plan_install(self.collection, self.project, ["sample-book"], "claude")
