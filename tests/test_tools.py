@@ -3,9 +3,11 @@
 from __future__ import annotations
 
 from datetime import date, datetime, timezone
+import hashlib
 import json
 from pathlib import Path
 import sys
+import subprocess
 import tempfile
 import unittest
 from unittest.mock import patch
@@ -14,6 +16,7 @@ import zipfile
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "scripts"))
 from build_catalog import render
 from audit_evidence import audit
+from evidence_binding import case_binding, digest, skill_digest
 from install import copy_plan, plan_install
 from package import package
 from prepare_eval import prepare
@@ -76,7 +79,8 @@ class ToolTests(unittest.TestCase):
     def evidence_fixture(self):
         cases = json.loads((self.skill / "evals/cases.json").read_text(encoding="utf-8"))
         records = [{"skill": "sample-book", "case_id": c["id"], "prompt": c["prompt"],
-                    "answer": "Observed answer", "review": {"verdict": "pass", "reason": "Reviewed"}}
+                    "answer": "Observed answer", "review": {"verdict": "pass", "reason": "Reviewed"},
+                    "binding": case_binding(self.skill, c)}
                    for c in cases]
         base = self.collection / "evals/results"
         write(base / "index.json", json.dumps({"initial_runs": ["initial.json"], "retest_runs": []}))
@@ -109,6 +113,104 @@ class ToolTests(unittest.TestCase):
         write(base / "initial.json", json.dumps({"cases": records[:1]}))
         self.assertEqual(["sample-book:1", "sample-book:2"], audit(self.collection)["missing_cases"])
 
+    def test_evidence_binds_both_positive_and_negative_criteria(self):
+        self.evidence_fixture()
+        path = self.skill / "evals/cases.json"
+        original = json.loads(path.read_text())
+        for field in ("must_include", "must_avoid"):
+            cases = json.loads(json.dumps(original))
+            cases[0][field].append("A newly changed criterion")
+            write(path, json.dumps(cases))
+            with self.subTest(field=field):
+                self.assertEqual(["sample-book:0"], audit(self.collection)["stale_cases"])
+
+    def test_evidence_binds_skill_and_reference_material(self):
+        self.evidence_fixture()
+        for name in ("SKILL.md", "references/source-notes.md", "references/new-note.md"):
+            path = self.skill / name
+            original = path.read_text() if path.exists() else None
+            write(path, (original or "") + "\nChanged material")
+            with self.subTest(name=name):
+                self.assertEqual(3, len(audit(self.collection)["stale_cases"]))
+            if original is None:
+                path.unlink()
+            else:
+                write(path, original)
+
+    def test_evidence_new_retest_can_replace_a_stale_initial_binding(self):
+        base, records = self.evidence_fixture()
+        path = self.skill / "evals/cases.json"
+        cases = json.loads(path.read_text())
+        cases[0]["must_include"].append("New criterion")
+        write(path, json.dumps(cases))
+        new_record = {**records[0], "binding": case_binding(self.skill, cases[0]),
+                      "answer": "New fixture answer after a simulated rerun"}
+        write(base / "retest.json", json.dumps({"cases": [new_record]}))
+        write(base / "index.json", json.dumps({"initial_runs": ["initial.json"], "retest_runs": ["retest.json"]}))
+        self.assertEqual([], audit(self.collection)["stale_cases"])
+
+    def historical_baseline_fixture(self):
+        base, records = self.evidence_fixture()
+        for item in records:
+            del item["binding"]
+        write(base / "initial.json", json.dumps({"cases": records}))
+        cases = json.loads((self.skill / "evals/cases.json").read_text())
+        baseline = {"schema_version": 1, "kind": "adopted-audit-baseline",
+                    "records_sha256": {"initial.json": hashlib.sha256((base / "initial.json").read_bytes()).hexdigest()},
+                    "skills_sha256": {"sample-book": skill_digest(self.skill)},
+                    "cases_sha256": {f"sample-book:{case['id']}": digest(case) for case in cases}}
+        write(base / "baseline.json", json.dumps(baseline))
+        write(base / "index.json", json.dumps({"initial_runs": ["initial.json"], "retest_runs": [],
+                                               "adopted_baseline": "baseline.json"}))
+        return base, records
+
+    def test_legacy_evidence_without_binding_is_stale(self):
+        base, records = self.evidence_fixture()
+        for item in records:
+            del item["binding"]
+        write(base / "initial.json", json.dumps({"cases": records}))
+        self.assertEqual(3, len(audit(self.collection)["stale_cases"]))
+
+    def test_adopted_baseline_is_distinguished_from_version_bound_execution(self):
+        self.historical_baseline_fixture()
+        result = audit(self.collection)
+        self.assertEqual([], result["stale_cases"])
+        self.assertEqual(3, result["adopted_baseline_cases"])
+        self.assertEqual(0, result["version_bound_cases"])
+
+    def test_adopted_baseline_rejects_changed_results_and_material(self):
+        base, records = self.historical_baseline_fixture()
+        original = (base / "initial.json").read_text()
+        records[0]["answer"] = "Edited historical answer"
+        write(base / "initial.json", json.dumps({"cases": records}))
+        self.assertEqual(3, len(audit(self.collection)["stale_cases"]))
+        write(base / "initial.json", original)
+        cases_path = self.skill / "evals/cases.json"
+        cases_original = cases_path.read_text()
+        cases = json.loads(cases_original)
+        cases[0]["must_avoid"].append("A new restriction")
+        write(cases_path, json.dumps(cases))
+        self.assertEqual(["sample-book:0"], audit(self.collection)["stale_cases"])
+        write(cases_path, cases_original)
+        with (self.skill / "SKILL.md").open("a") as stream:
+            stream.write("\nNew instruction")
+        self.assertEqual(3, len(audit(self.collection)["stale_cases"]))
+
+    def test_strict_audit_cli_rejects_stale_evidence(self):
+        self.evidence_fixture()
+        with (self.skill / "SKILL.md").open("a") as stream:
+            stream.write("\nChanged instruction")
+        script = Path(__file__).resolve().parents[1] / "scripts/audit_evidence.py"
+        result = subprocess.run([sys.executable, str(script), "--root", str(self.collection),
+                                 "--require-complete"], capture_output=True, text=True)
+        self.assertEqual(1, result.returncode)
+        self.assertEqual(3, len(json.loads(result.stdout)["stale_cases"]))
+
+    def test_packaging_license_does_not_change_agent_material_binding(self):
+        before = skill_digest(self.skill)
+        write(self.skill / "LICENSE", "Distribution license")
+        self.assertEqual(before, skill_digest(self.skill))
+
     def test_evidence_rejects_duplicate_authored_ids(self):
         base, records = self.evidence_fixture()
         path = self.skill / "evals/cases.json"
@@ -136,6 +238,8 @@ class ToolTests(unittest.TestCase):
             self.assertNotIn("must_include", text)
         rubrics = json.loads((output / "reviewer-rubrics.json").read_text(encoding="utf-8"))
         self.assertEqual(["Invented data"], rubrics[0]["must_avoid"])
+        cases = json.loads((self.skill / "evals/cases.json").read_text())
+        self.assertEqual(case_binding(self.skill, cases[0]), rubrics[0]["binding"])
         with self.assertRaises(ValueError):
             prepare(self.collection, ["sample-book"], output)
 
