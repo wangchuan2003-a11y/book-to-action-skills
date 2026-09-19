@@ -1,4 +1,5 @@
 {
+  "adopted_baseline": "audit-baseline-2026-09-19.json",
   "initial_runs": [
     "v0.2.0-economy-initial.json",
     "v0.2.0-ethics-science-initial.json",
