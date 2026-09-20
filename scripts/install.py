@@ -7,6 +7,7 @@ import json
 from pathlib import Path
 import shutil
 import sys
+import tempfile
 
 from validate import ROOT, validate_skill
 
@@ -41,9 +42,33 @@ def plan_install(source_root: Path, project: Path, names: list[str], host: str) 
 
 
 def copy_plan(plan: list[tuple[Path, Path]]) -> None:
-    for source, target in plan:
-        # copytree refuses existing destinations, including a race after preflight.
-        shutil.copytree(source, target, ignore=shutil.ignore_patterns("__pycache__", "*.pyc"))
+    if not plan:
+        return
+    created = []
+    try:
+        # Prepare the entire batch before publishing any skill directory.
+        with tempfile.TemporaryDirectory(prefix="skill-install-") as staging:
+            staged = []
+            for index, (source, target) in enumerate(plan):
+                prepared = Path(staging) / str(index)
+                shutil.copytree(source, prepared, symlinks=True,
+                                ignore=shutil.ignore_patterns("__pycache__", "*.pyc"))
+                if any(path.is_symlink() for path in prepared.rglob("*")):
+                    raise ValueError("source changed to contain a symlink")
+                staged.append((prepared, target))
+            for prepared, target in staged:
+                target.parent.mkdir(parents=True, exist_ok=True)
+                target.mkdir()  # Reserve exclusively, including against dangling links.
+                created.append((target, target.stat()))
+                shutil.copytree(prepared, target, dirs_exist_ok=True, symlinks=True)
+    except BaseException:
+        for target, original in reversed(created):
+            # Never remove a path replaced by someone else during installation.
+            if not target.is_symlink() and target.exists():
+                current = target.stat()
+                if (current.st_dev, current.st_ino) == (original.st_dev, original.st_ino):
+                    shutil.rmtree(target)
+        raise
 
 
 def main() -> int:
